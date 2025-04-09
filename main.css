@@ -290,6 +290,15 @@ button {
   transition: transform 0.2s ease;
 }
 
+.contact-actions a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-actions a:visited {
+  text-decoration: none;
+}
+
 .contact-actions button:hover {
   background: var(--button-hover);
 }
