@@ -1,12 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-    <script src="https://kit.fontawesome.com/d1e470b967.js" crossorigin="anonymous"></script>
-    <script src="scripts.js" defer></script>
+
     <title>SAMUEL AKUFFO</title>
   </head>
   <body>
@@ -23,7 +22,7 @@
       <div class="hero-content">
         <!-- Left: Your Photo -->
         <div class="hero-image">
-          <img src="images/me.png" alt="Photo of Samuel Akuffo" />
+          <img src="/images/me.png" alt="Photo of Samuel Akuffo" />
         </div>
         <!-- Right: Slideshow Content + Arrows -->
         <div class="hero-text-slider" aria-labelledby="hero-heading">
@@ -57,14 +56,32 @@
       </button>
 
       <div class="project-slideshow" id="project-slideshow">
-        <!-- All project image groups -->
+        <!-- All project image groups (only one visible at a time) -->
         <div class="project-images active" data-project="Kanba-DO">
           <img src="images/kanbado-images/kanbado-screenshot-1.png" alt="Kanba-DO Screenshot 1" class="project-slide active" />
           <img src="images/kanbado-images/kanbado-screenshot-2.png" alt="Kanba-DO Screenshot 2" class="project-slide" />
         </div>
 
         <div class="project-images" data-project="PriceBite">
-          <img src="images/pricebite-designs/product-details.png" alt="PriceBite Screenshot 1" class="project-slide active" />
+          <img src="images/pricebite-designs/product-details.png" alt="PriceBite Screenshot 1" class="project-slide" />
+          <img src="images/pricebite-designs/purchase-plan-form.jpg" alt="PriceBite Screenshot 2" class="project-slide" />
+          <img src="images/pricebite-designs/report-business-partner-insights-and-engagement-metrics.png" alt="PriceBite Screenshot 3" class="project-slide" />
+          <img src="images/pricebite-designs/search-results.png" alt="PriceBite Screenshot 4" class="project-slide" />
+          <img src="images/pricebite-designs/search-window.png" alt="PriceBite Screenshot 5" class="project-slide" />
+          <img src="images/pricebite-designs/student-preferences-form.png" alt="PriceBite Screenshot 6" class="project-slide" />
+        </div>
+
+        <div class="project-images" data-project="Falcon 9 Landing Prediction">
+          <img src="images/pricebite-designs/product-details.png" alt="PriceBite Screenshot 1" class="project-slide" />
+          <img src="images/pricebite-designs/purchase-plan-form.jpg" alt="PriceBite Screenshot 2" class="project-slide" />
+          <img src="images/pricebite-designs/report-business-partner-insights-and-engagement-metrics.png" alt="PriceBite Screenshot 3" class="project-slide" />
+          <img src="images/pricebite-designs/search-results.png" alt="PriceBite Screenshot 4" class="project-slide" />
+          <img src="images/pricebite-designs/search-window.png" alt="PriceBite Screenshot 5" class="project-slide" />
+          <img src="images/pricebite-designs/student-preferences-form.png" alt="PriceBite Screenshot 6" class="project-slide" />
+        </div>
+
+        <div class="project-images" data-project="Investment Firm Data">
+          <img src="images/pricebite-designs/product-details.png" alt="PriceBite Screenshot 1" class="project-slide" />
           <img src="images/pricebite-designs/purchase-plan-form.jpg" alt="PriceBite Screenshot 2" class="project-slide" />
           <img src="images/pricebite-designs/report-business-partner-insights-and-engagement-metrics.png" alt="PriceBite Screenshot 3" class="project-slide" />
           <img src="images/pricebite-designs/search-results.png" alt="PriceBite Screenshot 4" class="project-slide" />
@@ -77,13 +94,21 @@
         <i class="fa-solid fa-chevron-right"></i>
       </button>
 
-      <!-- All Descriptions -->
+      <!-- All Descriptions (only one visible at a time) -->
       <div class="project-description-container">
         <div class="project-description active" data-project="Kanba-DO">
           <p>Kanba-DO is a dynamic task management platform inspired by Kanban principles. Built using HTML, CSS, and JavaScript, it allows users to organize tasks across customizable workflow columns with intuitive drag-and-drop functionality. The platform features user authentication, real-time task updates, and a clean, responsive interface.</p>
         </div>
 
         <div class="project-description" data-project="PriceBite">
+          <p>PriceBite helps students track budget-friendly purchases based on seasonal trends and personalized thresholds...</p>
+        </div>
+
+        <div class="project-description" data-project="Falcon 9 Landing Prediction">
+          <p>PriceBite helps students track budget-friendly purchases based on seasonal trends and personalized thresholds...</p>
+        </div>
+
+        <div class="project-description" data-project="Investment Firm Data">
           <p>PriceBite helps students track budget-friendly purchases based on seasonal trends and personalized thresholds...</p>
         </div>
       </div>
@@ -134,5 +159,9 @@
         <p>KwameSA©2025</p>
       </footer>
     </section>
+
+    <script src="https://kit.fontawesome.com/d1e470b967.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+    <script src="/timer.js"></script>
   </body>
 </html>
