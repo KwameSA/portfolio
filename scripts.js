@@ -57,7 +57,11 @@ let currentProject = "Kanba-DO";
 let currentProjectSlide = 0;
 
 function switchProject(newProject) {
-  if (newProject === currentProject) return;
+    if (newProject === currentProject) {
+    updateProjectSlides();
+    return;
+  }
+
 
   // Hide current group
   document.querySelector(`.project-images[data-project="${currentProject}"]`).classList.remove("active");
