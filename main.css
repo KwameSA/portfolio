@@ -173,7 +173,7 @@ button {
 
 .fade-out-heading {
   opacity: 0;
-  transform: translateY(-10px);
+  transform: translateY(0);
 }
 
 .fade-in-heading {
