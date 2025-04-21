@@ -12,29 +12,24 @@ function fadeHeroSlide(newIndex) {
   const current = heroSlides[currentHeroSlide];
   const next = heroSlides[newIndex];
 
-  // Fade out current slide and heading
   current.classList.remove("active");
   heroHeading.classList.add("fade-out-heading");
 
   // Wait before showing next slide
   setTimeout(() => {
-    // Update heading text
     heroHeading.textContent = next.getAttribute("data-title");
 
-    // Fade in new slide
     next.classList.add("active");
 
-    // Reset heading transition
     heroHeading.classList.remove("fade-out-heading");
     heroHeading.classList.add("fade-in-heading");
 
-    // Clean up class after transition ends
     setTimeout(() => {
       heroHeading.classList.remove("fade-in-heading");
     }, 400);
 
     currentHeroSlide = newIndex;
-  }, 300); // matches your CSS transition time
+  }, 300); 
 }
 
 heroPrevBtn.addEventListener("click", () => {
@@ -49,64 +44,80 @@ heroNextBtn.addEventListener("click", () => {
 
 // === PROJECT SWITCHING ===
 const projectTabs = document.querySelectorAll(".project-tab");
+const projectTitle = document.getElementById("project-title");
 const projectGroups = document.querySelectorAll(".project-images");
 const projectDescriptions = document.querySelectorAll(".project-description");
-const projectTitle = document.getElementById("project-title");
-
-let currentProject = "Kanba-DO";
-let currentProjectSlide = 0;
-
-function switchProject(newProject) {
-    if (newProject === currentProject) {
-    updateProjectSlides();
-    return;
-  }
-
-
-  // Hide current group
-  document.querySelector(`.project-images[data-project="${currentProject}"]`).classList.remove("active");
-  document.querySelector(`.project-description[data-project="${currentProject}"]`).classList.remove("active");
-
-  // Show new group
-  setTimeout(() => {
-    document.querySelector(`.project-images[data-project="${newProject}"]`).classList.add("active");
-    document.querySelector(`.project-description[data-project="${newProject}"]`).classList.add("active");
-
-    projectTitle.textContent = newProject;
-    currentProject = newProject;
-    currentProjectSlide = 0;
-    updateProjectSlides();
-  }, 100);
-}
-
-projectTabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    const newProject = tab.dataset.project;
-    switchProject(newProject);
-  });
-});
-
-// === PROJECT SLIDE NAVIGATION ===
 const projectPrevBtn = document.querySelector(".project-prev");
 const projectNextBtn = document.querySelector(".project-next");
 
-function updateProjectSlides() {
-  const activeGroup = document.querySelector(`.project-images[data-project="${currentProject}"]`);
-  const slides = activeGroup.querySelectorAll(".project-slide");
+let currentProject = null;
+let currentSlideIndex = 0;
 
-  slides.forEach((slide, index) => {
-    slide.classList.toggle("active", index === currentProjectSlide);
+function resetProjects() {
+  projectGroups.forEach((group) => {
+    group.classList.remove("active");
+    group.querySelectorAll(".project-slide").forEach((slide) => slide.classList.remove("active"));
   });
+
+  projectDescriptions.forEach((desc) => desc.classList.remove("active"));
 }
 
-projectPrevBtn.addEventListener("click", () => {
-  const slides = document.querySelector(`.project-images[data-project="${currentProject}"]`).querySelectorAll(".project-slide");
-  currentProjectSlide = (currentProjectSlide - 1 + slides.length) % slides.length;
-  updateProjectSlides();
+function activateProject(projectName) {
+  currentProject = projectName;
+  currentSlideIndex = 0;
+
+  resetProjects();
+
+  const group = document.querySelector(`.project-images[data-project="${projectName}"]`);
+  const slides = group?.querySelectorAll(".project-slide") || [];
+
+  const desc = document.querySelector(`.project-description[data-project="${projectName}"]`);
+
+  if (group && slides.length > 0) {
+    group.classList.add("active");
+    slides[0].classList.add("active");
+  }
+
+  if (desc) {
+    desc.classList.add("active");
+  }
+
+  projectTitle.textContent = projectName;
+}
+
+// Tab Click
+projectTabs.forEach((tab) => {
+  tab.addEventListener("click", (e) => {
+    e.preventDefault(); 
+    e.stopImmediatePropagation();
+    tab.blur();
+
+    const scrollY = window.scrollY;
+    const scrollX = window.scrollX;
+
+    const projectName = tab.dataset.project;
+    activateProject(projectName);
+
+    window.scrollTo(scrollX, scrollY);
+  });
 });
 
-projectNextBtn.addEventListener("click", () => {
-  const slides = document.querySelector(`.project-images[data-project="${currentProject}"]`).querySelectorAll(".project-slide");
-  currentProjectSlide = (currentProjectSlide + 1) % slides.length;
-  updateProjectSlides();
+// Navigation Arrows
+function showSlide(offset) {
+  const group = document.querySelector(`.project-images[data-project="${currentProject}"]`);
+  const slides = group?.querySelectorAll(".project-slide");
+
+  if (!slides || slides.length === 0) return;
+
+  slides[currentSlideIndex].classList.remove("active");
+  currentSlideIndex = (currentSlideIndex + offset + slides.length) % slides.length;
+  slides[currentSlideIndex].classList.add("active");
+}
+
+projectPrevBtn.addEventListener("click", () => showSlide(-1));
+projectNextBtn.addEventListener("click", () => showSlide(1));
+
+// Initial Load: Set Kanba-DO as default
+document.addEventListener("DOMContentLoaded", () => {
+  activateProject("Kanba-DO");
 });
