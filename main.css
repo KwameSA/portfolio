@@ -272,6 +272,10 @@ button {
   text-align: center;
 }
 
+.cta-line {
+  text-align: center;
+}
+
 .contact-links {
   display: flex;
   flex-direction: column;
