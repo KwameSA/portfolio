@@ -268,11 +268,12 @@ button {
 
 /* === CONTACT SECTION === */
 .contact {
-  padding: 80px 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
 .cta-line {
+  padding-top: 5px;
   text-align: center;
 }
 
