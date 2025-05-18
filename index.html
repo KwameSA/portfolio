@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>SAMUEL AKUFFO | Portfolio</title>
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="documents.html">Documents</a>
+    </nav>
+
+    <!-- === HERO SECTION === -->
+    <section class="hero" id="hero">
+      <!-- Top Section Heading -->
+      <div class="hero-heading-wrapper">
+        <h2 id="hero-heading" class="section-heading">Introduction</h2>
+      </div>
+      <button type="button" class="arrow hero-prev" aria-label="Previous slide">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <!-- Main Layout: Image + Slideshow -->
+      <div class="hero-content">
+        <!-- Left: Your Photo -->
+        <div class="hero-image">
+          <img src="/images/me.jpeg" alt="Photo of Samuel Akuffo" />
+        </div>
+        <!-- Right: Slideshow Content + Arrows -->
+        <div class="hero-text-slider" aria-labelledby="hero-heading">
+          <div class="hero-slide-wrapper">
+            <div class="hero-slide active" data-title="Introduction">
+              <p>Hi, I’m Samuel Nana Boohene Akuffo — a systems thinker driven by the mission to bridge the worlds of business and technology. Raised in Koforidua just before the turn of the millennium, I bring both strategy and soul to every problem I solve. My passion lies in crafting solutions that make businesses smarter and people’s lives easier.</p>
+            </div>
+
+            <div class="hero-slide" data-title="Skills & Expertise">
+              <p>🛠️ Tech Toolkit: Python, SQL, JavaScript, HTML, CSS</p>
+              <p>📊 Tools & Platforms: Tableau, IBM DB2, Git, Jupyter, Lucidchart</p>
+              <p>🔄 System Thinking: SDLC, UML, Data Wrangling, Visualization</p>
+              <p>💡 Core Interests: Systems Analysis, Tech Strategy, Problem Solving</p>
+            </div>
+
+            <div class="hero-slide" data-title="Personal Interests">
+              <p>When I’m not debugging a system or designing workflows, you’ll find me producing music, exploring sound design, or dissecting human behavior. I believe the best technology is deeply human; intuitive, purposeful, and elegant.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="arrow hero-next" aria-label="Next slide">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </section>
+
+    <!-- === PROJECTS SECTION === -->
+    <section class="projects" id="projects" aria-labelledby="project-title">
+      <div class="project-heading">
+        <h2 class="section-heading" id="project-title">Kanba-DO</h2>
+      </div>
+      <button type="button" class="arrow project-prev" aria-label="Previous project image">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div class="project-slideshow" id="project-slideshow">
+        <!-- All project image groups (only one visible at a time) -->
+        <div class="project-images active" data-project="Kanba-DO">
+          <img src="/images/kanbado-images/kanbado-screenshot-1.png" alt="Kanba-DO Screenshot 1" class="project-slide active" />
+          <img src="/images/kanbado-images/kanbado-screenshot-2.png" alt="Kanba-DO Screenshot 2" class="project-slide" />
+        </div>
+
+        <div class="project-images" data-project="PriceBite">
+          <img src="/images/pricebite-designs/product-details.png" alt="PriceBite Screenshot 1" class="project-slide" />
+          <img src="/images/pricebite-designs/purchase-plan-form.jpg" alt="PriceBite Screenshot 2" class="project-slide" />
+          <img src="/images/pricebite-designs/report-business-partner-insights-and-engagement-metrics.png" alt="PriceBite Screenshot 3" class="project-slide" />
+          <img src="/images/pricebite-designs/search-results.png" alt="PriceBite Screenshot 4" class="project-slide" />
+          <img src="/images/pricebite-designs/search-window.png" alt="PriceBite Screenshot 5" class="project-slide" />
+          <img src="/images/pricebite-designs/student-preferences-form.png" alt="PriceBite Screenshot 6" class="project-slide" />
+        </div>
+
+        <div class="project-images" data-project="Falcon 9 Landing Prediction">
+          <img src="/images/pricebite-designs/product-details.png" alt="PriceBite Screenshot 1" class="project-slide" />
+          <img src="/images/pricebite-designs/purchase-plan-form.jpg" alt="PriceBite Screenshot 2" class="project-slide" />
+          <img src="/images/pricebite-designs/report-business-partner-insights-and-engagement-metrics.png" alt="PriceBite Screenshot 3" class="project-slide" />
+          <img src="/images/pricebite-designs/search-results.png" alt="PriceBite Screenshot 4" class="project-slide" />
+          <img src="/images/pricebite-designs/search-window.png" alt="PriceBite Screenshot 5" class="project-slide" />
+          <img src="/images/pricebite-designs/student-preferences-form.png" alt="PriceBite Screenshot 6" class="project-slide" />
+        </div>
+
+        <div class="project-images" data-project="Investment Firm Data">
+          <img src="/images/pricebite-designs/product-details.png" alt="PriceBite Screenshot 1" class="project-slide" />
+          <img src="/images/pricebite-designs/purchase-plan-form.jpg" alt="PriceBite Screenshot 2" class="project-slide" />
+          <img src="/images/pricebite-designs/report-business-partner-insights-and-engagement-metrics.png" alt="PriceBite Screenshot 3" class="project-slide" />
+          <img src="/images/pricebite-designs/search-results.png" alt="PriceBite Screenshot 4" class="project-slide" />
+          <img src="/images/pricebite-designs/search-window.png" alt="PriceBite Screenshot 5" class="project-slide" />
+          <img src="/images/pricebite-designs/student-preferences-form.png" alt="PriceBite Screenshot 6" class="project-slide" />
+        </div>
+      </div>
+
+      <button type="button" class="arrow project-next" aria-label="Next project image">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+      <!-- All Descriptions (only one visible at a time) -->
+      <div class="project-description-container">
+        <div class="project-description active" data-project="Kanba-DO">
+          <h4>Purpose</h4>
+          <p>🔹Designed to help individuals and teams visualize and manage tasks dynamically using drag-and-drop Kanban boards.</p>
+          <h4>My Role</h4>
+          <p>🔹Built the entire frontend system, implemented task logic, dynamic drag-and-drop features, and user persistence via local storage.</p>
+          <h4>Value & Outcome</h4>
+          <p>🔹Gives users a clean, intuitive way to track productivity. Designed with workflow usability in mind to support real-time organization and planning.</p>
+          <h4>What I Learned</h4>
+          <p>🔹Improved my skills in state management, UI/UX principles, and planned out features like priority tagging, filtering, and progress tracking for future builds</p>
+          <div class="project-links">
+            <a href="https://github.com/KwameSA/kanba-do" target="_blank" class="project-git-link">
+              <span>Repository</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <a href="https://kwamesa.github.io/kanba-do/" target="_blank" class="project-live-link"><span>Live Page</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="project-description" data-project="PriceBite">
+          <h4>Purpose</h4>
+          <p>🔹Created to help students make smarter shopping decisions by tracking seasonal price trends and aligning them with personal budgets.</p>
+          <h4>My Role</h4>
+          <p>🔹Designed the system architecture and built the frontend using HTML, CSS, and JavaScript. Developed the logic to filter products by price, category, and purchase timing based on user profiles.</p>
+          <h4>Value & Outcome</h4>
+          <p>🔹Empowers budget-conscious shoppers to identify optimal purchase windows and avoid overspending. Built specifically for students, adaptable to any budget-driven user.</p>
+          <h4>What I Learned</h4>
+          <p>🔹Improved my skills in user profiling, product filtering, and data visualization logic. Strengthened my understanding of how AI and pricing data can drive personalized decisions.</p>
+          <div class="project-links">
+            <button type="button" class="project-git-link">
+              <a href="https://github.com/KwameSA/pricebite">Repository</a>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+            <button type="button" class="project-live-link">
+              <a href="https://kwamesa.github.io/pricebite/">Live Page</a>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="project-description" data-project="Falcon 9 Landing Prediction">
+          <h4>Purpose</h4>
+          <p>🔹A data science project to predict Falcon 9 rocket landing success using machine learning models trained on historical launch data.</p>
+          <h4>My Role</h4>
+          <p>🔹Cleaned and processed SpaceX launch datasets, performed EDA, and implemented models including logistic regression and KNN using Python and Scikit-learn.</p>
+          <h4>Value & Outcome</h4>
+          <p>🔹Provided actionable insights into launch conditions affecting landing success, helping identify performance thresholds for aerospace cost optimization.</p>
+          <h4>What I Learned</h4>
+          <p>🔹Gained experience in end-to-end machine learning workflows, data visualization, and iterative model tuning. Strengthened understanding of how data science can be used in engineering contexts.</p>
+          <div class="project-links">
+            <button type="button" class="project-git-link">
+              <a href="https://github.com/KwameSA/DataScienceCapstoneProject" target="_blank">Repository</a>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+            <button type="button" class="project-live-link" hidden>
+              <a href="">Live Page</a>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="project-description" data-project="Investment Firm Data">
+          <h4>Purpose</h4>
+          <p>🔹Analyzed an investment portfolio to uncover trends in risk, returns, and asset allocation using data scraping and dashboard design.</p>
+          <h4>My Role</h4>
+          <p>🔹Scraped financial data from external sources, cleaned and transformed datasets, and built interactive dashboards in Tableau to support decision-making.</p>
+          <h4>Value & Outcome</h4>
+          <p>🔹Helped stakeholders visualize portfolio health and identify opportunities for rebalancing and improving ROI.</p>
+          <h4>What I Learned</h4>
+          <p>🔹Improved skills in data wrangling, storytelling with data, and business intelligence tools. Learned how to turn raw data into strategic insight for financial contexts.</p>
+          <div class="project-links">
+            <button type="button" class="project-git-link">
+              <a href="">Repository</a>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+            <button type="button" class="project-live-link">
+              <a href="">Live Page</a>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-switcher" role="tablist" aria-label="Project selection">
+        <button type="button" class="project-tab" data-project="Kanba-DO">Kanba-DO</button>
+        <button type="button" class="project-tab" data-project="PriceBite">PriceBite</button>
+        <button type="button" class="project-tab" data-project="Falcon 9 Landing Prediction">Falcon 9 Landing</button>
+        <button type="button" class="project-tab" data-project="Investment Firm Data">Investment Firm</button>
+      </div>
+    </section>
+
+    <!-- === CONTACT SECTION === -->
+
+    <section class="contact" id="contact">
+      <p class="cta-docs">Looking for my <a href="documents.html">resume or transcript?</a> View them here.</p>
+
+      <p class="cta-line">Whether you're hiring, collaborating, or just curious — I’d love to hear from you.</p>
+
+      <div class="contact-links">
+        <a href="mailto:samuel.akuffo1@gwu.edu" class="contact-item">
+          <div class="icon-col"><i class="fa-solid fa-envelope"></i></div>
+          <div class="text-col">Got a question? Let’s chat</div>
+          <div class="icon-col"><i class="fa-solid fa-envelope-open"></i></div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/samuel-akuffo-nb/" class="contact-item" target="_blank">
+          <div class="icon-col"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="text-col">Let's Connect on LinkedIn</div>
+          <div class="icon-col"><i class="fa-brands fa-linkedin"></i></div>
+        </a>
+
+        <a href="https://soundcloud.com/kwame_deezy" class="contact-item" target="_blank">
+          <div class="icon-col"><i class="fa-solid fa-music"></i></div>
+          <div class="text-col">Plugging My SoundCloud</div>
+          <div class="icon-col"><i class="fa-brands fa-soundcloud"></i></div>
+        </a>
+
+        <a href="tel:+12407917558" class="contact-item">
+          <div class="icon-col"><i class="fa-solid fa-phone"></i></div>
+          <div class="text-col">Prefer talking? Give me a ring</div>
+          <div class="icon-col"><i class="fa-solid fa-phone-volume"></i></div>
+        </a>
+      </div>
+
+      <footer>
+        <p>KwameSA©2025</p>
+      </footer>
+    </section>
+
+    <script src="https://kit.fontawesome.com/d1e470b967.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
