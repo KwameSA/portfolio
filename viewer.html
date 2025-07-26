@@ -1,4 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="viewer.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="documents.html">Documents</a>
+    </nav>
+
+    <div class="doc-viewer">
+      <div class="thumbnail-list">
+        <!-- Dynamically generated -->
+      </div>
+      <div class="page-viewer">
+        <canvas id="pdf-canvas"></canvas>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="viewer.js"></script>
+  </body>
+</html>
+=======
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
