@@ -1,40 +1,46 @@
-// === HERO SLIDES ===
+// === VARIABLE DECLARATIONS ===
 const heroSlides = document.querySelectorAll(".hero-slide");
 const heroPrevBtn = document.querySelector(".hero-prev");
 const heroNextBtn = document.querySelector(".hero-next");
 const heroHeading = document.getElementById("hero-heading");
+const projectTabs = document.querySelectorAll(".project-tab");
+const projectTitle = document.getElementById("project-title");
+const projectGroups = document.querySelectorAll(".project-images");
+const projectDescriptions = document.querySelectorAll(".project-description");
+const projectPrevBtn = document.querySelector(".project-prev");
+const projectNextBtn = document.querySelector(".project-next");
+const projectSelect = document.getElementById("projectSelect");
+
+let currentProject = null;
+let currentSlideIndex = 0;
 
 let currentHeroSlide = 0;
 
+// === HERO SLIDES ===
 function fadeHeroSlide(newIndex) {
   if (newIndex === currentHeroSlide) return;
 
   const current = heroSlides[currentHeroSlide];
   const next = heroSlides[newIndex];
 
-  // Fade out current slide and heading
   current.classList.remove("active");
   heroHeading.classList.add("fade-out-heading");
 
-  // Wait before showing next slide
   setTimeout(() => {
-    // Update heading text
+
     heroHeading.textContent = next.getAttribute("data-title");
 
-    // Fade in new slide
     next.classList.add("active");
 
-    // Reset heading transition
     heroHeading.classList.remove("fade-out-heading");
     heroHeading.classList.add("fade-in-heading");
 
-    // Clean up class after transition ends
     setTimeout(() => {
       heroHeading.classList.remove("fade-in-heading");
     }, 400);
 
     currentHeroSlide = newIndex;
-  }, 300); // matches your CSS transition time
+  }, 300);
 }
 
 heroPrevBtn.addEventListener("click", () => {
@@ -48,15 +54,6 @@ heroNextBtn.addEventListener("click", () => {
 });
 
 // === PROJECT SWITCHING ===
-const projectTabs = document.querySelectorAll(".project-tab");
-const projectTitle = document.getElementById("project-title");
-const projectGroups = document.querySelectorAll(".project-images");
-const projectDescriptions = document.querySelectorAll(".project-description");
-const projectPrevBtn = document.querySelector(".project-prev");
-const projectNextBtn = document.querySelector(".project-next");
-
-let currentProject = null;
-let currentSlideIndex = 0;
 
 // Utility: Reset all states
 function resetProjects() {
@@ -92,25 +89,6 @@ function activateProject(projectName) {
   projectTitle.textContent = projectName;
 }
 
-// Tab Click
-projectTabs.forEach((tab) => {
-  tab.addEventListener("click", (e) => {
-    e.preventDefault();
-    e.stopImmediatePropagation();
-    tab.blur();
-
-    // Scroll to current position to force browser to "lock in"
-    const scrollY = window.scrollY;
-    const scrollX = window.scrollX;
-
-    const projectName = tab.dataset.project;
-    activateProject(projectName);
-
-    // Restore scroll to where the user was
-    window.scrollTo(scrollX, scrollY);
-  });
-});
-
 // Navigation Arrows
 function showSlide(offset) {
   const group = document.querySelector(`.project-images[data-project="${currentProject}"]`);
@@ -129,4 +107,14 @@ projectNextBtn.addEventListener("click", () => showSlide(1));
 // Initial Load: Set Kanba-DO as default
 document.addEventListener("DOMContentLoaded", () => {
   activateProject("Kanba-DO");
+});
+
+// Project Change Dropdown
+projectSelect.addEventListener("change", function () {
+  const scrollY = window.scrollY;
+  const scrollX = window.scrollX;
+
+  activateProject(this.value);
+
+  window.scrollTo(scrollX, scrollY);
 });
