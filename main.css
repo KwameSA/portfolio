@@ -217,6 +217,7 @@ button:hover {
   top: 130%;
   transform: translateY(-50%);
   font-size: 28px;
+  /* color: var(--primary-dark); */
   z-index: 11;
 }
 
