@@ -118,3 +118,21 @@ projectSelect.addEventListener("change", function () {
 
   window.scrollTo(scrollX, scrollY);
 });
+
+document.getElementById("projectSelect").addEventListener("change", function () {
+  const selectedProject = this.value;
+
+  document.querySelectorAll(".project-images").forEach((imgSet) => {
+    imgSet.classList.toggle("active", imgSet.dataset.project === selectedProject);
+  });
+
+  document.querySelectorAll(".project-description").forEach((desc) => {
+    desc.classList.toggle("active", desc.dataset.project === selectedProject);
+  });
+
+  document.getElementById("project-title").scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+});
+
