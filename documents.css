@@ -1,0 +1,39 @@
+/* === DOCUMENTS PAGE === */
+.documents-page {
+  padding: 40px 20px;
+}
+
+.documents-page h2 {
+  font-size: 24px;
+  color: var(--primary-dark);
+  border-bottom: 2px solid var(--accent-yellow);
+  padding-bottom: 6px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.documents-page ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.documents-page li a {
+  display: block;
+  padding: 14px 20px;
+  border: 2px solid var(--accent-mint);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--primary-dark);
+  font-weight: 500;
+  background-color: #ffffff;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.documents-page li a:hover {
+  background-color: var(--background-soft);
+  transform: translateY(-1px);
+}
