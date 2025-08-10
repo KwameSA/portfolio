@@ -22,6 +22,6 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 
 ## 🚀 Access
 ---
-<a href="https://kwamesa.github.io/portfolio/index.html" target="_blank" rel="noopener noreferrer">Click here</a>
+<a href="https://kwamesa.github.io/portfolio/index.html" target="_blank" rel="noopener noreferrer">🔗 View Portfolio Website</a>
 ---
 
