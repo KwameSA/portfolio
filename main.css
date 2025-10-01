@@ -632,4 +632,11 @@ footer {
     justify-content: center;
     margin: 0;
   }
+
+  .project-switcher select {
+    font-size: 15px;
+    font-family: inherit;
+    transition: all 0.3s ease;
+    appearance: none;
+  }
 }
