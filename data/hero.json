@@ -1,0 +1,33 @@
+{
+  "image": {
+    "src": "./images/me.jpg",
+    "alt": "Photo of Samuel Akuffo"
+  },
+  "slides": [
+    {
+      "title": "Introduction",
+      "background": "images/hero-background/introduction.jpg",
+      "content": ["Hi, I’m Samuel Nana Boohene Akuffo. I’m passionate about bridging business objectives with scalable technology solutions. By combining systems thinking with technical expertise, I design tools that drive efficiency and enable smarter decision-making."]
+    },
+    {
+      "title": "Experience",
+      "background": "images/hero-background/experience.jpg",
+      "content": ["I’ve gained hands-on experience in corporate and university settings. At GIHOC Distilleries, I optimized SQL databases to reduce processing time and improve reporting accuracy, analyzed market trends to guide product launches, and conducted consumer testing. At GWU, I support athletics marketing and ESPN+ broadcasts, coordinating game-day operations, managing graphics, and analyzing engagement metrics. I’ve also helped streamline student access to DC Metro services with GW Transport."]
+    },
+    {
+      "title": "Skills",
+      "background": "images/hero-background/skills.jpg",
+      "content": ["I bring a range of technical and analytical skills to every project. From Python, JavaScript, and SQL to Flask, React, and Docker, I leverage technology to solve complex business challenges. My experience also spans analytics, visualization, cloud applications, and full-stack development."]
+    },
+    {
+      "title": "Passions",
+      "background": "images/hero-background/passion.jpg",
+      "content": ["I’m fascinated by architecture, both in systems and in the physical world. I enjoy exploring how thoughtful, well-designed structures whether in code or buildings can create more efficient, elegant, and human-centered solutions."]
+    },
+    {
+      "title": "Interests",
+      "background": "images/hero-background/interests.jpg",
+      "content": ["Beyond technology, I explore music production, sound design, and human behavior. These passions inspire creativity and problem-solving, fueling my work in tech with a more human and intuitive approach."]
+    }
+  ]
+}

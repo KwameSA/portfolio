@@ -1,0 +1,14 @@
+[
+  { "id": "Kanba-DO", "title": "Kanba-DO – Kanban Task Management App" },
+  { "id": "Apollonia", "title": "Apollonia – Dental Employee Management App" },
+  { "id": "Greenspot", "title": "Greenspot Grocer – Data Modeling & Engineering" },
+  { "id": "MintClassics", "title": "Mint Classics – Sales & Inventory Data Analysis" },
+  { "id": "RumiAnalytics", "title": "Rumi – Expense & Book Tracker App" },
+  { "id": "Lushlyrics", "title": "Lushlyrics – Secure Django Login & User Authentication System" },
+  { "id": "TechStocks", "title": "Tech Company Stock Analysis Project" },
+  { "id": "PriceBite", "title": "PriceBite – Price Comparison Tool" },
+  { "id": "Falcon9", "title": "Falcon 9 Landing Prediction (ML)" },
+  { "id": "BikeShare", "title": "Bike Share – Time Series Demand Forecasting" },
+  { "id": "Sugarland", "title": "Sugarland Theaters Booking Platform" },
+  { "id": "SocialMedia", "title": "Social Media Marketing Data Analysis" }
+]
