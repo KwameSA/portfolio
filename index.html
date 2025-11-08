@@ -5,602 +5,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
     <title>SAMUEL AKUFFO | Portfolio</title>
+    <script>
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.classList.add("dark-theme");
+      }
+    </script>
   </head>
   <body>
     <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="documents.html">Documents</a>
+      <button class="theme-toggle" aria-label="Toggle Theme"><i class="fa-solid fa-circle-half-stroke"></i></button>
     </nav>
 
-    <!-- === HERO SECTION === -->
-    <section class="hero" id="hero">
-      <!-- Top Section Heading -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
       <div class="hero-heading-wrapper">
         <h2 id="hero-heading" class="section-heading">Introduction</h2>
       </div>
+
       <button type="button" class="arrow hero-prev" aria-label="Previous slide">
         <i class="fa-solid fa-chevron-left"></i>
       </button>
-      <!-- Main Layout: Image + Slideshow -->
+
       <div class="hero-content">
-        <!-- Left: Your Photo -->
         <div class="hero-image">
-          <img src="images/me.jpg" alt="Photo of Samuel Akuffo" />
+          <img id="heroImage" src="" alt="Photo of Samuel Akuffo" />
         </div>
-        <!-- Right: Slideshow Content + Arrows -->
-        <div class="hero-text-slider" aria-labelledby="hero-heading">
-          <div class="hero-slide-wrapper">
-            <div class="hero-slide active" data-title="Introduction">
-              <p>Hi, I’m Samuel Akuffo, a systems thinker specializing in bridging business objectives with scalable technology solutions. With a strong foundation in full-stack development, data analysis, and business strategy, I design and deliver tools that drive efficiency and empower decision-making.</p>
-            </div>
 
-            <div class="hero-slide" data-title="Skills & Expertise">
-              <p>🛠️ <strong>Technical Skills:</strong> Python, JavaScript, SQL (MySQL, PostgreSQL), HTML, CSS, Flask, React</p>
-              <p>📊 <strong>Tools & Platforms:</strong> Tableau, IBM DB2, Git/GitHub, Jupyter, Lucidchart, Docker</p>
-              <p>🔄 <strong>Systems & Methodologies:</strong> SDLC, UML, Data Wrangling, Data Modeling, Data Visualization</p>
-              <p>💡 <strong>Focus Areas:</strong> Full-Stack Development, Business Analysis, Cloud Applications, Problem Solving</p>
-            </div>
-
-
-            <div class="hero-slide" data-title="Personal Interests">
-              <p><p>When I’m not debugging systems or designing workflows, I’m producing music, exploring sound design, or studying human behavior. I believe the best technology is intuitive, purposeful, and deeply human.</p>
-            </div>
-          </div>
+        <div class="hero-text-slider" id="heroSlider">
+          <div class="hero-slide-wrapper" id="heroWrapper"></div>
         </div>
       </div>
+
       <button type="button" class="arrow hero-next" aria-label="Next slide">
         <i class="fa-solid fa-chevron-right"></i>
       </button>
     </section>
 
-    <!-- === PROJECTS SECTION === -->
     <section class="projects" id="projects" aria-labelledby="project-title">
       <div class="project-heading">
-        <h2 class="section-heading" id="project-title">Kanba-DO</h2>
+        <h2 class="section-heading" id="project-title"></h2>
       </div>
       <button type="button" class="arrow project-prev" aria-label="Previous project image">
         <i class="fa-solid fa-chevron-left"></i>
       </button>
 
-      <div class="project-slideshow" id="project-slideshow">
-        <!-- All project image groups (only one visible at a time) -->
-        <div class="project-images active" data-project="Kanba-DO">
-          <img src="images/kanbado-images/1.png" alt="Kanba-DO Screenshot 1" class="project-slide active" />
-          <img src="images/kanbado-images/2.png" alt="Kanba-DO Screenshot 2" class="project-slide" />
-          <img src="images/kanbado-images/3.png" alt="Kanba-DO Screenshot 3" class="project-slide" />
-          <img src="images/kanbado-images/4.png" alt="Kanba-DO Screenshot 4" class="project-slide" />
-          <img src="images/kanbado-images/5.png" alt="Kanba-DO Screenshot 5" class="project-slide" />
-          <img src="images/kanbado-images/6.png" alt="Kanba-DO Screenshot 6" class="project-slide" />
-          <img src="images/kanbado-images/7.png" alt="Kanba-DO Screenshot 7" class="project-slide" />
-          <img src="images/kanbado-images/8.png" alt="Kanba-DO Screenshot 8" class="project-slide" />
-          <img src="images/kanbado-images/9.png" alt="Kanba-DO Screenshot 9" class="project-slide" />
-          <img src="images/kanbado-images/10.png" alt="Kanba-DO Screenshot 10" class="project-slide" />
-          <img src="images/kanbado-images/11.png" alt="Kanba-DO Screenshot 11" class="project-slide" />
-          <img src="images/kanbado-images/12.png" alt="Kanba-DO Screenshot 12" class="project-slide" />
-          <img src="images/kanbado-images/13.png" alt="Kanba-DO Screenshot 13" class="project-slide" />
-          <img src="images/kanbado-images/14.png" alt="Kanba-DO Screenshot 14" class="project-slide" />
-          <img src="images/kanbado-images/15.png" alt="Kanba-DO Screenshot 15" class="project-slide" />
-          <img src="images/kanbado-images/16.png" alt="Kanba-DO Screenshot 16" class="project-slide" />
-          <img src="images/kanbado-images/17.png" alt="Kanba-DO Screenshot 17" class="project-slide" />
-          <img src="images/kanbado-images/18.png" alt="Kanba-DO Screenshot 18" class="project-slide" />
-          <img src="images/kanbado-images/19.png" alt="Kanba-DO Screenshot 19" class="project-slide" />
-        </div>
-
-        <div class="project-images" data-project="PriceBite">
-          <img src="images/pricebite-designs/product-details.png" alt="PriceBite Screenshot 1" class="project-slide" />
-          <img src="images/pricebite-designs/purchase-plan-form.jpg" alt="PriceBite Screenshot 2" class="project-slide" />
-          <img src="images/pricebite-designs/report-business-partner-insights-and-engagement-metrics.png" alt="PriceBite Screenshot 3" class="project-slide" />
-          <img src="images/pricebite-designs/search-results.png" alt="PriceBite Screenshot 4" class="project-slide" />
-          <img src="images/pricebite-designs/search-window.png" alt="PriceBite Screenshot 5" class="project-slide" />
-          <img src="images/pricebite-designs/student-preferences-form.png" alt="PriceBite Screenshot 6" class="project-slide" />
-        </div>
-
-        <div class="project-images" data-project="Falcon 9 Landing Prediction">
-          <img src="images/falcon-9-landing/chart1.png" alt="Rocket Landing Screenshot 1" class="project-slide" />
-          <img src="images/falcon-9-landing/1.png" alt="Rocket Landing Screenshot 2" class="project-slide" />
-          <img src="images/falcon-9-landing/2.png" alt="Rocket Landing Screenshot 3" class="project-slide" />
-          <img src="images/falcon-9-landing/3.png" alt="Rocket Landing Screenshot 4" class="project-slide" />
-          <img src="images/falcon-9-landing/4.png" alt="Rocket Landing Screenshot 5" class="project-slide" />
-          <img src="images/falcon-9-landing/5.png" alt="Rocket Landing Screenshot 6" class="project-slide" />
-          <img src="images/falcon-9-landing/6.png" alt="Rocket Landing Screenshot 7" class="project-slide" />
-          <img src="images/falcon-9-landing/7.png" alt="Rocket Landing Screenshot 8" class="project-slide" />
-          <img src="images/falcon-9-landing/chart2.png" alt="Rocket Landing Screenshot 9" class="project-slide" />
-          <img src="images/falcon-9-landing/8.png" alt="Rocket Landing Screenshot 10" class="project-slide" />
-          <img src="images/falcon-9-landing/9.png" alt="Rocket Landing Screenshot 11" class="project-slide" />
-          <img src="images/falcon-9-landing/10.png" alt="Rocket Landing Screenshot 12" class="project-slide" />
-          <img src="images/falcon-9-landing/11.png" alt="Rocket Landing Screenshot 13" class="project-slide" />
-          <img src="images/falcon-9-landing/plt1.png" alt="Rocket Landing Screenshot 27" class="project-slide" />
-          <img src="images/falcon-9-landing/plt2.png" alt="Rocket Landing Screenshot 28" class="project-slide" />
-          <img src="images/falcon-9-landing/plt3.png" alt="Rocket Landing Screenshot 29" class="project-slide" />
-          <img src="images/falcon-9-landing/12.png" alt="Rocket Landing Screenshot 14" class="project-slide" />
-          <img src="images/falcon-9-landing/cm1.png" alt="Rocket Landing Screenshot 15" class="project-slide" />
-          <img src="images/falcon-9-landing/cm2.png" alt="Rocket Landing Screenshot 16" class="project-slide" />
-          <img src="images/falcon-9-landing/13.png" alt="Rocket Landing Screenshot 17" class="project-slide" />
-          <img src="images/falcon-9-landing/14.png" alt="Rocket Landing Screenshot 18" class="project-slide" />
-          <img src="images/falcon-9-landing/15.png" alt="Rocket Landing Screenshot 19" class="project-slide" />
-          <img src="images/falcon-9-landing/16.png" alt="Rocket Landing Screenshot 20" class="project-slide" />
-          <img src="images/falcon-9-landing/17.png" alt="Rocket Landing Screenshot 21" class="project-slide" />
-          <img src="images/falcon-9-landing/18.png" alt="Rocket Landing Screenshot 22" class="project-slide" />
-          <img src="images/falcon-9-landing/map1.png" alt="Rocket Landing Screenshot 23" class="project-slide" />
-          <img src="images/falcon-9-landing/map2.png" alt="Rocket Landing Screenshot 24" class="project-slide" />
-          <img src="images/falcon-9-landing/map3.png" alt="Rocket Landing Screenshot 25" class="project-slide" />
-          <img src="images/falcon-9-landing/map4.png" alt="Rocket Landing Screenshot 26" class="project-slide" />
-        </div>
-
-        <div class="project-images" data-project="Tech Company Stock Analysis">
-          <img src="images/tech-stock-analysis/26.png" alt="Tech Stock Analysis Screenshot 26" class="project-slide" />
-          <img src="images/tech-stock-analysis/27.png" alt="Tech Stock Analysis Screenshot 27" class="project-slide" />
-          <img src="images/tech-stock-analysis/28.png" alt="Tech Stock Analysis Screenshot 28" class="project-slide" />
-          <img src="images/tech-stock-analysis/29.png" alt="Tech Stock Analysis Screenshot 29" class="project-slide" />
-          <img src="images/tech-stock-analysis/30.png" alt="Tech Stock Analysis Screenshot 30" class="project-slide" />
-          <img src="images/tech-stock-analysis/21.png" alt="Tech Stock Analysis Screenshot 21" class="project-slide" />
-          <img src="images/tech-stock-analysis/22.png" alt="Tech Stock Analysis Screenshot 22" class="project-slide" />
-          <img src="images/tech-stock-analysis/23.png" alt="Tech Stock Analysis Screenshot 23" class="project-slide" />
-          <img src="images/tech-stock-analysis/24.png" alt="Tech Stock Analysis Screenshot 24" class="project-slide" />
-          <img src="images/tech-stock-analysis/25.png" alt="Tech Stock Analysis Screenshot 25" class="project-slide" />
-          <img src="images/tech-stock-analysis/1.png" alt="Tech Stock Analysis Screenshot 1" class="project-slide" />
-          <img src="images/tech-stock-analysis/2.png" alt="Tech Stock Analysis Screenshot 2" class="project-slide" />
-          <img src="images/tech-stock-analysis/3.png" alt="Tech Stock Analysis Screenshot 3" class="project-slide" />
-          <img src="images/tech-stock-analysis/4.png" alt="Tech Stock Analysis Screenshot 4" class="project-slide" />
-          <img src="images/tech-stock-analysis/5.png" alt="Tech Stock Analysis Screenshot 5" class="project-slide" />
-          <img src="images/tech-stock-analysis/6.png" alt="Tech Stock Analysis Screenshot 6" class="project-slide" />
-          <img src="images/tech-stock-analysis/7.png" alt="Tech Stock Analysis Screenshot 7" class="project-slide" />
-          <img src="images/tech-stock-analysis/8.png" alt="Tech Stock Analysis Screenshot 8" class="project-slide" />
-          <img src="images/tech-stock-analysis/10.png" alt="Tech Stock Analysis Screenshot 10" class="project-slide" />
-          <img src="images/tech-stock-analysis/11.png" alt="Tech Stock Analysis Screenshot 11" class="project-slide" />
-          <img src="images/tech-stock-analysis/12.png" alt="Tech Stock Analysis Screenshot 12" class="project-slide" />
-          <img src="images/tech-stock-analysis/13.png" alt="Tech Stock Analysis Screenshot 13" class="project-slide" />
-          <img src="images/tech-stock-analysis/14.png" alt="Tech Stock Analysis Screenshot 14" class="project-slide" />
-          <img src="images/tech-stock-analysis/15.png" alt="Tech Stock Analysis Screenshot 15" class="project-slide" />
-          <img src="images/tech-stock-analysis/16.png" alt="Tech Stock Analysis Screenshot 16" class="project-slide" />
-          <img src="images/tech-stock-analysis/17.png" alt="Tech Stock Analysis Screenshot 17" class="project-slide" />
-          <img src="images/tech-stock-analysis/18.png" alt="Tech Stock Analysis Screenshot 18" class="project-slide" />
-          <img src="images/tech-stock-analysis/19.png" alt="Tech Stock Analysis Screenshot 19" class="project-slide" />
-          <img src="images/tech-stock-analysis/20.png" alt="Tech Stock Analysis Screenshot 20" class="project-slide" />
-        </div>
-
-
-        <div class="project-images" data-project="Sugarland Theaters Booking Platform">
-          <img src="images/sugarland-theaters-booking-platform/d1.png" alt="Sugarland Screenshot 1" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/d2.png" alt="Sugarland Screenshot 2" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/d3.png" alt="Sugarland Screenshot 3" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/m1.png" alt="Sugarland Screenshot 4" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/m2.png" alt="Sugarland Screenshot 5" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/m3.png" alt="Sugarland Screenshot 6" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/m4.png" alt="Sugarland Screenshot 7" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/m5.png" alt="Sugarland Screenshot 8" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/m6.png" alt="Sugarland Screenshot 9" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/m7.png" alt="Sugarland Screenshot 10" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/sn1.png" alt="Sugarland Screenshot 11" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/sn2.png" alt="Sugarland Screenshot 12" class="project-slide" />
-          <img src="images/sugarland-theaters-booking-platform/sn3.png" alt="Sugarland Screenshot 13" class="project-slide" />
-        </div>
-
-        <div class="project-images" data-project="Social Media Marketing Data Analysis">
-          <img src="images/social-media-marketing-data-analysis/boxplot.png" alt="SMM Screenshot 1" class="project-slide" />
-          <img src="images/social-media-marketing-data-analysis/h-bargraph.png" alt="SMM Screenshot 2" class="project-slide" />
-          <img src="images/social-media-marketing-data-analysis/histogram.png" alt="SMM Screenshot 3" class="project-slide" />
-          <img src="images/social-media-marketing-data-analysis/piechart.png" alt="SMM Screenshot 4" class="project-slide" />
-        </div>
-
-        <div class="project-images" data-project="Lushlyrics Login System">
-          <img src="images/lushllyrics/1.png" alt="Lushlyrics Screenshot 1" class="project-slide" />
-          <img src="images/lushllyrics/2.png" alt="Lushlyrics Screenshot 2" class="project-slide" />
-          <img src="images/lushllyrics/3.png" alt="Lushlyrics Screenshot 3" class="project-slide" />
-          <img src="images/lushllyrics/4.png" alt="Lushlyrics Screenshot 4" class="project-slide" />
-          <img src="images/lushllyrics/5.png" alt="Lushlyrics Screenshot 5" class="project-slide" />
-          <img src="images/lushllyrics/6.png" alt="Lushlyrics Screenshot 6" class="project-slide" />
-          <img src="images/lushllyrics/7.png" alt="Lushlyrics Screenshot 7" class="project-slide" />
-          <img src="images/lushllyrics/8.png" alt="Lushlyrics Screenshot 8" class="project-slide" />
-          <img src="images/lushllyrics/9.png" alt="Lushlyrics Screenshot 9" class="project-slide" />
-          <img src="images/lushllyrics/10.png" alt="Lushlyrics Screenshot 10" class="project-slide" />
-          <img src="images/lushllyrics/11.png" alt="Lushlyrics Screenshot 11" class="project-slide" />
-          <img src="images/lushllyrics/12.png" alt="Lushlyrics Screenshot 12" class="project-slide" />
-          <img src="images/lushllyrics/13.png" alt="Lushlyrics Screenshot 13" class="project-slide" />
-          <img src="images/lushllyrics/14.png" alt="Lushlyrics Screenshot 14" class="project-slide" />
-          <img src="images/lushllyrics/15.png" alt="Lushlyrics Screenshot 15" class="project-slide" />
-        </div>
-
-
-        <div class="project-images" data-project="Apollonia Dental Practice Employee Management App">
-          <img src="images/apollonia/2.png" alt="EMA Screenshot 1" class="project-slide" />
-          <img src="images/apollonia/3.png" alt="EMA Screenshot 2" class="project-slide" />
-          <img src="images/apollonia/4.png" alt="EMA Screenshot 3" class="project-slide" />
-          <img src="images/apollonia/5.png" alt="EMA Screenshot 4" class="project-slide" />
-          <img src="images/apollonia/6.png" alt="EMA Screenshot 5" class="project-slide" />
-          <img src="images/apollonia/7.png" alt="EMA Screenshot 6" class="project-slide" />
-          <img src="images/apollonia/8.png" alt="EMA Screenshot 7" class="project-slide" />
-          <img src="images/apollonia/9.png" alt="EMA Screenshot 8" class="project-slide" />
-          <img src="images/apollonia/10.png" alt="EMA Screenshot 9" class="project-slide" />
-          <img src="images/apollonia/11.png" alt="EMA Screenshot 10" class="project-slide" />
-          <img src="images/apollonia/12.png" alt="EMA Screenshot 11" class="project-slide" />
-        </div>
-
-        <div class="project-images" data-project="Greenspot Grocer Data Modeling & Engineering">
-          <img src="images/greenspot_grocer/16.png" alt="Greenspot Screenshot 2" class="project-slide" />
-          <img src="images/greenspot_grocer/15.png" alt="Greenspot Screenshot 1" class="project-slide" />
-          <img src="images/greenspot_grocer/17.png" alt="Greenspot Screenshot 14" class="project-slide" />
-          <img src="images/greenspot_grocer/19.png" alt="Greenspot Screenshot 14" class="project-slide" />
-          <img src="images/greenspot_grocer/20.png" alt="Greenspot Screenshot 14" class="project-slide" />
-          <img src="images/greenspot_grocer/21.png" alt="Greenspot Screenshot 14" class="project-slide" />
-          <img src="images/greenspot_grocer/1.png" alt="Greenspot Screenshot 1" class="project-slide" />
-          <img src="images/greenspot_grocer/2.png" alt="Greenspot Screenshot 2" class="project-slide" />
-          <img src="images/greenspot_grocer/3.png" alt="Greenspot Screenshot 3" class="project-slide" />
-          <img src="images/greenspot_grocer/4.png" alt="Greenspot Screenshot 4" class="project-slide" />
-          <img src="images/greenspot_grocer/5.png" alt="Greenspot Screenshot 5" class="project-slide" />
-          <img src="images/greenspot_grocer/6.png" alt="Greenspot Screenshot 6" class="project-slide" />
-          <img src="images/greenspot_grocer/7.png" alt="Greenspot Screenshot 7" class="project-slide" />
-          <img src="images/greenspot_grocer/8.png" alt="Greenspot Screenshot 8" class="project-slide" />
-          <img src="images/greenspot_grocer/9.png" alt="Greenspot Screenshot 9" class="project-slide" />
-          <img src="images/greenspot_grocer/10.png" alt="Greenspot Screenshot 10" class="project-slide" />
-          <img src="images/greenspot_grocer/11.png" alt="Greenspot Screenshot 11" class="project-slide" />
-          <img src="images/greenspot_grocer/12.png" alt="Greenspot Screenshot 12" class="project-slide" />
-          <img src="images/greenspot_grocer/13.png" alt="Greenspot Screenshot 13" class="project-slide" />
-          <img src="images/greenspot_grocer/14.png" alt="Greenspot Screenshot 14" class="project-slide" />
-          <img src="images/greenspot_grocer/18.png" alt="Greenspot Screenshot 14" class="project-slide" />
-        </div>
-
-        <div class="project-images" data-project="Bike Share Time Series Modeling">
-          <img src="images/bikeshare/1.png" alt="Bike Share Time Series Modeling Image 1" class="project-slide" />
-          <img src="images/bikeshare/2.png" alt="Bike Share Time Series Modeling Image 2" class="project-slide" />
-          <img src="images/bikeshare/3.png" alt="Bike Share Time Series Modeling Image 3" class="project-slide" />
-          <img src="images/bikeshare/4.png" alt="Bike Share Time Series Modeling Image 4" class="project-slide" />
-          <img src="images/bikeshare/5.png" alt="Bike Share Time Series Modeling Image 5" class="project-slide" />
-          <img src="images/bikeshare/6.png" alt="Bike Share Time Series Modeling Image 6" class="project-slide" />
-          <img src="images/bikeshare/7.png" alt="Bike Share Time Series Modeling Image 7" class="project-slide" />
-          <img src="images/bikeshare/8.png" alt="Bike Share Time Series Modeling Image 8" class="project-slide" />
-          <img src="images/bikeshare/9.png" alt="Bike Share Time Series Modeling Image 9" class="project-slide" />
-          <img src="images/bikeshare/10.png" alt="Bike Share Time Series Modeling Image 10" class="project-slide" />
-          <img src="images/bikeshare/11.png" alt="Bike Share Time Series Modeling Image 11" class="project-slide" />
-        </div>
-
-        <div class="project-images" data-project="Mint Classics Data Analysis">
-          <img src="images/mintclassics/1.png" alt="Mint Classics Data Analysis Image 1" class="project-slide" />
-          <img src="images/mintclassics/2.png" alt="Mint Classics Data Analysis Image 2" class="project-slide" />
-          <img src="images/mintclassics/3.png" alt="Mint Classics Data Analysis Image 3" class="project-slide" />
-          <img src="images/mintclassics/4.png" alt="Mint Classics Data Analysis Image 4" class="project-slide" />
-          <img src="images/mintclassics/5.png" alt="Mint Classics Data Analysis Image 5" class="project-slide" />
-          <img src="images/mintclassics/6.png" alt="Mint Classics Data Analysis Image 6" class="project-slide" />
-          <img src="images/mintclassics/7.png" alt="Mint Classics Data Analysis Image 7" class="project-slide" />
-          <img src="images/mintclassics/8.png" alt="Mint Classics Data Analysis Image 8" class="project-slide" />
-          <img src="images/mintclassics/9.png" alt="Mint Classics Data Analysis Image 9" class="project-slide" />
-          <img src="images/mintclassics/10.png" alt="Mint Classics Data Analysis Image 10" class="project-slide" />
-          <img src="images/mintclassics/11.png" alt="Mint Classics Data Analysis Image 11" class="project-slide" />
-          <img src="images/mintclassics/12.png" alt="Mint Classics Data Analysis Image 12" class="project-slide" />
-          <img src="images/mintclassics/13.png" alt="Mint Classics Data Analysis Image 13" class="project-slide" />
-        </div>
-
-        <div class="project-images" data-project="Rumi Expense and Book Tracker">
-          <img src="images/rumi-expense-book-tracker/3.png" alt="REBT Screenshot 3" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/4.png" alt="REBT Screenshot 4" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/5.png" alt="REBT Screenshot 5" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/6.png" alt="REBT Screenshot 6" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/7.png" alt="REBT Screenshot 7" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/8.png" alt="REBT Screenshot 8" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/9.png" alt="REBT Screenshot 9" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/10.png" alt="REBT Screenshot 10" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/11.png" alt="REBT Screenshot 11" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/12.png" alt="REBT Screenshot 12" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/13.png" alt="REBT Screenshot 13" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/14.png" alt="REBT Screenshot 14" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/15.png" alt="REBT Screenshot 15" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/16.png" alt="REBT Screenshot 16" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/17.png" alt="REBT Screenshot 17" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/18.png" alt="REBT Screenshot 18" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/19.png" alt="REBT Screenshot 19" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/20.png" alt="REBT Screenshot 20" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/21.png" alt="REBT Screenshot 21" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/23.png" alt="REBT Screenshot 22" class="project-slide" />
-          <img src="images/rumi-expense-book-tracker/22.png" alt="REBT Screenshot 22" class="project-slide" />
-        </div>
-      </div>
+      <div class="project-slideshow" id="project-slideshow"></div>
 
       <button type="button" class="arrow project-next" aria-label="Next project image">
         <i class="fa-solid fa-chevron-right"></i>
       </button>
 
-      <!-- All Descriptions (only one visible at a time) -->
-            <div class="project-description-container">
-        <div class="project-description active" data-project="Kanba-DO">
-          <h4>Purpose</h4>
-          <p>🔹Designed to help individuals and teams visualize and manage tasks dynamically using drag-and-drop Kanban boards.</p>
-          <h4>My Role</h4>
-          <p>🔹Built the entire frontend system, implemented task logic, dynamic drag-and-drop features, and user persistence via local storage.</p>
-          <h4>Value & Outcome</h4>
-          <p>🔹Gives users a clean, intuitive way to track productivity. Designed with workflow usability in mind to support real-time organization and planning.</p>
-          <h4>What I Learned</h4>
-          <p>🔹Improved my skills in state management, UI/UX principles, and planned out features like priority tagging, filtering, and progress tracking for future builds</p>
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/kanba-do" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://kwamesa.github.io/kanba-do/" target="_blank" class="project-live-link"><span>Live Page</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="PriceBite">
-          <h4>Purpose</h4>
-          <p>🔹Created to help students make smarter shopping decisions by tracking seasonal price trends and aligning them with personal budgets.</p>
-          <h4>My Role</h4>
-          <p>🔹Designed the system architecture and built the frontend using HTML, CSS, and JavaScript. Developed the logic to filter products by price, category, and purchase timing based on user profiles.</p>
-          <h4>Value & Outcome</h4>
-          <p>🔹Empowers budget-conscious shoppers to identify optimal purchase windows and avoid overspending. Built specifically for students, adaptable to any budget-driven user.</p>
-          <h4>What I Learned</h4>
-          <p>🔹Improved my skills in user profiling, product filtering, and data visualization logic. Strengthened my understanding of how AI and pricing data can drive personalized decisions.</p>
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/pricebite" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://kwamesa.github.io/pricebite/" target="_blank" class="project-live-link"><span>Live Page</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="Falcon 9 Landing Prediction">
-          <h4>Purpose</h4>
-          <p>🔹A data science project to predict Falcon 9 rocket landing success using machine learning models trained on historical launch data.</p>
-          <h4>My Role</h4>
-          <p>🔹Cleaned and processed SpaceX launch datasets, performed EDA, and implemented models including logistic regression and KNN using Python and Scikit-learn.</p>
-          <h4>Value & Outcome</h4>
-          <p>🔹Provided actionable insights into launch conditions affecting landing success, helping identify performance thresholds for aerospace cost optimization.</p>
-          <h4>What I Learned</h4>
-          <p>🔹Gained experience in end-to-end machine learning workflows, data visualization, and iterative model tuning. Strengthened understanding of how data science can be used in engineering contexts.</p>
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/DataScienceCapstoneProject" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://github.com/KwameSA/DataScienceCapstoneProject/blob/main/1-Jupyter-Labs-SpaceX-Data-Collection-Api.ipynb" target="_blank" class="project-live-link"><span>Notebooks Page</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="Tech Company Stock Analysis">
-          <h4>Purpose</h4>
-          <p>🔹Analyzed five years of stock performance data for major tech companies (Apple, Microsoft, Dell, HP, and Sony) to uncover trends in returns, volatility, trading volume, and overall investment behavior.</p>
-
-          <h4>My Role</h4>
-          <p>🔹Collected historical data using Python’s yFinance library, performed financial analysis (SMA, EMA, volatility, correlations), and visualized insights with matplotlib. Exported data to Tableau for interactive dashboard exploration.</p>
-
-          <h4>Value & Outcome</h4>
-          <p>🔹Identified each company's growth profile and volatility level to assess risk/reward tradeoffs. Highlighted how consistent performers differ from high-return but volatile stocks, helping investors align strategies with performance patterns.</p>
-
-          <h4>What I Learned</h4>
-          <p>🔹Strengthened skills in time series analysis, financial metrics, and Python-based visualization. Learned how to communicate technical findings through data storytelling and prepare data for cross-platform tools like Tableau.</p>
-
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/stocks_yFinance" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://github.com/KwameSA/stocks_yFinance/blob/main/tech_companies.ipynb" target="_blank" class="project-live-link">
-              <span>Notebook Page</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="Sugarland Theaters Booking Platform">
-          <h4>Purpose</h4>
-          <p>🔹Built a responsive web-based theater seat booking interface to simulate the user journey from seat selection to reservation confirmation.</p>
-
-          <h4>My Role</h4>
-          <p>🔹Designed the visual layout using HTML, CSS, and Flexbox, implemented dynamic seat generation with JavaScript, and handled interactivity via modals and local storage logic.</p>
-
-          <h4>Value & Outcome</h4>
-          <p>🔹Created a realistic, interactive front-end booking experience with responsive behavior for both desktop and mobile users, showcasing modular and accessible UI development.</p>
-
-          <h4>What I Learned</h4>
-          <p>🔹Sharpened front-end skills in DOM manipulation, state handling, responsive design, and user-centered development using JSON, media queries, and event-driven JavaScript.</p>
-
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/sugarland-theaters-booking-platform" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://kwamesa.github.io/sugarland-theaters-booking-platform/" target="_blank" class="project-live-link"><span>Live Page</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="Social Media Marketing Data Analysis">
-          <h4>Purpose</h4>
-          <p>🔹Analyzed social media engagement across post categories to identify trends and optimize content strategies for marketing impact.</p>
-
-          <h4>My Role</h4>
-          <p>🔹Simulated and cleaned tweet-style data using Python. Performed exploratory data analysis with Pandas, Seaborn, and Matplotlib to uncover engagement patterns.</p>
-
-          <h4>Value & Outcome</h4>
-          <p>🔹Delivered insights on which post categories like Travel and Fitness consistently gained higher engagement. Helped inform data-driven content decisions.</p>
-
-          <h4>What I Learned</h4>
-          <p>🔹Strengthened my skills in data cleaning, visualization, and storytelling. Learned how to use simulated data to produce actionable insights in a marketing context.</p>
-
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/social-media-data-analysis" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://github.com/KwameSA/social-media-data-analysis/blob/main/social-media-data-analysis.ipynb" target="_blank" class="project-live-link">
-              <span>Notebook Page</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="Bike Share Time Series Modeling">
-          <h4>Purpose</h4>
-          <p>🔹Developed time series forecasting models to predict daily bike rental demand, using historical data and statistical techniques like ARIMA to support resource planning and optimize bike availability.</p>
-
-          <h4>My Role</h4>
-          <p>🔹Conducted data preprocessing and exploratory analysis, implemented and compared automated and manual ARIMA models in R, performed residual diagnostics, and generated 30-day demand forecasts to guide operational decisions.</p>
-
-          <h4>Value & Outcome</h4>
-          <p>🔹Provided actionable demand forecasts that improve bike allocation and fleet management, reducing shortages during peak times and improving customer satisfaction. The models can be updated dynamically with new data for ongoing accuracy.</p>
-
-          <h4>What I Learned</h4>
-          <p>🔹Enhanced skills in time series analysis, ARIMA modeling, diagnostic testing, and data visualization in R. Gained experience applying statistical forecasting methods to real-world transportation data for business impact.</p>
-
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/bikeshare_timeseries_modelling" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://kwamesa.github.io/bikeshare_timeseries_modelling/" target="_blank" class="project-live-link">
-              <span>Live Demo</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="Lushlyrics Login System">
-          <h4>Purpose</h4>
-          <p>🔹Implemented a secure and user-friendly authentication system for Lushlyrics, a Django-based music streaming platform. The goal was to restrict access to content for unauthenticated users and enable account creation, login, logout, and password recovery workflows.</p>
-
-          <h4>My Role</h4>
-          <p>🔹Developed custom Django views and forms for user registration and authentication. Configured Django’s built-in authentication system to allow login with either email or username, enforced access control across site routes, and integrated a password reset workflow using email recovery.</p>
-
-          <h4>Value & Outcome</h4>
-          <p>🔹Delivered a fully functional authentication module that ensures only registered users can access the platform’s music library. Improved user experience with responsive, styled login/signup forms and a smooth password recovery process, enhancing both security and usability.</p>
-
-          <h4>What I Learned</h4>
-          <p>🔹Gained hands-on experience customizing Django’s authentication backend, creating secure form handling, and managing session-based access control. Learned how to integrate password reset via email, style authentication pages with CSS, and troubleshoot login-related bugs in a production-style environment.</p>
-
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/login_system" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="Mint Classics Data Analysis">
-          <h4>Purpose</h4>
-          <p>🔹Conducted data analysis for Mint Classics, a retail company specializing in classic car models. The project focused on warehouse utilization, product distribution, and sales performance. The goal was to provide insights into inventory efficiency, customer demand, and revenue drivers.</p>
-
-          <h4>My Role</h4>
-          <p>🔹Cleaned and transformed relational data in MySQL Workbench, designed SQL queries to extract business insights, and documented the full analysis in Jupyter Notebook. Developed visualizations in Python (matplotlib/pandas) to highlight patterns such as top-selling products, underutilized warehouses, and order trends.</p>
-
-          <h4>Value & Outcome</h4>
-          <p>🔹Delivered an end-to-end analysis pipeline that gives Mint Classics a clear view of how inventory is distributed across warehouses, which products generate the most sales, and how order status impacts revenue. These findings help management make informed decisions on warehouse allocation, restocking, and product strategy.</p>
-
-          <h4>What I Learned</h4>
-          <p>🔹Strengthened my ability to move from raw data to actionable insights by combining SQL and Python. Learned how to frame business questions into SQL queries, apply aggregations for KPIs, and communicate findings through clean visualizations. Gained experience working at the intersection of database querying and data storytelling.</p>
-
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/mintclassics" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://github.com/KwameSA/mintclassics/blob/main/report.ipynb" target="_blank" class="project-live-link">
-              <span>Notebook Page</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="Greenspot Grocer Data Modeling & Engineering">
-          <h4>Purpose</h4>
-          <p>🔹Designed and implemented a normalized relational database schema for Greenspot Grocer, focusing on purchase and sales transactions, inventory tracking, and cost analysis. The goal was to create a scalable backend system capable of supporting future analytics and retail operations.</p>
-
-          <h4>My Role</h4>
-          <p>🔹Led the full data engineering workflow: analyzed raw spreadsheet data, designed ERDs, wrote DDL and DML scripts in MySQL, normalized tables to reduce redundancy, and created complex views for revenue and cost reporting. Iteratively refined schema to meet business needs like location-based inventory tracking and dynamic product costing.</p>
-
-          <h4>Value & Outcome</h4>
-          <p>🔹Built a functional and extensible MySQL database that allows Greenspot Grocer to analyze sales performance, compute profit margins, and track purchases by location. Enabled support for future analytics like overdue sales, stock movement, and supply-demand matching.</p>
-
-          <h4>What I Learned</h4>
-          <p>🔹Deepened my understanding of relational data modeling, view creation, and SQL joins for reporting. Gained hands-on experience debugging schema design issues, managing transaction logic, and ensuring normalization across multiple entities including sales, purchases, inventory, and products.</p>
-
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/greenspot_grocer_data_modelling_and_engineering" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://github.com/KwameSA/greenspot_grocer_data_modelling_and_engineering/blob/main/greenspot_data.ipynb" target="_blank" class="project-live-link">
-              <span>Notebook Page</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="project-description" data-project="Apollonia Dental Practice Employee Management App">
-          <h4>Purpose</h4>
-          <p>🔹Built a full-stack CRUD web application to manage employees and departments digitally for Apollonia Dental Practice, laying the foundation for workforce management and future expansion.</p>
-
-          <h4>My Role</h4>
-          <p>🔹Developed backend APIs with Node.js, Express, and MongoDB for employee and department CRUD operations. Created a responsive frontend with dynamic modals and DataTables. Handled data seeding, multi-select departments, and deployed the app using Docker on Render.</p>
-
-          <h4>Value & Outcome</h4>
-          <p>🔹Delivered a functional employee management system that supports adding, editing (via modal), deleting, and sorting employees by first name, last name, and departments. Enabled seamless data management with cloud deployment for accessibility.</p>
-
-          <h4>What I Learned</h4>
-          <p>🔹Enhanced skills in full-stack development, REST API design, MongoDB data modeling, frontend dynamic UI with JavaScript, and cloud deployment workflows. Gained experience managing environment variables and continuous deployment on Render.</p>
-
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/apollonia-crud-app" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://apollonia-crud-app.onrender.com" target="_blank" class="project-live-link">
-              <span>Live Demo</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="project-description" data-project="Rumi Expense and Book Tracker">
-          <h4>Purpose</h4>
-          <p>🔹Built a Django web application for tracking expenses and managing books. Users can record, update, and delete transactions, as well as add, edit, and remove books. The system also generates summary reports and analytics to provide insights into spending patterns and inventory trends, supporting data-driven decision-making.</p>
-
-          <h4>My Role</h4>
-          <p>🔹Developed the full backend and frontend workflow: designed Django models, views, and templates; implemented PostgreSQL database; handled migrations; integrated CRUD functionality and analytics reporting for both expenses and books; configured static files and Dockerized the application for containerized deployment.</p>
-
-          <h4>Value & Outcome</h4>
-          <p>🔹Delivered a fully functional and containerized Django application that enables users to manage expenses and books efficiently. Built-in reporting and analytics allow for tracking trends, spotting anomalies, and making informed financial and inventory decisions. Demonstrates scalable architecture ready for future multi-user and advanced analytics features.</p>
-
-          <h4>What I Learned</h4>
-          <p>🔹Deepened experience with Django models, templates, views, and PostgreSQL integration. Learned Docker deployment, handling static files in production, and managing environment variables. Gained insights into building basic analytics/reporting systems and structuring data to support actionable business insights.</p>
-
-          <div class="project-links">
-            <a href="https://github.com/KwameSA/rumi_expense_tracker" target="_blank" class="project-git-link">
-              <span>Repository</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a href="https://rumiexpensetracker-production.up.railway.app/books/" target="_blank" class="project-live-link">
-              <span>Live App</span>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </div>
+      <div class="project-description-container" id="projectDescription">
+        <div class="project-links"></div>
       </div>
 
-     
-
       <div class="project-switcher">
-        <select id="projectSelect" aria-label="Project selection">
-          <option value="Kanba-DO">Kanba-DO – Kanban Task Management App</option>
-          <option value="Apollonia Dental Practice Employee Management App">Apollonia – Dental Employee Management App</option>
-          <option value="Greenspot Grocer Data Modeling & Engineering">Greenspot Grocer – Data Modeling & Engineering</option>
-          <option value="Mint Classics Data Analysis">Mint Classics – Sales & Inventory Data Analysis</option>
-          <option value="Rumi Expense and Book Tracker">Rumi – Expense & Book Tracker App</option>
-          <option value="Lushlyrics Login System">Lushlyrics – Secure Django Login & User Authentication System</option>
-          <option value="Falcon 9 Landing Prediction">Falcon 9 Landing Prediction (ML)</option>
-          <option value="Tech Company Stock Analysis">Tech Company Stock Analysis Project</option>
-          <option value="PriceBite">PriceBite – Price Comparison Tool</option>
-          <option value="Bike Share Time Series Modeling">Bike Share – Time Series Demand Forecasting</option>
-          <option value="Sugarland Theaters Booking Platform">Sugarland Theaters Booking Platform</option>
-          <option value="Social Media Marketing Data Analysis">Social Media Marketing Data Analysis</option>
-        </select>
+        <select id="projectSelect" aria-label="Project selection"></select>
       </div>
     </section>
 
-    <!-- === CONTACT SECTION === -->
-
     <section class="contact" id="contact">
-      <p class="cta-docs">Looking for my <a href="documents.html">resume or transcript?</a> View them here.</p>
+      <p class="cta-docs">Looking for my <a href="documents.html">resume or transcript?</a> View them <a href="documents.html">here.</a></p>
 
       <p class="cta-line">Whether you're hiring, collaborating, or just curious — I’d love to hear from you.</p>
 
@@ -636,6 +105,6 @@
     </section>
 
     <script src="https://kit.fontawesome.com/d1e470b967.js" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <script src="./scripts.js"></script>
   </body>
 </html>

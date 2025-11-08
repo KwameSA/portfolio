@@ -1,11 +1,13 @@
 /* === DOCUMENTS PAGE === */
 .documents-page {
   padding: 40px 20px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .documents-page h2 {
   font-size: 24px;
-  color: var(--primary-dark);
+  color: var(--primary-color);
   border-bottom: 2px solid var(--accent-yellow);
   padding-bottom: 6px;
   margin-top: 40px;
@@ -27,13 +29,15 @@
   border: 2px solid var(--accent-mint);
   border-radius: 8px;
   text-decoration: none;
-  color: var(--primary-dark);
+  color: var(--text-color);
   font-weight: 500;
-  background-color: #ffffff;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  background-color: var(--bg-card);
+  transition: background-color var(--transition-speed) ease, transform 0.2s ease, color var(--transition-speed) ease, border-color var(--transition-speed) ease;
 }
 
 .documents-page li a:hover {
-  background-color: var(--background-soft);
+  background-color: var(--bg-soft);
   transform: translateY(-1px);
+  color: var(--primary-color);
+  border-color: var(--accent-yellow);
 }

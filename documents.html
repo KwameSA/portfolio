@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document Viewer | Samuel Akuffo</title>
     <link rel="stylesheet" href="main.css" />
-     <link rel="stylesheet" href="documents.css" />
+    <link rel="stylesheet" href="documents.css" />
+    <script>
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.classList.add("dark-theme");
+      }
+    </script>
   </head>
   <body>
     <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="documents.html">Documents</a>
+      <button class="theme-toggle" aria-label="Toggle Theme"><i class="fa-solid fa-circle-half-stroke"></i></button>
     </nav>
 
     <div class="documents-page">
@@ -34,5 +41,7 @@
         <li><a href="viewer.html?doc=pricebite.pdf">PriceBite</a></li>
       </ul>
     </div>
+    <script src="https://kit.fontawesome.com/d1e470b967.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js" defer></script>
   </body>
 </html>

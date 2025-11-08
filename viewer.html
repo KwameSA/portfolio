@@ -7,11 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="viewer.css" />
     <link rel="stylesheet" href="main.css" />
+    <script>
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.classList.add("dark-theme");
+      }
+    </script>
   </head>
   <body>
     <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="documents.html">Documents</a>
+      <button class="theme-toggle" aria-label="Toggle Theme"><i class="fa-solid fa-circle-half-stroke"></i></button>
     </nav>
 
     <div class="doc-viewer">
@@ -22,14 +29,10 @@
         <canvas id="pdf-canvas"></canvas>
       </div>
     </div>
-
-    <nav class="site-nav">
-      <a href="index.html">Home</a>
-      <a href="documents.html">Documents</a>
-    </nav>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://kit.fontawesome.com/d1e470b967.js" crossorigin="anonymous"></script>
     <script src="viewer.js"></script>
+    <script src="./scripts.js" defer></script>
   </body>
 </html>
