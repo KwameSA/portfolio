@@ -117,17 +117,17 @@ if (heroPrevBtn && heroNextBtn) {
 async function loadAllProjects() {
   try {
     // Load descriptions
-    const descRes = await fetch("./data/project_descriptions.json");
+    const descRes = await fetch("data/project_descriptions.json");
     if (!descRes.ok) throw new Error("Descriptions JSON not found");
     projectsData.descriptions = await descRes.json();
 
     // Load images
-    const imgRes = await fetch("./data/project_images.json");
+    const imgRes = await fetch("data/project_images.json");
     if (!imgRes.ok) throw new Error("Images JSON not found");
     projectsData.images = await imgRes.json();
 
     // Load switcher
-    const switchRes = await fetch("./data/projects_switcher.json");
+    const switchRes = await fetch("data/projects_switcher.json");
     if (!switchRes.ok) throw new Error("Switcher JSON not found");
     projectsData.switcher = await switchRes.json();
 
@@ -315,3 +315,4 @@ window.addEventListener("DOMContentLoaded", () => {
   // Call this once to populate the dropdown
   populateProjectDropdown();
 });
+
