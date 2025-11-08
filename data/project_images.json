@@ -3,19 +3,19 @@
     "id": "Kanba-DO",
     "images": [
       {
-        "src": "/images/kanbado-images/1.png",
+        "src": "images/kanbado-images/1.png",
         "alt": "Kanba-DO Screenshot 1"
       },
       {
-        "src": "/images/kanbado-images/2.png",
+        "src": "images/kanbado-images/2.png",
         "alt": "Kanba-DO Screenshot 2"
       },
       {
-        "src": "/images/kanbado-images/3.png",
+        "src": "images/kanbado-images/3.png",
         "alt": "Kanba-DO Screenshot 3"
       },
       {
-        "src": "/images/kanbado-images/4.png",
+        "src": "images/kanbado-images/4.png",
         "alt": "Kanba-DO Screenshot 4"
       },
       {
@@ -23,59 +23,59 @@
         "alt": "Kanba-DO Screenshot 5"
       },
       {
-        "src": "/images/kanbado-images/6.png",
+        "src": "images/kanbado-images/6.png",
         "alt": "Kanba-DO Screenshot 6"
       },
       {
-        "src": "/images/kanbado-images/7.png",
+        "src": "images/kanbado-images/7.png",
         "alt": "Kanba-DO Screenshot 7"
       },
       {
-        "src": "/images/kanbado-images/8.png",
+        "src": "images/kanbado-images/8.png",
         "alt": "Kanba-DO Screenshot 8"
       },
       {
-        "src": "/images/kanbado-images/9.png",
+        "src": "images/kanbado-images/9.png",
         "alt": "Kanba-DO Screenshot 9"
       },
       {
-        "src": "/images/kanbado-images/10.png",
+        "src": "images/kanbado-images/10.png",
         "alt": "Kanba-DO Screenshot 10"
       },
       {
-        "src": "/images/kanbado-images/11.png",
+        "src": "images/kanbado-images/11.png",
         "alt": "Kanba-DO Screenshot 11"
       },
       {
-        "src": "/images/kanbado-images/12.png",
+        "src": "images/kanbado-images/12.png",
         "alt": "Kanba-DO Screenshot 12"
       },
       {
-        "src": "/images/kanbado-images/13.png",
+        "src": "images/kanbado-images/13.png",
         "alt": "Kanba-DO Screenshot 13"
       },
       {
-        "src": "/images/kanbado-images/14.png",
+        "src": "images/kanbado-images/14.png",
         "alt": "Kanba-DO Screenshot 14"
       },
       {
-        "src": "/images/kanbado-images/15.png",
+        "src": "images/kanbado-images/15.png",
         "alt": "Kanba-DO Screenshot 15"
       },
       {
-        "src": "/images/kanbado-images/16.png",
+        "src": "images/kanbado-images/16.png",
         "alt": "Kanba-DO Screenshot 16"
       },
       {
-        "src": "/images/kanbado-images/17.png",
+        "src": "images/kanbado-images/17.png",
         "alt": "Kanba-DO Screenshot 17"
       },
       {
-        "src": "/images/kanbado-images/18.png",
+        "src": "images/kanbado-images/18.png",
         "alt": "Kanba-DO Screenshot 18"
       },
       {
-        "src": "/images/kanbado-images/19.png",
+        "src": "images/kanbado-images/19.png",
         "alt": "Kanba-DO Screenshot 19"
       }
     ]
@@ -84,27 +84,27 @@
     "id": "PriceBite",
     "images": [
       {
-        "src": "/images/pricebite-designs/product-details.png",
+        "src": "images/pricebite-designs/product-details.png",
         "alt": "PriceBite Screenshot 1"
       },
       {
-        "src": "/images/pricebite-designs/purchase-plan-form.jpg",
+        "src": "images/pricebite-designs/purchase-plan-form.jpg",
         "alt": "PriceBite Screenshot 2"
       },
       {
-        "src": "/images/pricebite-designs/report-business-partner-insights-and-engagement-metrics.png",
+        "src": "images/pricebite-designs/report-business-partner-insights-and-engagement-metrics.png",
         "alt": "PriceBite Screenshot 3"
       },
       {
-        "src": "/images/pricebite-designs/search-results.png",
+        "src": "images/pricebite-designs/search-results.png",
         "alt": "PriceBite Screenshot 4"
       },
       {
-        "src": "/images/pricebite-designs/search-window.png",
+        "src": "images/pricebite-designs/search-window.png",
         "alt": "PriceBite Screenshot 5"
       },
       {
-        "src": "/images/pricebite-designs/student-preferences-form.png",
+        "src": "images/pricebite-designs/student-preferences-form.png",
         "alt": "PriceBite Screenshot 6"
       }
     ]
@@ -795,3 +795,4 @@
     ]
   }
 ]
+
