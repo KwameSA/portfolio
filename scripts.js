@@ -131,9 +131,7 @@ async function loadAllProjects() {
     if (!switchRes.ok) throw new Error("Switcher JSON not found");
     projectsData.switcher = await switchRes.json();
 
-    // Initialize the project dropdown
     populateProjectDropdown();
-    // Show the first project by default
     setCurrentProject(projectsData.switcher[0].id);
   } catch (err) {
     console.error("Error loading project data:", err);
@@ -141,7 +139,7 @@ async function loadAllProjects() {
 }
 
 function populateProjectDropdown() {
-  projectSelect.innerHTML = ""; // clear old options
+  projectSelect.innerHTML = ""; 
 
   projectsData.switcher.forEach((proj) => {
     const option = document.createElement("option");
@@ -150,11 +148,9 @@ function populateProjectDropdown() {
     projectSelect.appendChild(option);
   });
 
-  // Add a single change listener
   projectSelect.addEventListener("change", function () {
     const projectId = this.value;
 
-    // Activate the selected project
     setCurrentProject(projectId);
     // Scroll the project section into view
     if (projectSection) {
@@ -175,7 +171,7 @@ function setCurrentProject(projectId) {
   // Set description
   const descriptionObj = projectsData.descriptions.find((p) => p.id === projectId);
   const descContainer = document.querySelector(".project-description-container");
-  descContainer.innerHTML = ""; // clear old description
+  descContainer.innerHTML = "";
 
   if (descriptionObj) {
     const desc = descriptionObj.description;
@@ -266,7 +262,6 @@ const savedTheme = localStorage.getItem("theme");
 if (savedTheme === "light") {
   htmlElement.classList.remove("dark-theme");
 } else {
-  // Default to dark theme
   htmlElement.classList.add("dark-theme");
 }
 
@@ -283,23 +278,8 @@ if (toggleButton) {
   });
 }
 
-// if (toggleButton) {
-//   // Only attach listener if the button exists
-//   toggleButton.addEventListener("click", () => {
-//     htmlElement.classList.toggle("dark-theme");
-//     localStorage.setItem("theme", htmlElement.classList.contains("dark-theme") ? "dark" : "light");
-//   });
-// }
-
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("loaded");
-  // Apply saved theme
-  // const savedTheme = localStorage.getItem("theme");
-  // if (savedTheme === "dark") {
-  //   htmlElement.classList.add("dark-theme");
-  // } else {
-  //   htmlElement.classList.remove("dark-theme");
-  // }
 
   // Apply saved theme regardless of page
   const savedTheme = localStorage.getItem("theme");
@@ -309,10 +289,9 @@ window.addEventListener("DOMContentLoaded", () => {
     htmlElement.classList.remove("dark-theme");
   }
 
-  // Load hero & projects after theme applied
   loadHero();
   loadAllProjects();
-  // Call this once to populate the dropdown
   populateProjectDropdown();
 });
+
 
