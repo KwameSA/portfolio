@@ -19,7 +19,7 @@
         "alt": "Kanba-DO Screenshot 4"
       },
       {
-        "src": "/images/kanbado-images/5.png",
+        "src": "images/kanbado-images/5.png",
         "alt": "Kanba-DO Screenshot 5"
       },
       {
@@ -795,5 +795,6 @@
     ]
   }
 ]
+
 
 
