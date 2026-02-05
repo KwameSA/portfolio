@@ -4,19 +4,44 @@
   padding: 40px;
   background-color: var(--bg-color);
   color: var(--text-color);
-  flex-wrap: wrap; /* allow wrapping on small screens */
+  align-items: flex-start;
 }
 
 /* Sidebar: Thumbnails */
 .thumbnail-list {
-  width: 100px;
+  width: 120px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding-right: 6px;
+  position: sticky;
+  top: 96px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) transparent;
+}
+
+.thumbnail-list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.thumbnail-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.thumbnail-list::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--border-color) 78%, transparent);
+  border-radius: 999px;
+}
+
+.thumbnail-list::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--accent-mint) 40%, var(--border-color));
 }
 
 .thumb {
+  width: 100%;
   padding: 10px;
   border: 1px solid var(--border-color);
   cursor: pointer;
@@ -25,6 +50,7 @@
   border-radius: 6px;
   transition: background var(--transition-speed), border var(--transition-speed), color var(--transition-speed);
   color: var(--text-color);
+  font: inherit;
 }
 
 .thumb:hover {
@@ -47,17 +73,24 @@
   border: 1px solid var(--border-color);
   padding: 20px;
   background: var(--bg-card);
-  min-height: 600px;
-  overflow-y: auto;
+  min-height: calc(100vh - 160px);
   color: var(--text-color);
-  width: calc(100% - 120px); /* reserve space for sidebar */
 }
 
-/* Individual PDF Pages */
+.pdf-page-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Individual PDF Page Canvas */
 .pdf-page {
   box-shadow: 0 0 5px var(--shadow-soft);
   max-width: 100%;
   height: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: #fff;
 }
 
 /* Download button */
@@ -95,6 +128,7 @@
     justify-content: flex-start;
     gap: 8px;
     padding-right: 0;
+    position: static;
   }
 
   .thumb {

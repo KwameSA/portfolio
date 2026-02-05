@@ -22,6 +22,8 @@
     </nav>
 
     <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg hero-bg-primary" aria-hidden="true"></div>
+      <div class="hero-bg hero-bg-secondary" aria-hidden="true"></div>
       <div class="hero-heading-wrapper">
         <h2 id="hero-heading" class="section-heading">Introduction</h2>
       </div>
@@ -46,18 +48,32 @@
     </section>
 
     <section class="projects" id="projects" aria-labelledby="project-title">
-      <div class="project-heading">
-        <h2 class="section-heading" id="project-title"></h2>
+      <div class="project-toolbar">
+        <div class="project-toolbar-spacer" aria-hidden="true"></div>
+        <div class="project-heading">
+          <h2 class="section-heading" id="project-title"></h2>
+        </div>
+        <div class="project-filter">
+          <label class="visually-hidden" for="projectCategory">Filter projects by category</label>
+          <select id="projectCategory" aria-label="Filter projects by category">
+            <option value="all">All Projects</option>
+            <option value="data">Data and Analytics</option>
+            <option value="software">Applications and MVPs</option>
+            <option value="cloud">Cloud and Architecture</option>
+          </select>
+        </div>
       </div>
-      <button type="button" class="arrow project-prev" aria-label="Previous project image">
-        <i class="fa-solid fa-chevron-left"></i>
-      </button>
+      <div class="project-carousel">
+        <button type="button" class="arrow project-prev" aria-label="Previous project image">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
 
-      <div class="project-slideshow" id="project-slideshow"></div>
+        <div class="project-slideshow" id="project-slideshow"></div>
 
-      <button type="button" class="arrow project-next" aria-label="Next project image">
-        <i class="fa-solid fa-chevron-right"></i>
-      </button>
+        <button type="button" class="arrow project-next" aria-label="Next project image">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
 
       <div class="project-description-container" id="projectDescription">
         <div class="project-links"></div>
@@ -105,6 +121,6 @@
     </section>
 
     <script src="https://kit.fontawesome.com/d1e470b967.js" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <script src="./scripts.js"></script>
   </body>
 </html>

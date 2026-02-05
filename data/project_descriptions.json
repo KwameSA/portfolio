@@ -166,5 +166,19 @@
         "live": ""
       }
     }
+  },
+  {
+    "id": "VPCPeering",
+    "title": "VPC Peering Connection - AWS Lab",
+    "description": {
+      "purpose": "Established private connectivity between two VPCs to enable secure application-to-database communication without public internet access.",
+      "role": "Created the VPC peering connection, configured bidirectional route tables, enabled VPC Flow Logs, and validated connectivity through an EC2-hosted inventory app.",
+      "outcome": "Delivered a working peered network with verified data flow and observable traffic logs for troubleshooting and performance insight.",
+      "learned": "Strengthened skills in AWS networking, route design, and flow-log analysis for secure, scalable cloud architecture.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
   }
 ]
