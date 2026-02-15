@@ -3,10 +3,10 @@
     "id": "Kanba-DO",
     "title": "Kanba-DO – Kanban Task Management App",
     "description": {
-      "purpose": "Designed to help individuals and teams visualize and manage tasks dynamically using drag-and-drop Kanban boards.",
-      "role": "Built the entire frontend system, implemented task logic, dynamic drag-and-drop features, and user persistence via local storage.",
-      "outcome": "Gives users a clean, intuitive way to track productivity. Designed with workflow usability in mind to support real-time organization and planning.",
-      "learned": "Improved my skills in state management, UI/UX principles, and planned out features like priority tagging, filtering, and progress tracking for future builds.",
+      "purpose": "Designed as a productivity operating system that helps individuals visualize, structure, and optimize their workflow using Kanban principles combined with behavioral analytics.",
+      "role": "Architected and built the full frontend system using modular JavaScript. Implemented dynamic drag-and-drop workflows, stage-history tracking, recurrence logic, multilingual infrastructure, and a dedicated analytics layer (\"Rhythm\") that analyzes task flow across DO, DOING, and DONE stages. Designed a sidebar system for insights, notifications, and productivity intelligence.",
+      "outcome": "Evolved from a static task board into a workflow-aware system that surfaces behavioral patterns (e.g., stagnation, overdue clusters, stage imbalance) and prompts users with actionable insights. Built as a scalable, architecture-conscious product with future cloud-hosting and analytics expansion in mind.",
+      "learned": "Deepened expertise in state management, modular architecture, data modeling for task lifecycles, and product-level thinking around behavioral analytics. Strengthened my ability to translate productivity theory into measurable system logic.",
       "links": {
         "repository": "https://github.com/KwameSA/kanba-do",
         "live": "https://kwamesa.github.io/kanba-do/"
@@ -17,14 +17,24 @@
     "id": "PriceBite",
     "title": "PriceBite – Price Comparison Tool",
     "description": {
-      "purpose": "Created to help students make smarter shopping decisions by tracking seasonal price trends and aligning them with personal budgets.",
-      "role": "Designed the system architecture and built the frontend using HTML, CSS, and JavaScript. Developed the logic to filter products by price, category, and purchase timing based on user profiles.",
-      "outcome": "Empowers budget-conscious shoppers to identify optimal purchase windows and avoid overspending. Built specifically for students, adaptable to any budget-driven user.",
-      "learned": "Improved my skills in user profiling, product filtering, and data visualization logic. Strengthened my understanding of how AI and pricing data can drive personalized decisions.",
+      "purpose": "Designed to help students make informed purchasing decisions by aligning seasonal price trends with individual budget constraints and academic timelines.",
+      "role": "Architected the system logic and built the frontend using HTML, CSS, and JavaScript. Designed student profiling inputs (budget, course context, preferences) and implemented dynamic filtering logic based on pricing, product category, and purchase timing. Structured the system to support future AI-driven personalization.",
+      "outcome": "Created a structured decision-support tool that connects user constraints with pricing behavior. Demonstrated how consumer data, seasonal trends, and profile modeling can guide smarter financial decisions in a student context.",
+      "learned": "Strengthened skills in systems modeling, user profiling logic, constraint-based filtering, and designing products that translate data signals into decision-support mechanisms.",
       "links": {
         "repository": "https://github.com/KwameSA/pricebite",
         "live": "https://kwamesa.github.io/pricebite/"
       }
+    }
+  },
+  {
+    "id": "Perspectiv",
+    "title": "Perspectiv",
+    "description": {
+      "purpose": "Designed as a structured decision-analysis framework that helps users compare opposing perspectives on complex issues by breaking arguments into claims, assumptions, evidence, and contextual factors.",
+      "role": "Developed the full system concept and underlying logic model. Defined how viewpoints are decomposed into structured components (core claim, supporting evidence, assumptions, counterarguments, contextual bias). Produced a detailed case study outlining product architecture, interaction flow, and potential scoring logic for clarity and balance.",
+      "outcome": "Transformed abstract discussions into analyzable structures. Demonstrated how complex narratives can be converted into systemized comparison models, reducing emotional distortion and improving decision clarity. Positioned as a foundation for a future interactive platform.",
+      "learned": "Strengthened skills in systems modeling, structured reasoning design, logic decomposition, and translating cognitive processes into product architecture. Deepened understanding of how platform design influences interpretation and decision-making."
     }
   },
   {
