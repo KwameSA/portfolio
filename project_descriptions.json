@@ -1,0 +1,208 @@
+[
+  {
+    "id": "Kanba-DO",
+    "title": "Kanba-DO – Kanban Task Management App",
+    "description": {
+      "purpose": "Designed as a productivity operating system that helps individuals visualize, structure, and optimize their workflow using Kanban principles combined with behavioral analytics.",
+      "role": "Architected and built the full frontend system using modular JavaScript. Implemented dynamic drag-and-drop workflows, stage-history tracking, recurrence logic, multilingual infrastructure, and a dedicated analytics layer (\"Rhythm\") that analyzes task flow across DO, DOING, and DONE stages. Designed a sidebar system for insights, notifications, and productivity intelligence.",
+      "outcome": "Evolved from a static task board into a workflow-aware system that surfaces behavioral patterns (e.g., stagnation, overdue clusters, stage imbalance) and prompts users with actionable insights. Built as a scalable, architecture-conscious product with future cloud-hosting and analytics expansion in mind.",
+      "learned": "Deepened expertise in state management, modular architecture, data modeling for task lifecycles, and product-level thinking around behavioral analytics. Strengthened my ability to translate productivity theory into measurable system logic.",
+      "links": {
+        "repository": "https://github.com/KwameSA/kanba-do",
+        "live": "https://kwamesa.github.io/kanba-do/"
+      }
+    }
+  },
+  {
+    "id": "PriceBite",
+    "title": "PriceBite – Price Comparison Tool",
+    "description": {
+      "purpose": "Designed to help students make informed purchasing decisions by aligning seasonal price trends with individual budget constraints and academic timelines.",
+      "role": "Architected the system logic and built the frontend using HTML, CSS, and JavaScript. Designed student profiling inputs (budget, course context, preferences) and implemented dynamic filtering logic based on pricing, product category, and purchase timing. Structured the system to support future AI-driven personalization.",
+      "outcome": "Created a structured decision-support tool that connects user constraints with pricing behavior. Demonstrated how consumer data, seasonal trends, and profile modeling can guide smarter financial decisions in a student context.",
+      "learned": "Strengthened skills in systems modeling, user profiling logic, constraint-based filtering, and designing products that translate data signals into decision-support mechanisms.",
+      "links": {
+        "repository": "https://github.com/KwameSA/pricebite",
+        "live": "https://kwamesa.github.io/pricebite/"
+      }
+    }
+  },
+  {
+    "id": "Perspectiv",
+    "title": "Perspectiv",
+    "description": {
+      "purpose": "Designed as a structured decision-analysis framework that helps users compare opposing perspectives on complex issues by breaking arguments into claims, assumptions, evidence, and contextual factors.",
+      "role": "Developed the full system concept and underlying logic model. Defined how viewpoints are decomposed into structured components (core claim, supporting evidence, assumptions, counterarguments, contextual bias). Produced a detailed case study outlining product architecture, interaction flow, and potential scoring logic for clarity and balance.",
+      "outcome": "Transformed abstract discussions into analyzable structures. Demonstrated how complex narratives can be converted into systemized comparison models, reducing emotional distortion and improving decision clarity. Positioned as a foundation for a future interactive platform.",
+      "learned": "Strengthened skills in systems modeling, structured reasoning design, logic decomposition, and translating cognitive processes into product architecture. Deepened understanding of how platform design influences interpretation and decision-making."
+    }
+  },
+  {
+    "id": "Falcon9",
+    "title": "Falcon 9 Landing Prediction (ML)",
+    "description": {
+      "purpose": "A data science project to predict Falcon 9 rocket landing success using machine learning models trained on historical launch data.",
+      "role": "Cleaned and processed SpaceX launch datasets, performed EDA, and implemented models including logistic regression and KNN using Python and Scikit-learn.",
+      "outcome": "Provided actionable insights into launch conditions affecting landing success, helping identify performance thresholds for aerospace cost optimization.",
+      "learned": "Gained experience in end-to-end machine learning workflows, data visualization, and iterative model tuning. Strengthened understanding of how data science can be used in engineering contexts.",
+      "links": {
+        "repository": "https://github.com/KwameSA/DataScienceCapstoneProject",
+        "live": "https://github.com/KwameSA/DataScienceCapstoneProject/blob/main/1-Jupyter-Labs-SpaceX-Data-Collection-Api.ipynb"
+      }
+    }
+  },
+  {
+    "id": "TechStocks",
+    "title": "Tech Company Stock Analysis Project",
+    "description": {
+      "purpose": "Analyzed five years of stock performance data for major tech companies (Apple, Microsoft, Dell, HP, and Sony) to uncover trends in returns, volatility, trading volume, and overall investment behavior.",
+      "role": "Collected historical data using Python’s yFinance library, performed financial analysis (SMA, EMA, volatility, correlations), and visualized insights with matplotlib. Exported data to Tableau for interactive dashboard exploration.",
+      "outcome": "Identified each company's growth profile and volatility level to assess risk/reward tradeoffs. Highlighted how consistent performers differ from high-return but volatile stocks, helping investors align strategies with performance patterns.",
+      "learned": "Strengthened skills in time series analysis, financial metrics, and Python-based visualization. Learned how to communicate technical findings through data storytelling and prepare data for cross-platform tools like Tableau.",
+      "links": {
+        "repository": "https://github.com/KwameSA/stocks_yFinance",
+        "live": "https://github.com/KwameSA/stocks_yFinance/blob/main/tech_companies.ipynb"
+      }
+    }
+  },
+  {
+    "id": "Sugarland",
+    "title": "Sugarland Theaters Booking Platform",
+    "description": {
+      "purpose": "Built a responsive web-based theater seat booking interface to simulate the user journey from seat selection to reservation confirmation.",
+      "role": "Designed the visual layout using HTML, CSS, and Flexbox, implemented dynamic seat generation with JavaScript, and handled interactivity via modals and local storage logic.",
+      "outcome": "Created a realistic, interactive front-end booking experience with responsive behavior for both desktop and mobile users, showcasing modular and accessible UI development.",
+      "learned": "Sharpened front-end skills in DOM manipulation, state handling, responsive design, and user-centered development using JSON, media queries, and event-driven JavaScript.",
+      "links": {
+        "repository": "https://github.com/KwameSA/sugarland-theaters-booking-platform",
+        "live": "https://kwamesa.github.io/sugarland-theaters-booking-platform/"
+      }
+    }
+  },
+  {
+    "id": "SocialMedia",
+    "title": "Social Media Marketing Data Analysis",
+    "description": {
+      "purpose": "Analyzed social media engagement across post categories to identify trends and optimize content strategies for marketing impact.",
+      "role": "Simulated and cleaned tweet-style data using Python. Performed exploratory data analysis with Pandas, Seaborn, and Matplotlib to uncover engagement patterns.",
+      "outcome": "Delivered insights on which post categories like Travel and Fitness consistently gained higher engagement. Helped inform data-driven content decisions.",
+      "learned": "Strengthened my skills in data cleaning, visualization, and storytelling. Learned how to use simulated data to produce actionable insights in a marketing context.",
+      "links": {
+        "repository": "https://github.com/KwameSA/social-media-data-analysis",
+        "live": "https://github.com/KwameSA/social-media-data-analysis/blob/main/social-media-data-analysis.ipynb"
+      }
+    }
+  },
+  {
+    "id": "BikeShare",
+    "title": "Bike Share – Time Series Demand Forecasting",
+    "description": {
+      "purpose": "Developed time series forecasting models to predict daily bike rental demand, using historical data and statistical techniques like ARIMA to support resource planning and optimize bike availability.",
+      "role": "Conducted data preprocessing and exploratory analysis, implemented and compared automated and manual ARIMA models in R, performed residual diagnostics, and generated 30-day demand forecasts to guide operational decisions.",
+      "outcome": "Provided actionable demand forecasts that improve bike allocation and fleet management, reducing shortages during peak times and improving customer satisfaction. The models can be updated dynamically with new data for ongoing accuracy.",
+      "learned": "Enhanced skills in time series analysis, ARIMA modeling, diagnostic testing, and data visualization in R. Gained experience applying statistical forecasting methods to real-world transportation data for business impact.",
+      "links": {
+        "repository": "https://github.com/KwameSA/bikeshare_timeseries_modelling",
+        "live": "https://kwamesa.github.io/bikeshare_timeseries_modelling/"
+      }
+    }
+  },
+  {
+    "id": "Lushlyrics",
+    "title": "Lushlyrics – Secure Django Login & User Authentication System",
+    "description": {
+      "purpose": "Implemented a secure and user-friendly authentication system for Lushlyrics, a Django-based music streaming platform.",
+      "role": "Developed custom Django views and forms for user registration and authentication. Configured Django’s built-in authentication system, enforced access control, and integrated password reset workflows.",
+      "outcome": "Delivered a fully functional authentication module that ensures only registered users can access the platform’s music library. Enhanced both security and usability.",
+      "learned": "Gained hands-on experience customizing Django’s authentication backend, managing session-based access control, and integrating password reset functionality via email.",
+      "links": {
+        "repository": "https://github.com/KwameSA/login_system",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "MintClassics",
+    "title": "Mint Classics – Sales & Inventory Data Analysis",
+    "description": {
+      "purpose": "Conducted data analysis for Mint Classics, a retail company specializing in classic car models, focusing on warehouse utilization, product distribution, and sales performance.",
+      "role": "Cleaned and transformed relational data in MySQL Workbench, designed SQL queries to extract business insights, and visualized findings in Python using matplotlib and pandas.",
+      "outcome": "Delivered insights into top-selling products, underutilized warehouses, and order trends, enabling data-driven decisions on warehouse allocation and restocking.",
+      "learned": "Strengthened ability to combine SQL and Python for data storytelling and actionable insight generation. Gained experience in designing KPIs and communicating analysis results effectively.",
+      "links": {
+        "repository": "https://github.com/KwameSA/mintclassics",
+        "live": "https://github.com/KwameSA/mintclassics/blob/main/report.ipynb"
+      }
+    }
+  },
+  {
+    "id": "Greenspot",
+    "title": "Greenspot Grocer – Data Modeling & Engineering",
+    "description": {
+      "purpose": "Designed and implemented a normalized relational database schema for Greenspot Grocer to support analytics, inventory tracking, and cost analysis.",
+      "role": "Analyzed raw data, designed ERDs, wrote SQL DDL/DML scripts, normalized tables, and created views for revenue and cost reporting.",
+      "outcome": "Built a scalable MySQL database enabling sales performance tracking, profit analysis, and inventory management.",
+      "learned": "Deepened understanding of relational modeling, SQL joins, and normalization for business analytics. Strengthened debugging and schema optimization skills.",
+      "links": {
+        "repository": "https://github.com/KwameSA/greenspot_grocer_data_modelling_and_engineering",
+        "live": "https://github.com/KwameSA/greenspot_grocer_data_modelling_and_engineering/blob/main/greenspot_data.ipynb"
+      }
+    }
+  },
+  {
+    "id": "Apollonia",
+    "title": "Apollonia – Dental Employee Management App",
+    "description": {
+      "purpose": "Built a full-stack CRUD web application to manage employees and departments digitally for Apollonia Dental Practice.",
+      "role": "Developed backend APIs with Node.js, Express, and MongoDB. Created a responsive frontend with dynamic modals and DataTables. Deployed using Docker on Render.",
+      "outcome": "Delivered a functional employee management system that supports CRUD operations and sorting, with seamless cloud deployment for accessibility.",
+      "learned": "Enhanced skills in full-stack JavaScript, REST API design, MongoDB data modeling, and cloud deployment workflows.",
+      "links": {
+        "repository": "https://github.com/KwameSA/apollonia-crud-app",
+        "live": "https://apollonia-crud-app.onrender.com"
+      }
+    }
+  },
+  {
+    "id": "RumiAnalytics",
+    "title": "Rumi – Expense & Book Tracker App",
+    "description": {
+      "purpose": "Extended the Rumi project to include analytics and reporting for expense and book data, offering trend and summary insights.",
+      "role": "Developed Django-based CRUD and analytics reporting with PostgreSQL backend and Docker deployment, enhancing the previous system with data summaries and insights.",
+      "outcome": "Delivered a fully functional Django app with integrated analytics, enabling users to visualize financial and inventory trends for better decision-making.",
+      "learned": "Deepened experience in analytics integration, Docker deployment, and database structuring for insights generation within a web app.",
+      "links": {
+        "repository": "https://github.com/KwameSA/rumi_expense_tracker",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "VPCPeering",
+    "title": "VPC Peering Connection - AWS Lab",
+    "description": {
+      "purpose": "Established private connectivity between two VPCs to enable secure application-to-database communication without public internet access.",
+      "role": "Created the VPC peering connection, configured bidirectional route tables, enabled VPC Flow Logs, and validated connectivity through an EC2-hosted inventory app.",
+      "outcome": "Delivered a working peered network with verified data flow and observable traffic logs for troubleshooting and performance insight.",
+      "learned": "Strengthened skills in AWS networking, route design, and flow-log analysis for secure, scalable cloud architecture.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "LambdaEC2Stop",
+    "title": "AWS Lambda EC2 Auto-Stop - EventBridge Schedule",
+    "description": {
+      "purpose": "Designed a serverless automation workflow in AWS to automatically stop a running Amazon EC2 instance on a recurring schedule, demonstrating how event-driven architecture can replace manual infrastructure management using AWS Lambda, Amazon EventBridge, and IAM roles.",
+      "role": "Built an AWS Lambda function in Python 3.11, configured it to assume an existing IAM role with EC2 stop permissions, and implemented boto3 logic to target a specific instance ID in the defined AWS Region. Set up an Amazon EventBridge rule with a rate-based schedule expression to trigger the function every minute, then validated instance state transitions and monitored Lambda metrics to confirm service integration.",
+      "outcome": "Delivered a workflow that enforced automated instance shutdown without manual intervention. The Lambda function executed on schedule via EventBridge and reliably transitioned the EC2 instance from running to stopped, validating IAM role configuration, service integration, and automation logic.",
+      "learned": "Deepened understanding of event-driven cloud architecture and how AWS Lambda, EventBridge, and IAM work together to create secure automation pipelines. Gained hands-on experience with least-privilege execution roles, boto3 service calls, and monitoring metrics to validate scheduled serverless workflows.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  }
+]
