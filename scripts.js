@@ -183,7 +183,13 @@ function applyProjectFilter(category) {
 
 function setProjectCategoryTheme(category) {
   if (!projectSection) return;
-  projectSection.classList.remove("projects-theme-all", "projects-theme-data", "projects-theme-software", "projects-theme-cloud");
+  projectSection.classList.remove(
+    "projects-theme-all",
+    "projects-theme-systems",
+    "projects-theme-development",
+    "projects-theme-data",
+    "projects-theme-cloud"
+  );
   projectSection.classList.add(`projects-theme-${category}`);
 }
 

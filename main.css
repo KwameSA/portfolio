@@ -536,16 +536,22 @@ button:hover {
   --projects-bg-overlay: transparent;
 }
 
+.projects-theme-systems {
+  /* Optional: replace none with your image URL later. */
+  --projects-bg-image: none;
+  --projects-bg-overlay: linear-gradient(140deg, rgba(63, 46, 99, 0.18), rgba(120, 86, 156, 0.12));
+}
+
+.projects-theme-development {
+  /* Optional: replace none with your image URL later. */
+  --projects-bg-image: none;
+  --projects-bg-overlay: linear-gradient(140deg, rgba(33, 65, 126, 0.15), rgba(74, 86, 126, 0.12));
+}
+
 .projects-theme-data {
   /* Optional: replace none with your image URL later. */
   --projects-bg-image: none;
   --projects-bg-overlay: linear-gradient(140deg, rgba(18, 75, 82, 0.16), rgba(45, 143, 95, 0.12));
-}
-
-.projects-theme-software {
-  /* Optional: replace none with your image URL later. */
-  --projects-bg-image: none;
-  --projects-bg-overlay: linear-gradient(140deg, rgba(33, 65, 126, 0.15), rgba(74, 86, 126, 0.12));
 }
 
 .projects-theme-cloud {
