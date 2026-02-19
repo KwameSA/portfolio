@@ -190,5 +190,19 @@
         "live": ""
       }
     }
+  },
+  {
+    "id": "LambdaEC2Stop",
+    "title": "AWS Lambda EC2 Auto-Stop - EventBridge Schedule",
+    "description": {
+      "purpose": "Designed a serverless automation workflow in AWS to automatically stop a running Amazon EC2 instance on a recurring schedule, demonstrating how event-driven architecture can replace manual infrastructure management using AWS Lambda, Amazon EventBridge, and IAM roles.",
+      "role": "Built an AWS Lambda function in Python 3.11, configured it to assume an existing IAM role with EC2 stop permissions, and implemented boto3 logic to target a specific instance ID in the defined AWS Region. Set up an Amazon EventBridge rule with a rate-based schedule expression to trigger the function every minute, then validated instance state transitions and monitored Lambda metrics to confirm service integration.",
+      "outcome": "Delivered a workflow that enforced automated instance shutdown without manual intervention. The Lambda function executed on schedule via EventBridge and reliably transitioned the EC2 instance from running to stopped, validating IAM role configuration, service integration, and automation logic.",
+      "learned": "Deepened understanding of event-driven cloud architecture and how AWS Lambda, EventBridge, and IAM work together to create secure automation pipelines. Gained hands-on experience with least-privilege execution roles, boto3 service calls, and monitoring metrics to validate scheduled serverless workflows.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
   }
 ]

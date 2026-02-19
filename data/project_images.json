@@ -807,5 +807,16 @@
       { "src": "images/vpc-peering/3.png", "alt": "VPC Peering Lab Screenshot 3" },
       { "src": "images/vpc-peering/4.png", "alt": "VPC Peering Lab Screenshot 4" }
     ]
+  },
+  {
+    "id": "LambdaEC2Stop",
+    "images": [
+      { "src": "images/aws-lambda-ec2-stop/1.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 1" },
+      { "src": "images/aws-lambda-ec2-stop/2.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 2" },
+      { "src": "images/aws-lambda-ec2-stop/3.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 3" },
+      { "src": "images/aws-lambda-ec2-stop/4.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 4" },
+      { "src": "images/aws-lambda-ec2-stop/5.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 5" },
+      { "src": "images/aws-lambda-ec2-stop/6.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 6" }
+    ]
   }
 ]
