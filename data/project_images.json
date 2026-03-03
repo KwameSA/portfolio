@@ -800,6 +800,28 @@
     ]
   },
   {
+    "id": "AWSHighAvailability",
+    "images": [
+      { "src": "images/aws-high-availability/1.png", "alt": "AWS High Availability Screenshot 1" },
+      { "src": "images/aws-high-availability/2.png", "alt": "AWS High Availability Screenshot 2" },
+      { "src": "images/aws-high-availability/3.png", "alt": "AWS High Availability Screenshot 3" },
+      { "src": "images/aws-high-availability/4.png", "alt": "AWS High Availability Screenshot 4" },
+      { "src": "images/aws-high-availability/5.png", "alt": "AWS High Availability Screenshot 5" },
+      { "src": "images/aws-high-availability/6.png", "alt": "AWS High Availability Screenshot 6" },
+      { "src": "images/aws-high-availability/7.png", "alt": "AWS High Availability Screenshot 7" },
+      { "src": "images/aws-high-availability/8.png", "alt": "AWS High Availability Screenshot 8" },
+      { "src": "images/aws-high-availability/9.png", "alt": "AWS High Availability Screenshot 9" },
+      { "src": "images/aws-high-availability/10.png", "alt": "AWS High Availability Screenshot 10" },
+      { "src": "images/aws-high-availability/11.png", "alt": "AWS High Availability Screenshot 11" },
+      { "src": "images/aws-high-availability/12.png", "alt": "AWS High Availability Screenshot 12" },
+      { "src": "images/aws-high-availability/13.png", "alt": "AWS High Availability Screenshot 13" },
+      { "src": "images/aws-high-availability/14.png", "alt": "AWS High Availability Screenshot 14" },
+      { "src": "images/aws-high-availability/15.png", "alt": "AWS High Availability Screenshot 15" },
+      { "src": "images/aws-high-availability/16.png", "alt": "AWS High Availability Screenshot 16" },
+      { "src": "images/aws-high-availability/17.png", "alt": "AWS High Availability Screenshot 17" }
+    ]
+  },
+  {
     "id": "VPCPeering",
     "images": [
       { "src": "images/vpc-peering/1.png", "alt": "VPC Peering Lab Screenshot 1" },

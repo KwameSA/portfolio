@@ -1,7 +1,7 @@
 [
   {
     "id": "Kanba-DO",
-    "title": "Kanba-DO – Kanban Task Management App",
+    "title": "Kanba-DO – Kanban Task Management App with Behavioral Learning",
     "description": {
       "purpose": "Designed as a productivity operating system that helps individuals visualize, structure, and optimize their workflow using Kanban principles combined with behavioral analytics.",
       "role": "Architected and built the full frontend system using modular JavaScript. Implemented dynamic drag-and-drop workflows, stage-history tracking, recurrence logic, multilingual infrastructure, and a dedicated analytics layer (\"Rhythm\") that analyzes task flow across DO, DOING, and DONE stages. Designed a sidebar system for insights, notifications, and productivity intelligence.",
@@ -15,7 +15,7 @@
   },
   {
     "id": "PriceBite",
-    "title": "PriceBite – Price Comparison Tool",
+    "title": "PriceBite – Consumer Price Comparison Tool",
     "description": {
       "purpose": "Designed to help students make informed purchasing decisions by aligning seasonal price trends with individual budget constraints and academic timelines.",
       "role": "Architected the system logic and built the frontend using HTML, CSS, and JavaScript. Designed student profiling inputs (budget, course context, preferences) and implemented dynamic filtering logic based on pricing, product category, and purchase timing. Structured the system to support future AI-driven personalization.",
@@ -173,6 +173,20 @@
       "learned": "Deepened experience in analytics integration, Docker deployment, and database structuring for insights generation within a web app.",
       "links": {
         "repository": "https://github.com/KwameSA/rumi_expense_tracker",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "AWSHighAvailability",
+    "title": "Designing a Highly Available AWS Environment with ALB and ASG",
+    "description": {
+      "purpose": "This guided lab focused on converting a single instance web application into a highly available AWS deployment, so the application stays reachable even when individual components fail, by distributing traffic and compute across multiple Availability Zones inside a provided VPC.",
+      "role": "I inspected the prebuilt VPC and networking layout, then configured an Application Load Balancer with a target group and health checks, created an AMI from the existing web server and used it in a launch template, built an Auto Scaling group to run identical EC2 instances across private subnets in two Availability Zones, and tightened security groups to enforce a three tier flow where the load balancer is internet facing, the application instances only accept traffic from the load balancer, and the database only accepts traffic from the application security group.",
+      "outcome": "The application moved from a single point of failure to a resilient architecture where requests were automatically balanced between two private subnet instances, unhealthy instances were removed from traffic by load balancer health checks, and Auto Scaling replaced a terminated instance to restore the desired capacity, demonstrating that the site remained available through an instance failure while also improving the security posture by restricting inbound access at each tier.",
+      "learned": "I learned how to assemble a practical high availability pattern on AWS by combining multi AZ networking with load balancing, health checks, and Auto Scaling, and how to translate architectural intent into enforceable boundaries using security groups and subnet placement, including why private subnets plus tiered security rules reduce exposure while still supporting reliable application delivery.",
+      "links": {
+        "repository": "",
         "live": ""
       }
     }

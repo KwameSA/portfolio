@@ -12,6 +12,7 @@
   { "id": "BikeShare", "title": "Bike Share - Time Series Demand Forecasting", "category": "data" },
   { "id": "Sugarland", "title": "Sugarland Theaters Booking Platform", "category": "development" },
   { "id": "SocialMedia", "title": "Social Media Marketing Data Analysis", "category": "data" },
+  { "id": "AWSHighAvailability", "title": "Designing a Highly Available AWS Environment with ALB and ASG", "category": "cloud" },
   { "id": "VPCPeering", "title": "VPC Peering Connection - AWS Lab", "category": "cloud" },
   { "id": "LambdaEC2Stop", "title": "AWS Lambda EC2 Auto-Stop - EventBridge Schedule", "category": "cloud" }
 ]
