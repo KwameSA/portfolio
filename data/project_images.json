@@ -92,7 +92,7 @@
         "alt": "PriceBite Screenshot 8"
       },
       {
-        "src": "images/pricebite-designs/pricebite–product-design-tradeoffs.png",
+        "src": "images/pricebite-designs/pricebite\u2013product-design-tradeoffs.png",
         "alt": "PriceBite Screenshot 9"
       }
     ]
@@ -786,59 +786,202 @@
   {
     "id": "Apollonia",
     "images": [
-      { "src": "images/apollonia/2.png", "alt": "EMA Screenshot 1" },
-      { "src": "images/apollonia/3.png", "alt": "EMA Screenshot 2" },
-      { "src": "images/apollonia/4.png", "alt": "EMA Screenshot 3" },
-      { "src": "images/apollonia/5.png", "alt": "EMA Screenshot 4" },
-      { "src": "images/apollonia/6.png", "alt": "EMA Screenshot 5" },
-      { "src": "images/apollonia/7.png", "alt": "EMA Screenshot 6" },
-      { "src": "images/apollonia/8.png", "alt": "EMA Screenshot 7" },
-      { "src": "images/apollonia/9.png", "alt": "EMA Screenshot 8" },
-      { "src": "images/apollonia/10.png", "alt": "EMA Screenshot 9" },
-      { "src": "images/apollonia/11.png", "alt": "EMA Screenshot 10" },
-      { "src": "images/apollonia/12.png", "alt": "EMA Screenshot 11" }
+      {
+        "src": "images/apollonia/2.png",
+        "alt": "EMA Screenshot 1"
+      },
+      {
+        "src": "images/apollonia/3.png",
+        "alt": "EMA Screenshot 2"
+      },
+      {
+        "src": "images/apollonia/4.png",
+        "alt": "EMA Screenshot 3"
+      },
+      {
+        "src": "images/apollonia/5.png",
+        "alt": "EMA Screenshot 4"
+      },
+      {
+        "src": "images/apollonia/6.png",
+        "alt": "EMA Screenshot 5"
+      },
+      {
+        "src": "images/apollonia/7.png",
+        "alt": "EMA Screenshot 6"
+      },
+      {
+        "src": "images/apollonia/8.png",
+        "alt": "EMA Screenshot 7"
+      },
+      {
+        "src": "images/apollonia/9.png",
+        "alt": "EMA Screenshot 8"
+      },
+      {
+        "src": "images/apollonia/10.png",
+        "alt": "EMA Screenshot 9"
+      },
+      {
+        "src": "images/apollonia/11.png",
+        "alt": "EMA Screenshot 10"
+      },
+      {
+        "src": "images/apollonia/12.png",
+        "alt": "EMA Screenshot 11"
+      }
     ]
   },
   {
     "id": "AWSHighAvailability",
     "images": [
-      { "src": "images/aws-high-availability/1.png", "alt": "AWS High Availability Screenshot 1" },
-      { "src": "images/aws-high-availability/2.png", "alt": "AWS High Availability Screenshot 2" },
-      { "src": "images/aws-high-availability/3.png", "alt": "AWS High Availability Screenshot 3" },
-      { "src": "images/aws-high-availability/4.png", "alt": "AWS High Availability Screenshot 4" },
-      { "src": "images/aws-high-availability/5.png", "alt": "AWS High Availability Screenshot 5" },
-      { "src": "images/aws-high-availability/6.png", "alt": "AWS High Availability Screenshot 6" },
-      { "src": "images/aws-high-availability/7.png", "alt": "AWS High Availability Screenshot 7" },
-      { "src": "images/aws-high-availability/8.png", "alt": "AWS High Availability Screenshot 8" },
-      { "src": "images/aws-high-availability/9.png", "alt": "AWS High Availability Screenshot 9" },
-      { "src": "images/aws-high-availability/10.png", "alt": "AWS High Availability Screenshot 10" },
-      { "src": "images/aws-high-availability/11.png", "alt": "AWS High Availability Screenshot 11" },
-      { "src": "images/aws-high-availability/12.png", "alt": "AWS High Availability Screenshot 12" },
-      { "src": "images/aws-high-availability/13.png", "alt": "AWS High Availability Screenshot 13" },
-      { "src": "images/aws-high-availability/14.png", "alt": "AWS High Availability Screenshot 14" },
-      { "src": "images/aws-high-availability/15.png", "alt": "AWS High Availability Screenshot 15" },
-      { "src": "images/aws-high-availability/16.png", "alt": "AWS High Availability Screenshot 16" },
-      { "src": "images/aws-high-availability/17.png", "alt": "AWS High Availability Screenshot 17" }
+      {
+        "src": "images/aws-high-availability/1.png",
+        "alt": "AWS High Availability Screenshot 1"
+      },
+      {
+        "src": "images/aws-high-availability/2.png",
+        "alt": "AWS High Availability Screenshot 2"
+      },
+      {
+        "src": "images/aws-high-availability/3.png",
+        "alt": "AWS High Availability Screenshot 3"
+      },
+      {
+        "src": "images/aws-high-availability/4.png",
+        "alt": "AWS High Availability Screenshot 4"
+      },
+      {
+        "src": "images/aws-high-availability/5.png",
+        "alt": "AWS High Availability Screenshot 5"
+      },
+      {
+        "src": "images/aws-high-availability/6.png",
+        "alt": "AWS High Availability Screenshot 6"
+      },
+      {
+        "src": "images/aws-high-availability/7.png",
+        "alt": "AWS High Availability Screenshot 7"
+      },
+      {
+        "src": "images/aws-high-availability/8.png",
+        "alt": "AWS High Availability Screenshot 8"
+      },
+      {
+        "src": "images/aws-high-availability/9.png",
+        "alt": "AWS High Availability Screenshot 9"
+      },
+      {
+        "src": "images/aws-high-availability/10.png",
+        "alt": "AWS High Availability Screenshot 10"
+      },
+      {
+        "src": "images/aws-high-availability/11.png",
+        "alt": "AWS High Availability Screenshot 11"
+      },
+      {
+        "src": "images/aws-high-availability/12.png",
+        "alt": "AWS High Availability Screenshot 12"
+      },
+      {
+        "src": "images/aws-high-availability/13.png",
+        "alt": "AWS High Availability Screenshot 13"
+      },
+      {
+        "src": "images/aws-high-availability/14.png",
+        "alt": "AWS High Availability Screenshot 14"
+      },
+      {
+        "src": "images/aws-high-availability/15.png",
+        "alt": "AWS High Availability Screenshot 15"
+      },
+      {
+        "src": "images/aws-high-availability/16.png",
+        "alt": "AWS High Availability Screenshot 16"
+      },
+      {
+        "src": "images/aws-high-availability/17.png",
+        "alt": "AWS High Availability Screenshot 17"
+      }
     ]
   },
   {
     "id": "VPCPeering",
     "images": [
-      { "src": "images/vpc-peering/1.png", "alt": "VPC Peering Lab Screenshot 1" },
-      { "src": "images/vpc-peering/2.png", "alt": "VPC Peering Lab Screenshot 2" },
-      { "src": "images/vpc-peering/3.png", "alt": "VPC Peering Lab Screenshot 3" },
-      { "src": "images/vpc-peering/4.png", "alt": "VPC Peering Lab Screenshot 4" }
+      {
+        "src": "images/vpc-peering/1.png",
+        "alt": "VPC Peering Lab Screenshot 1"
+      },
+      {
+        "src": "images/vpc-peering/2.png",
+        "alt": "VPC Peering Lab Screenshot 2"
+      },
+      {
+        "src": "images/vpc-peering/3.png",
+        "alt": "VPC Peering Lab Screenshot 3"
+      },
+      {
+        "src": "images/vpc-peering/4.png",
+        "alt": "VPC Peering Lab Screenshot 4"
+      }
     ]
   },
   {
     "id": "LambdaEC2Stop",
     "images": [
-      { "src": "images/aws-lambda-ec2-stop/1.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 1" },
-      { "src": "images/aws-lambda-ec2-stop/2.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 2" },
-      { "src": "images/aws-lambda-ec2-stop/3.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 3" },
-      { "src": "images/aws-lambda-ec2-stop/4.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 4" },
-      { "src": "images/aws-lambda-ec2-stop/5.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 5" },
-      { "src": "images/aws-lambda-ec2-stop/6.png", "alt": "AWS Lambda EC2 Auto-Stop Screenshot 6" }
+      {
+        "src": "images/aws-lambda-ec2-stop/1.png",
+        "alt": "AWS Lambda EC2 Auto-Stop Screenshot 1"
+      },
+      {
+        "src": "images/aws-lambda-ec2-stop/2.png",
+        "alt": "AWS Lambda EC2 Auto-Stop Screenshot 2"
+      },
+      {
+        "src": "images/aws-lambda-ec2-stop/3.png",
+        "alt": "AWS Lambda EC2 Auto-Stop Screenshot 3"
+      },
+      {
+        "src": "images/aws-lambda-ec2-stop/4.png",
+        "alt": "AWS Lambda EC2 Auto-Stop Screenshot 4"
+      },
+      {
+        "src": "images/aws-lambda-ec2-stop/5.png",
+        "alt": "AWS Lambda EC2 Auto-Stop Screenshot 5"
+      },
+      {
+        "src": "images/aws-lambda-ec2-stop/6.png",
+        "alt": "AWS Lambda EC2 Auto-Stop Screenshot 6"
+      }
+    ]
+  },
+  {
+    "id": "AWSEBSWorkflow",
+    "images": [
+      {
+        "src": "images/aws-ebs/1.png",
+        "alt": "AWS EBS Workflow Screenshot 1"
+      },
+      {
+        "src": "images/aws-ebs/2.png",
+        "alt": "AWS EBS Workflow Screenshot 2"
+      },
+      {
+        "src": "images/aws-ebs/3.png",
+        "alt": "AWS EBS Workflow Screenshot 3"
+      },
+      {
+        "src": "images/aws-ebs/4.png",
+        "alt": "AWS EBS Workflow Screenshot 4"
+      },
+      {
+        "src": "images/aws-ebs/5.png",
+        "alt": "AWS EBS Workflow Screenshot 5"
+      },
+      {
+        "src": "images/aws-ebs/6.png",
+        "alt": "AWS EBS Workflow Screenshot 6"
+      }
     ]
   }
 ]

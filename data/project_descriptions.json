@@ -1,7 +1,7 @@
 [
   {
     "id": "Kanba-DO",
-    "title": "Kanba-DO – Kanban Task Management App with Behavioral Learning",
+    "title": "Kanba-DO \u2013 Kanban Task Management App with Behavioral Learning",
     "description": {
       "purpose": "Designed as a productivity operating system that helps individuals visualize, structure, and optimize their workflow using Kanban principles combined with behavioral analytics.",
       "role": "Architected and built the full frontend system using modular JavaScript. Implemented dynamic drag-and-drop workflows, stage-history tracking, recurrence logic, multilingual infrastructure, and a dedicated analytics layer (\"Rhythm\") that analyzes task flow across DO, DOING, and DONE stages. Designed a sidebar system for insights, notifications, and productivity intelligence.",
@@ -15,7 +15,7 @@
   },
   {
     "id": "PriceBite",
-    "title": "PriceBite – Consumer Price Comparison Tool",
+    "title": "PriceBite \u2013 Consumer Price Comparison Tool",
     "description": {
       "purpose": "Designed to help students make informed purchasing decisions by aligning seasonal price trends with individual budget constraints and academic timelines.",
       "role": "Architected the system logic and built the frontend using HTML, CSS, and JavaScript. Designed student profiling inputs (budget, course context, preferences) and implemented dynamic filtering logic based on pricing, product category, and purchase timing. Structured the system to support future AI-driven personalization.",
@@ -56,7 +56,7 @@
     "title": "Tech Company Stock Analysis Project",
     "description": {
       "purpose": "Analyzed five years of stock performance data for major tech companies (Apple, Microsoft, Dell, HP, and Sony) to uncover trends in returns, volatility, trading volume, and overall investment behavior.",
-      "role": "Collected historical data using Python’s yFinance library, performed financial analysis (SMA, EMA, volatility, correlations), and visualized insights with matplotlib. Exported data to Tableau for interactive dashboard exploration.",
+      "role": "Collected historical data using Python\u2019s yFinance library, performed financial analysis (SMA, EMA, volatility, correlations), and visualized insights with matplotlib. Exported data to Tableau for interactive dashboard exploration.",
       "outcome": "Identified each company's growth profile and volatility level to assess risk/reward tradeoffs. Highlighted how consistent performers differ from high-return but volatile stocks, helping investors align strategies with performance patterns.",
       "learned": "Strengthened skills in time series analysis, financial metrics, and Python-based visualization. Learned how to communicate technical findings through data storytelling and prepare data for cross-platform tools like Tableau.",
       "links": {
@@ -95,7 +95,7 @@
   },
   {
     "id": "BikeShare",
-    "title": "Bike Share – Time Series Demand Forecasting",
+    "title": "Bike Share \u2013 Time Series Demand Forecasting",
     "description": {
       "purpose": "Developed time series forecasting models to predict daily bike rental demand, using historical data and statistical techniques like ARIMA to support resource planning and optimize bike availability.",
       "role": "Conducted data preprocessing and exploratory analysis, implemented and compared automated and manual ARIMA models in R, performed residual diagnostics, and generated 30-day demand forecasts to guide operational decisions.",
@@ -109,12 +109,12 @@
   },
   {
     "id": "Lushlyrics",
-    "title": "Lushlyrics – Secure Django Login & User Authentication System",
+    "title": "Lushlyrics \u2013 Secure Django Login & User Authentication System",
     "description": {
       "purpose": "Implemented a secure and user-friendly authentication system for Lushlyrics, a Django-based music streaming platform.",
-      "role": "Developed custom Django views and forms for user registration and authentication. Configured Django’s built-in authentication system, enforced access control, and integrated password reset workflows.",
-      "outcome": "Delivered a fully functional authentication module that ensures only registered users can access the platform’s music library. Enhanced both security and usability.",
-      "learned": "Gained hands-on experience customizing Django’s authentication backend, managing session-based access control, and integrating password reset functionality via email.",
+      "role": "Developed custom Django views and forms for user registration and authentication. Configured Django\u2019s built-in authentication system, enforced access control, and integrated password reset workflows.",
+      "outcome": "Delivered a fully functional authentication module that ensures only registered users can access the platform\u2019s music library. Enhanced both security and usability.",
+      "learned": "Gained hands-on experience customizing Django\u2019s authentication backend, managing session-based access control, and integrating password reset functionality via email.",
       "links": {
         "repository": "https://github.com/KwameSA/login_system",
         "live": ""
@@ -123,7 +123,7 @@
   },
   {
     "id": "MintClassics",
-    "title": "Mint Classics – Sales & Inventory Data Analysis",
+    "title": "Mint Classics \u2013 Sales & Inventory Data Analysis",
     "description": {
       "purpose": "Conducted data analysis for Mint Classics, a retail company specializing in classic car models, focusing on warehouse utilization, product distribution, and sales performance.",
       "role": "Cleaned and transformed relational data in MySQL Workbench, designed SQL queries to extract business insights, and visualized findings in Python using matplotlib and pandas.",
@@ -137,7 +137,7 @@
   },
   {
     "id": "Greenspot",
-    "title": "Greenspot Grocer – Data Modeling & Engineering",
+    "title": "Greenspot Grocer \u2013 Data Modeling & Engineering",
     "description": {
       "purpose": "Designed and implemented a normalized relational database schema for Greenspot Grocer to support analytics, inventory tracking, and cost analysis.",
       "role": "Analyzed raw data, designed ERDs, wrote SQL DDL/DML scripts, normalized tables, and created views for revenue and cost reporting.",
@@ -151,7 +151,7 @@
   },
   {
     "id": "Apollonia",
-    "title": "Apollonia – Dental Employee Management App",
+    "title": "Apollonia \u2013 Dental Employee Management App",
     "description": {
       "purpose": "Built a full-stack CRUD web application to manage employees and departments digitally for Apollonia Dental Practice.",
       "role": "Developed backend APIs with Node.js, Express, and MongoDB. Created a responsive frontend with dynamic modals and DataTables. Deployed using Docker on Render.",
@@ -165,7 +165,7 @@
   },
   {
     "id": "RumiAnalytics",
-    "title": "Rumi – Expense & Book Tracker App",
+    "title": "Rumi \u2013 Expense & Book Tracker App",
     "description": {
       "purpose": "Extended the Rumi project to include analytics and reporting for expense and book data, offering trend and summary insights.",
       "role": "Developed Django-based CRUD and analytics reporting with PostgreSQL backend and Docker deployment, enhancing the previous system with data summaries and insights.",
@@ -213,6 +213,20 @@
       "role": "Built an AWS Lambda function in Python 3.11, configured it to assume an existing IAM role with EC2 stop permissions, and implemented boto3 logic to target a specific instance ID in the defined AWS Region. Set up an Amazon EventBridge rule with a rate-based schedule expression to trigger the function every minute, then validated instance state transitions and monitored Lambda metrics to confirm service integration.",
       "outcome": "Delivered a workflow that enforced automated instance shutdown without manual intervention. The Lambda function executed on schedule via EventBridge and reliably transitioned the EC2 instance from running to stopped, validating IAM role configuration, service integration, and automation logic.",
       "learned": "Deepened understanding of event-driven cloud architecture and how AWS Lambda, EventBridge, and IAM work together to create secure automation pipelines. Gained hands-on experience with least-privilege execution roles, boto3 service calls, and monitoring metrics to validate scheduled serverless workflows.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "AWSEBSWorkflow",
+    "title": "AWS EBS Volume Provisioning, Snapshot, and Recovery Workflow",
+    "description": {
+      "purpose": "This project focuses on implementing persistent and reliable block storage within a cloud environment using Amazon Elastic Block Store, addressing the need for durable data storage that exists independently of compute instances. The work centers on understanding how storage integrates with virtual machines, ensuring data can be retained, backed up, and restored even as infrastructure changes, which is critical for maintaining system continuity and resilience in cloud-based applications.",
+      "role": "I provisioned and configured storage infrastructure by creating an EBS volume, attaching it to a running EC2 instance, and setting up a usable file system within a Linux environment. I established mounting configurations to ensure persistence across instance restarts, and implemented data lifecycle operations by writing data to the volume, creating point-in-time snapshots, and restoring those snapshots into new volumes. I then reattached and mounted the restored volume to validate data recovery and ensure continuity of storage operations within the system.",
+      "outcome": "The system demonstrated reliable persistent storage that could be dynamically attached to compute resources, configured for immediate use, and preserved independently of the instance lifecycle. Snapshot functionality enabled consistent backup and recovery, allowing data to be restored accurately even after deletion. This established a clear workflow for managing storage durability, improving system resilience, and enabling repeatable backup and recovery processes within a cloud environment.",
+      "learned": "I developed a deeper understanding of cloud storage architecture, particularly how block storage integrates with compute services and operating systems. I learned how to design storage workflows that support persistence, recovery, and reliability, including tradeoffs around availability zones and data durability. I also gained practical experience in configuring file systems, managing mount persistence, and leveraging snapshot mechanisms to support backup and restoration strategies in a scalable cloud environment.",
       "links": {
         "repository": "",
         "live": ""
