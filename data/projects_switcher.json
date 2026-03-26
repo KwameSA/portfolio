@@ -83,5 +83,10 @@
     "id": "AWSEBSWorkflow",
     "title": "AWS EBS Volume Provisioning, Snapshot, and Recovery Workflow",
     "category": "cloud"
+  },
+  {
+    "id": "AWSRDSWebApp",
+    "title": "AWS RDS Multi-AZ Database + Web App Integration",
+    "category": "cloud"
   }
 ]
