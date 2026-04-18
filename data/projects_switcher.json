@@ -1,92 +1,97 @@
 [
-  {
-    "id": "Kanba-DO",
-    "title": "Kanba-DO - Kanban Task Management App",
-    "category": "systems"
-  },
-  {
-    "id": "Apollonia",
-    "title": "Apollonia - Dental Employee Management App",
-    "category": "development"
-  },
-  {
-    "id": "Greenspot",
-    "title": "Greenspot Grocer - Data Modeling and Engineering",
-    "category": "data"
-  },
-  {
-    "id": "MintClassics",
-    "title": "Mint Classics - Sales and Inventory Data Analysis",
-    "category": "data"
-  },
-  {
-    "id": "RumiAnalytics",
-    "title": "Rumi - Expense and Book Tracker App",
-    "category": "development"
-  },
-  {
-    "id": "Lushlyrics",
-    "title": "Lushlyrics - Secure Django Login and User Authentication System",
-    "category": "development"
-  },
-  {
-    "id": "TechStocks",
-    "title": "Tech Company Stock Analysis Project",
-    "category": "data"
-  },
-  {
-    "id": "PriceBite",
-    "title": "PriceBite - Price Comparison Tool",
-    "category": "systems"
-  },
-  {
-    "id": "Perspectiv",
-    "title": "Perspectiv \u2014 A Cognitive Systems Framework for Perspective Structuring",
-    "category": "systems"
-  },
-  {
-    "id": "Falcon9",
-    "title": "Falcon 9 Landing Prediction (ML)",
-    "category": "data"
-  },
-  {
-    "id": "BikeShare",
-    "title": "Bike Share - Time Series Demand Forecasting",
-    "category": "data"
-  },
-  {
-    "id": "Sugarland",
-    "title": "Sugarland Theaters Booking Platform",
-    "category": "development"
-  },
-  {
-    "id": "SocialMedia",
-    "title": "Social Media Marketing Data Analysis",
-    "category": "data"
-  },
-  {
-    "id": "AWSHighAvailability",
-    "title": "Designing a Highly Available AWS Environment with ALB and ASG",
-    "category": "cloud"
-  },
-  {
-    "id": "VPCPeering",
-    "title": "VPC Peering Connection - AWS Lab",
-    "category": "cloud"
-  },
-  {
-    "id": "LambdaEC2Stop",
-    "title": "AWS Lambda EC2 Auto-Stop - EventBridge Schedule",
-    "category": "cloud"
-  },
-  {
-    "id": "AWSEBSWorkflow",
-    "title": "AWS EBS Volume Provisioning, Snapshot, and Recovery Workflow",
-    "category": "cloud"
-  },
-  {
-    "id": "AWSRDSWebApp",
-    "title": "AWS RDS Multi-AZ Database + Web App Integration",
-    "category": "cloud"
-  }
+    {
+        "id":  "Kanba-DO",
+        "title":  "Kanba-DO - Kanban Task Management App",
+        "category":  "systems"
+    },
+    {
+        "id":  "Apollonia",
+        "title":  "Apollonia - Dental Employee Management App",
+        "category":  "development"
+    },
+    {
+        "id":  "Greenspot",
+        "title":  "Greenspot Grocer - Data Modeling and Engineering",
+        "category":  "data"
+    },
+    {
+        "id":  "MintClassics",
+        "title":  "Mint Classics - Sales and Inventory Data Analysis",
+        "category":  "data"
+    },
+    {
+        "id":  "RumiAnalytics",
+        "title":  "Rumi - Expense and Book Tracker App",
+        "category":  "development"
+    },
+    {
+        "id":  "Lushlyrics",
+        "title":  "Lushlyrics - Secure Django Login and User Authentication System",
+        "category":  "development"
+    },
+    {
+        "id":  "TechStocks",
+        "title":  "Tech Company Stock Analysis Project",
+        "category":  "data"
+    },
+    {
+        "id":  "PriceBite",
+        "title":  "PriceBite - Price Comparison Tool",
+        "category":  "systems"
+    },
+    {
+        "id":  "Perspectiv",
+        "title":  "Perspectiv — A Cognitive Systems Framework for Perspective Structuring",
+        "category":  "systems"
+    },
+    {
+        "id":  "Falcon9",
+        "title":  "Falcon 9 Landing Prediction (ML)",
+        "category":  "data"
+    },
+    {
+        "id":  "BikeShare",
+        "title":  "Bike Share - Time Series Demand Forecasting",
+        "category":  "data"
+    },
+    {
+        "id":  "Sugarland",
+        "title":  "Sugarland Theaters Booking Platform",
+        "category":  "development"
+    },
+    {
+        "id":  "SocialMedia",
+        "title":  "Social Media Marketing Data Analysis",
+        "category":  "data"
+    },
+    {
+        "id":  "AWSHighAvailability",
+        "title":  "Designing a Highly Available AWS Environment with ALB and ASG",
+        "category":  "cloud"
+    },
+    {
+        "id":  "VPCPeering",
+        "title":  "VPC Peering Connection - AWS Lab",
+        "category":  "cloud"
+    },
+    {
+        "id":  "LambdaEC2Stop",
+        "title":  "AWS Lambda EC2 Auto-Stop - EventBridge Schedule",
+        "category":  "cloud"
+    },
+    {
+        "id":  "AWSEBSWorkflow",
+        "title":  "AWS EBS Volume Provisioning, Snapshot, and Recovery Workflow",
+        "category":  "cloud"
+    },
+    {
+        "id":  "AWSRDSWebApp",
+        "title":  "AWS RDS Multi-AZ Database + Web App Integration",
+        "category":  "cloud"
+    },
+    {
+        "id":  "AzureVMDeployment",
+        "title":  "Azure Virtual Machine Deployment and Resource Management",
+        "category":  "cloud"
+    }
 ]
