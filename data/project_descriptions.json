@@ -274,5 +274,19 @@
                                           "live":  ""
                                       }
                         }
+    },
+    {
+        "id":  "AWSVPCNetworking",
+        "title":  "Designing a Multi-AZ VPC Architecture and EC2 Web Server Deployment",
+        "description":  {
+                            "purpose":  "This project involved designing and configuring a custom virtual network on Amazon Web Services using Amazon VPC to simulate a production-like cloud environment. The goal was to create a secure and scalable network architecture that supports both public-facing and private resources. It benefits developers and system architects by demonstrating how cloud networking enables controlled access, isolation, and high availability.",
+                            "role":  "I designed and implemented a multi-tier VPC architecture by creating public and private subnets across multiple Availability Zones, configuring route tables, and integrating an Internet Gateway and NAT Gateway for controlled traffic flow. I defined network security boundaries by creating and applying a security group that allows HTTP access while maintaining isolation for private resources. I also launched and configured an EC2 instance as a web server using a user data script to automate installation and deployment of a web application.",
+                            "outcome":  "The result was a fully functional cloud network where a web server is publicly accessible while backend resources remain securely isolated in private subnets. The architecture supports high availability through multi-AZ subnet distribution and ensures proper routing of internet and internal traffic. This setup demonstrates a reliable and scalable foundation for hosting web applications in a controlled cloud environment.",
+                            "learned":  "I learned how to design VPC architectures that balance accessibility and security through subnet segmentation and routing strategies. I gained practical experience configuring network components such as gateways, route tables, and security groups to manage traffic flow effectively. I also developed an understanding of how automated instance configuration and multi-AZ design contribute to scalable and resilient cloud systems.",
+                            "links":  {
+                                          "repository":  "",
+                                          "live":  ""
+                                      }
+                        }
     }
 ]

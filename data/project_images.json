@@ -1090,5 +1090,22 @@
                            "alt":  "AWS IAM Screenshot 7"
                        }
                    ]
+    },
+    {
+        "id":  "AWSVPCNetworking",
+        "images":  [
+                       {
+                           "src":  "images/aws-vpc-networking/1.png",
+                           "alt":  "AWS VPC Networking Screenshot 1"
+                       },
+                       {
+                           "src":  "images/aws-vpc-networking/2.png",
+                           "alt":  "AWS VPC Networking Screenshot 2"
+                       },
+                       {
+                           "src":  "images/aws-vpc-networking/3.png",
+                           "alt":  "AWS VPC Networking Screenshot 3"
+                       }
+                   ]
     }
 ]

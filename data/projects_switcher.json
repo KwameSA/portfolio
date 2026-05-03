@@ -98,5 +98,10 @@
         "id":  "AWSIAM",
         "title":  "AWS Identity and Access Management (IAM) User and Permission Control",
         "category":  "cloud"
+    },
+    {
+        "id":  "AWSVPCNetworking",
+        "title":  "Designing a Multi-AZ VPC Architecture and EC2 Web Server Deployment",
+        "category":  "cloud"
     }
 ]
