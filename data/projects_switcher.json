@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "id":  "Kanba-DO",
         "title":  "Kanba-DO - Kanban Task Management App",
@@ -41,7 +41,7 @@
     },
     {
         "id":  "Perspectiv",
-        "title":  "Perspectiv � A Cognitive Systems Framework for Perspective Structuring",
+        "title":  "Perspectiv — A Cognitive Systems Framework for Perspective Structuring",
         "category":  "systems"
     },
     {
@@ -92,6 +92,11 @@
     {
         "id":  "AzureVMDeployment",
         "title":  "Azure Virtual Machine Deployment and Resource Management",
+        "category":  "cloud"
+    },
+    {
+        "id":  "AWSIAM",
+        "title":  "AWS Identity and Access Management (IAM) User and Permission Control",
         "category":  "cloud"
     }
 ]

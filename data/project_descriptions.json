@@ -1,7 +1,7 @@
-[
+ï»¿[
     {
         "id":  "Kanba-DO",
-        "title":  "Kanba-DO – Kanban Task Management App with Behavioral Learning",
+        "title":  "Kanba-DO â€“ Kanban Task Management App with Behavioral Learning",
         "description":  {
                             "purpose":  "Designed as a productivity operating system that helps individuals visualize, structure, and optimize their workflow using Kanban principles combined with behavioral analytics.",
                             "role":  "Architected and built the full frontend system using modular JavaScript. Implemented dynamic drag-and-drop workflows, stage-history tracking, recurrence logic, multilingual infrastructure, and a dedicated analytics layer (\"Rhythm\") that analyzes task flow across DO, DOING, and DONE stages. Designed a sidebar system for insights, notifications, and productivity intelligence.",
@@ -15,7 +15,7 @@
     },
     {
         "id":  "PriceBite",
-        "title":  "PriceBite – Consumer Price Comparison Tool",
+        "title":  "PriceBite â€“ Consumer Price Comparison Tool",
         "description":  {
                             "purpose":  "Designed to help students make informed purchasing decisions by aligning seasonal price trends with individual budget constraints and academic timelines.",
                             "role":  "Architected the system logic and built the frontend using HTML, CSS, and JavaScript. Designed student profiling inputs (budget, course context, preferences) and implemented dynamic filtering logic based on pricing, product category, and purchase timing. Structured the system to support future AI-driven personalization.",
@@ -56,7 +56,7 @@
         "title":  "Tech Company Stock Analysis Project",
         "description":  {
                             "purpose":  "Analyzed five years of stock performance data for major tech companies (Apple, Microsoft, Dell, HP, and Sony) to uncover trends in returns, volatility, trading volume, and overall investment behavior.",
-                            "role":  "Collected historical data using Python’s yFinance library, performed financial analysis (SMA, EMA, volatility, correlations), and visualized insights with matplotlib. Exported data to Tableau for interactive dashboard exploration.",
+                            "role":  "Collected historical data using Pythonâ€™s yFinance library, performed financial analysis (SMA, EMA, volatility, correlations), and visualized insights with matplotlib. Exported data to Tableau for interactive dashboard exploration.",
                             "outcome":  "Identified each company\u0027s growth profile and volatility level to assess risk/reward tradeoffs. Highlighted how consistent performers differ from high-return but volatile stocks, helping investors align strategies with performance patterns.",
                             "learned":  "Strengthened skills in time series analysis, financial metrics, and Python-based visualization. Learned how to communicate technical findings through data storytelling and prepare data for cross-platform tools like Tableau.",
                             "links":  {
@@ -95,7 +95,7 @@
     },
     {
         "id":  "BikeShare",
-        "title":  "Bike Share – Time Series Demand Forecasting",
+        "title":  "Bike Share â€“ Time Series Demand Forecasting",
         "description":  {
                             "purpose":  "Developed time series forecasting models to predict daily bike rental demand, using historical data and statistical techniques like ARIMA to support resource planning and optimize bike availability.",
                             "role":  "Conducted data preprocessing and exploratory analysis, implemented and compared automated and manual ARIMA models in R, performed residual diagnostics, and generated 30-day demand forecasts to guide operational decisions.",
@@ -109,12 +109,12 @@
     },
     {
         "id":  "Lushlyrics",
-        "title":  "Lushlyrics – Secure Django Login \u0026 User Authentication System",
+        "title":  "Lushlyrics â€“ Secure Django Login \u0026 User Authentication System",
         "description":  {
                             "purpose":  "Implemented a secure and user-friendly authentication system for Lushlyrics, a Django-based music streaming platform.",
-                            "role":  "Developed custom Django views and forms for user registration and authentication. Configured Django’s built-in authentication system, enforced access control, and integrated password reset workflows.",
-                            "outcome":  "Delivered a fully functional authentication module that ensures only registered users can access the platform’s music library. Enhanced both security and usability.",
-                            "learned":  "Gained hands-on experience customizing Django’s authentication backend, managing session-based access control, and integrating password reset functionality via email.",
+                            "role":  "Developed custom Django views and forms for user registration and authentication. Configured Djangoâ€™s built-in authentication system, enforced access control, and integrated password reset workflows.",
+                            "outcome":  "Delivered a fully functional authentication module that ensures only registered users can access the platformâ€™s music library. Enhanced both security and usability.",
+                            "learned":  "Gained hands-on experience customizing Djangoâ€™s authentication backend, managing session-based access control, and integrating password reset functionality via email.",
                             "links":  {
                                           "repository":  "https://github.com/KwameSA/login_system",
                                           "live":  ""
@@ -123,7 +123,7 @@
     },
     {
         "id":  "MintClassics",
-        "title":  "Mint Classics – Sales \u0026 Inventory Data Analysis",
+        "title":  "Mint Classics â€“ Sales \u0026 Inventory Data Analysis",
         "description":  {
                             "purpose":  "Conducted data analysis for Mint Classics, a retail company specializing in classic car models, focusing on warehouse utilization, product distribution, and sales performance.",
                             "role":  "Cleaned and transformed relational data in MySQL Workbench, designed SQL queries to extract business insights, and visualized findings in Python using matplotlib and pandas.",
@@ -137,7 +137,7 @@
     },
     {
         "id":  "Greenspot",
-        "title":  "Greenspot Grocer – Data Modeling \u0026 Engineering",
+        "title":  "Greenspot Grocer â€“ Data Modeling \u0026 Engineering",
         "description":  {
                             "purpose":  "Designed and implemented a normalized relational database schema for Greenspot Grocer to support analytics, inventory tracking, and cost analysis.",
                             "role":  "Analyzed raw data, designed ERDs, wrote SQL DDL/DML scripts, normalized tables, and created views for revenue and cost reporting.",
@@ -151,7 +151,7 @@
     },
     {
         "id":  "Apollonia",
-        "title":  "Apollonia – Dental Employee Management App",
+        "title":  "Apollonia â€“ Dental Employee Management App",
         "description":  {
                             "purpose":  "Built a full-stack CRUD web application to manage employees and departments digitally for Apollonia Dental Practice.",
                             "role":  "Developed backend APIs with Node.js, Express, and MongoDB. Created a responsive frontend with dynamic modals and DataTables. Deployed using Docker on Render.",
@@ -165,7 +165,7 @@
     },
     {
         "id":  "RumiAnalytics",
-        "title":  "Rumi – Expense \u0026 Book Tracker App",
+        "title":  "Rumi â€“ Expense \u0026 Book Tracker App",
         "description":  {
                             "purpose":  "Extended the Rumi project to include analytics and reporting for expense and book data, offering trend and summary insights.",
                             "role":  "Developed Django-based CRUD and analytics reporting with PostgreSQL backend and Docker deployment, enhancing the previous system with data summaries and insights.",
@@ -255,6 +255,20 @@
                             "role":  "I created and configured a resource group to logically organize cloud resources, then provisioned a Windows-based virtual machine within that environment. I defined key parameters such as region, machine size, storage type, and authentication credentials, while configuring networking components including a virtual network and public IP. I also established secure access to the virtual machine using remote desktop connectivity and validated deployment by connecting to the instance. Throughout the process, I followed infrastructure-as-a-service principles to replicate a production-like setup.",
                             "outcome":  "The project resulted in a successfully deployed and accessible virtual machine within a structured cloud environment. The system demonstrated how cloud resources can be provisioned quickly and organized effectively for operational use. Secure remote access confirmed that the infrastructure was correctly configured, and the ability to start and stop the machine highlighted cost and resource management considerations in cloud environments.",
                             "learned":  "I gained practical experience in provisioning and managing cloud infrastructure, including how resource groups improve organization and how virtual machines are configured and accessed. I developed an understanding of how networking, storage, and compute components integrate within a cloud platform, and how administrative decisions impact security, scalability, and cost efficiency in infrastructure design.",
+                            "links":  {
+                                          "repository":  "",
+                                          "live":  ""
+                                      }
+                        }
+    },
+    {
+        "id":  "AWSIAM",
+        "title":  "AWS Identity and Access Management (IAM) User and Permission Control",
+        "description":  {
+                            "purpose":  "This project focused on understanding how access control is structured and enforced within cloud environments using Amazon Web Services Identity and Access Management. The goal was to simulate a real-world organizational scenario where users are assigned permissions based on job roles, ensuring secure and controlled access to resources such as compute and storage services. The lab emphasized how centralized identity management supports scalability, security, and operational clarity as organizations grow their cloud usage.",
+                            "role":  "I explored and analyzed pre-configured IAM users, groups, and policies, examining how permissions are inherited through group membership and how managed and inline policies define access boundaries. I implemented role-based access control by assigning users to appropriate groups aligned with business functions, ensuring each user received only the permissions required for their role. I also validated the system by testing user access through the IAM sign-in workflow, observing how policy definitions directly impacted the ability to interact with services such as Amazon EC2 and Amazon S3.",
+                            "outcome":  "The system demonstrated how structured permission management enforces security while maintaining operational efficiency. Users were able to access only the resources relevant to their roles, preventing unauthorized actions while enabling necessary workflows such as viewing storage contents or managing compute instances. The testing process confirmed that policy-driven access control reduces risk, improves governance, and creates a predictable and scalable framework for managing users in a cloud environment.",
+                            "learned":  "I developed a strong understanding of how identity and access management systems enforce security through role-based design and policy inheritance. I learned how to structure permissions using groups instead of assigning them individually, improving scalability and maintainability. I also gained insight into how policy definitions translate into real system behavior, reinforcing the importance of designing clear access boundaries and validating them through practical testing in cloud-based systems.",
                             "links":  {
                                           "repository":  "",
                                           "live":  ""

@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "id":  "Kanba-DO",
         "images":  [
@@ -92,7 +92,7 @@
                            "alt":  "PriceBite Screenshot 8"
                        },
                        {
-                           "src":  "images/pricebite-designs/pricebite�product-design-tradeoffs.png",
+                           "src":  "images/pricebite-designs/pricebite–product-design-tradeoffs.png",
                            "alt":  "PriceBite Screenshot 9"
                        }
                    ]
@@ -1055,6 +1055,39 @@
                        {
                            "src":  "images/azure_rdp/9.png",
                            "alt":  "Azure VM Deployment Screenshot 9"
+                       }
+                   ]
+    },
+    {
+        "id":  "AWSIAM",
+        "images":  [
+                       {
+                           "src":  "images/aws-iam/1.png",
+                           "alt":  "AWS IAM Screenshot 1"
+                       },
+                       {
+                           "src":  "images/aws-iam/2.png",
+                           "alt":  "AWS IAM Screenshot 2"
+                       },
+                       {
+                           "src":  "images/aws-iam/3.png",
+                           "alt":  "AWS IAM Screenshot 3"
+                       },
+                       {
+                           "src":  "images/aws-iam/4.png",
+                           "alt":  "AWS IAM Screenshot 4"
+                       },
+                       {
+                           "src":  "images/aws-iam/5.png",
+                           "alt":  "AWS IAM Screenshot 5"
+                       },
+                       {
+                           "src":  "images/aws-iam/6.png",
+                           "alt":  "AWS IAM Screenshot 6"
+                       },
+                       {
+                           "src":  "images/aws-iam/7.png",
+                           "alt":  "AWS IAM Screenshot 7"
                        }
                    ]
     }
