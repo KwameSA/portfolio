@@ -1,292 +1,306 @@
 ﻿[
-    {
-        "id":  "Kanba-DO",
-        "title":  "Kanba-DO – Kanban Task Management App with Behavioral Learning",
-        "description":  {
-                            "purpose":  "Designed as a productivity operating system that helps individuals visualize, structure, and optimize their workflow using Kanban principles combined with behavioral analytics.",
-                            "role":  "Architected and built the full frontend system using modular JavaScript. Implemented dynamic drag-and-drop workflows, stage-history tracking, recurrence logic, multilingual infrastructure, and a dedicated analytics layer (\"Rhythm\") that analyzes task flow across DO, DOING, and DONE stages. Designed a sidebar system for insights, notifications, and productivity intelligence.",
-                            "outcome":  "Evolved from a static task board into a workflow-aware system that surfaces behavioral patterns (e.g., stagnation, overdue clusters, stage imbalance) and prompts users with actionable insights. Built as a scalable, architecture-conscious product with future cloud-hosting and analytics expansion in mind.",
-                            "learned":  "Deepened expertise in state management, modular architecture, data modeling for task lifecycles, and product-level thinking around behavioral analytics. Strengthened my ability to translate productivity theory into measurable system logic.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/kanba-do",
-                                          "live":  "https://kwamesa.github.io/kanba-do/"
-                                      }
-                        }
-    },
-    {
-        "id":  "PriceBite",
-        "title":  "PriceBite – Consumer Price Comparison Tool",
-        "description":  {
-                            "purpose":  "Designed to help students make informed purchasing decisions by aligning seasonal price trends with individual budget constraints and academic timelines.",
-                            "role":  "Architected the system logic and built the frontend using HTML, CSS, and JavaScript. Designed student profiling inputs (budget, course context, preferences) and implemented dynamic filtering logic based on pricing, product category, and purchase timing. Structured the system to support future AI-driven personalization.",
-                            "outcome":  "Created a structured decision-support tool that connects user constraints with pricing behavior. Demonstrated how consumer data, seasonal trends, and profile modeling can guide smarter financial decisions in a student context.",
-                            "learned":  "Strengthened skills in systems modeling, user profiling logic, constraint-based filtering, and designing products that translate data signals into decision-support mechanisms.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/pricebite",
-                                          "live":  "https://kwamesa.github.io/pricebite/"
-                                      }
-                        }
-    },
-    {
-        "id":  "Perspectiv",
-        "title":  "Perspectiv",
-        "description":  {
-                            "purpose":  "Designed as a structured decision-analysis framework that helps users compare opposing perspectives on complex issues by breaking arguments into claims, assumptions, evidence, and contextual factors.",
-                            "role":  "Developed the full system concept and underlying logic model. Defined how viewpoints are decomposed into structured components (core claim, supporting evidence, assumptions, counterarguments, contextual bias). Produced a detailed case study outlining product architecture, interaction flow, and potential scoring logic for clarity and balance.",
-                            "outcome":  "Transformed abstract discussions into analyzable structures. Demonstrated how complex narratives can be converted into systemized comparison models, reducing emotional distortion and improving decision clarity. Positioned as a foundation for a future interactive platform.",
-                            "learned":  "Strengthened skills in systems modeling, structured reasoning design, logic decomposition, and translating cognitive processes into product architecture. Deepened understanding of how platform design influences interpretation and decision-making."
-                        }
-    },
-    {
-        "id":  "Falcon9",
-        "title":  "Falcon 9 Landing Prediction (ML)",
-        "description":  {
-                            "purpose":  "A data science project to predict Falcon 9 rocket landing success using machine learning models trained on historical launch data.",
-                            "role":  "Cleaned and processed SpaceX launch datasets, performed EDA, and implemented models including logistic regression and KNN using Python and Scikit-learn.",
-                            "outcome":  "Provided actionable insights into launch conditions affecting landing success, helping identify performance thresholds for aerospace cost optimization.",
-                            "learned":  "Gained experience in end-to-end machine learning workflows, data visualization, and iterative model tuning. Strengthened understanding of how data science can be used in engineering contexts.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/DataScienceCapstoneProject",
-                                          "live":  "https://github.com/KwameSA/DataScienceCapstoneProject/blob/main/1-Jupyter-Labs-SpaceX-Data-Collection-Api.ipynb"
-                                      }
-                        }
-    },
-    {
-        "id":  "TechStocks",
-        "title":  "Tech Company Stock Analysis Project",
-        "description":  {
-                            "purpose":  "Analyzed five years of stock performance data for major tech companies (Apple, Microsoft, Dell, HP, and Sony) to uncover trends in returns, volatility, trading volume, and overall investment behavior.",
-                            "role":  "Collected historical data using Python’s yFinance library, performed financial analysis (SMA, EMA, volatility, correlations), and visualized insights with matplotlib. Exported data to Tableau for interactive dashboard exploration.",
-                            "outcome":  "Identified each company\u0027s growth profile and volatility level to assess risk/reward tradeoffs. Highlighted how consistent performers differ from high-return but volatile stocks, helping investors align strategies with performance patterns.",
-                            "learned":  "Strengthened skills in time series analysis, financial metrics, and Python-based visualization. Learned how to communicate technical findings through data storytelling and prepare data for cross-platform tools like Tableau.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/stocks_yFinance",
-                                          "live":  "https://github.com/KwameSA/stocks_yFinance/blob/main/tech_companies.ipynb"
-                                      }
-                        }
-    },
-    {
-        "id":  "Sugarland",
-        "title":  "Sugarland Theaters Booking Platform",
-        "description":  {
-                            "purpose":  "Built a responsive web-based theater seat booking interface to simulate the user journey from seat selection to reservation confirmation.",
-                            "role":  "Designed the visual layout using HTML, CSS, and Flexbox, implemented dynamic seat generation with JavaScript, and handled interactivity via modals and local storage logic.",
-                            "outcome":  "Created a realistic, interactive front-end booking experience with responsive behavior for both desktop and mobile users, showcasing modular and accessible UI development.",
-                            "learned":  "Sharpened front-end skills in DOM manipulation, state handling, responsive design, and user-centered development using JSON, media queries, and event-driven JavaScript.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/sugarland-theaters-booking-platform",
-                                          "live":  "https://kwamesa.github.io/sugarland-theaters-booking-platform/"
-                                      }
-                        }
-    },
-    {
-        "id":  "SocialMedia",
-        "title":  "Social Media Marketing Data Analysis",
-        "description":  {
-                            "purpose":  "Analyzed social media engagement across post categories to identify trends and optimize content strategies for marketing impact.",
-                            "role":  "Simulated and cleaned tweet-style data using Python. Performed exploratory data analysis with Pandas, Seaborn, and Matplotlib to uncover engagement patterns.",
-                            "outcome":  "Delivered insights on which post categories like Travel and Fitness consistently gained higher engagement. Helped inform data-driven content decisions.",
-                            "learned":  "Strengthened my skills in data cleaning, visualization, and storytelling. Learned how to use simulated data to produce actionable insights in a marketing context.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/social-media-data-analysis",
-                                          "live":  "https://github.com/KwameSA/social-media-data-analysis/blob/main/social-media-data-analysis.ipynb"
-                                      }
-                        }
-    },
-    {
-        "id":  "BikeShare",
-        "title":  "Bike Share – Time Series Demand Forecasting",
-        "description":  {
-                            "purpose":  "Developed time series forecasting models to predict daily bike rental demand, using historical data and statistical techniques like ARIMA to support resource planning and optimize bike availability.",
-                            "role":  "Conducted data preprocessing and exploratory analysis, implemented and compared automated and manual ARIMA models in R, performed residual diagnostics, and generated 30-day demand forecasts to guide operational decisions.",
-                            "outcome":  "Provided actionable demand forecasts that improve bike allocation and fleet management, reducing shortages during peak times and improving customer satisfaction. The models can be updated dynamically with new data for ongoing accuracy.",
-                            "learned":  "Enhanced skills in time series analysis, ARIMA modeling, diagnostic testing, and data visualization in R. Gained experience applying statistical forecasting methods to real-world transportation data for business impact.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/bikeshare_timeseries_modelling",
-                                          "live":  "https://kwamesa.github.io/bikeshare_timeseries_modelling/"
-                                      }
-                        }
-    },
-    {
-        "id":  "Lushlyrics",
-        "title":  "Lushlyrics – Secure Django Login \u0026 User Authentication System",
-        "description":  {
-                            "purpose":  "Implemented a secure and user-friendly authentication system for Lushlyrics, a Django-based music streaming platform.",
-                            "role":  "Developed custom Django views and forms for user registration and authentication. Configured Django’s built-in authentication system, enforced access control, and integrated password reset workflows.",
-                            "outcome":  "Delivered a fully functional authentication module that ensures only registered users can access the platform’s music library. Enhanced both security and usability.",
-                            "learned":  "Gained hands-on experience customizing Django’s authentication backend, managing session-based access control, and integrating password reset functionality via email.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/login_system",
-                                          "live":  ""
-                                      }
-                        }
-    },
-    {
-        "id":  "MintClassics",
-        "title":  "Mint Classics – Sales \u0026 Inventory Data Analysis",
-        "description":  {
-                            "purpose":  "Conducted data analysis for Mint Classics, a retail company specializing in classic car models, focusing on warehouse utilization, product distribution, and sales performance.",
-                            "role":  "Cleaned and transformed relational data in MySQL Workbench, designed SQL queries to extract business insights, and visualized findings in Python using matplotlib and pandas.",
-                            "outcome":  "Delivered insights into top-selling products, underutilized warehouses, and order trends, enabling data-driven decisions on warehouse allocation and restocking.",
-                            "learned":  "Strengthened ability to combine SQL and Python for data storytelling and actionable insight generation. Gained experience in designing KPIs and communicating analysis results effectively.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/mintclassics",
-                                          "live":  "https://github.com/KwameSA/mintclassics/blob/main/report.ipynb"
-                                      }
-                        }
-    },
-    {
-        "id":  "Greenspot",
-        "title":  "Greenspot Grocer – Data Modeling \u0026 Engineering",
-        "description":  {
-                            "purpose":  "Designed and implemented a normalized relational database schema for Greenspot Grocer to support analytics, inventory tracking, and cost analysis.",
-                            "role":  "Analyzed raw data, designed ERDs, wrote SQL DDL/DML scripts, normalized tables, and created views for revenue and cost reporting.",
-                            "outcome":  "Built a scalable MySQL database enabling sales performance tracking, profit analysis, and inventory management.",
-                            "learned":  "Deepened understanding of relational modeling, SQL joins, and normalization for business analytics. Strengthened debugging and schema optimization skills.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/greenspot_grocer_data_modelling_and_engineering",
-                                          "live":  "https://github.com/KwameSA/greenspot_grocer_data_modelling_and_engineering/blob/main/greenspot_data.ipynb"
-                                      }
-                        }
-    },
-    {
-        "id":  "Apollonia",
-        "title":  "Apollonia – Dental Employee Management App",
-        "description":  {
-                            "purpose":  "Built a full-stack CRUD web application to manage employees and departments digitally for Apollonia Dental Practice.",
-                            "role":  "Developed backend APIs with Node.js, Express, and MongoDB. Created a responsive frontend with dynamic modals and DataTables. Deployed using Docker on Render.",
-                            "outcome":  "Delivered a functional employee management system that supports CRUD operations and sorting, with seamless cloud deployment for accessibility.",
-                            "learned":  "Enhanced skills in full-stack JavaScript, REST API design, MongoDB data modeling, and cloud deployment workflows.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/apollonia-crud-app",
-                                          "live":  "https://apollonia-crud-app.onrender.com"
-                                      }
-                        }
-    },
-    {
-        "id":  "RumiAnalytics",
-        "title":  "Rumi – Expense \u0026 Book Tracker App",
-        "description":  {
-                            "purpose":  "Extended the Rumi project to include analytics and reporting for expense and book data, offering trend and summary insights.",
-                            "role":  "Developed Django-based CRUD and analytics reporting with PostgreSQL backend and Docker deployment, enhancing the previous system with data summaries and insights.",
-                            "outcome":  "Delivered a fully functional Django app with integrated analytics, enabling users to visualize financial and inventory trends for better decision-making.",
-                            "learned":  "Deepened experience in analytics integration, Docker deployment, and database structuring for insights generation within a web app.",
-                            "links":  {
-                                          "repository":  "https://github.com/KwameSA/rumi_expense_tracker",
-                                          "live":  ""
-                                      }
-                        }
-    },
-    {
-        "id":  "AWSHighAvailability",
-        "title":  "Designing a Highly Available AWS Environment with ALB and ASG",
-        "description":  {
-                            "purpose":  "This guided lab focused on converting a single instance web application into a highly available AWS deployment, so the application stays reachable even when individual components fail, by distributing traffic and compute across multiple Availability Zones inside a provided VPC.",
-                            "role":  "I inspected the prebuilt VPC and networking layout, then configured an Application Load Balancer with a target group and health checks, created an AMI from the existing web server and used it in a launch template, built an Auto Scaling group to run identical EC2 instances across private subnets in two Availability Zones, and tightened security groups to enforce a three tier flow where the load balancer is internet facing, the application instances only accept traffic from the load balancer, and the database only accepts traffic from the application security group.",
-                            "outcome":  "The application moved from a single point of failure to a resilient architecture where requests were automatically balanced between two private subnet instances, unhealthy instances were removed from traffic by load balancer health checks, and Auto Scaling replaced a terminated instance to restore the desired capacity, demonstrating that the site remained available through an instance failure while also improving the security posture by restricting inbound access at each tier.",
-                            "learned":  "I learned how to assemble a practical high availability pattern on AWS by combining Multi-AZ networking with load balancing, health checks, and Auto Scaling, and how to translate architectural intent into enforceable boundaries using security groups and subnet placement, including why private subnets plus tiered security rules reduce exposure while still supporting reliable application delivery.",
-                            "links":  {
-                                          "repository":  "",
-                                          "live":  ""
-                                      }
-                        }
-    },
-    {
-        "id":  "VPCPeering",
-        "title":  "VPC Peering Connection - AWS Lab",
-        "description":  {
-                            "purpose":  "Established private connectivity between two VPCs to enable secure application-to-database communication without public internet access.",
-                            "role":  "Created the VPC peering connection, configured bidirectional route tables, enabled VPC Flow Logs, and validated connectivity through an EC2-hosted inventory app.",
-                            "outcome":  "Delivered a working peered network with verified data flow and observable traffic logs for troubleshooting and performance insight.",
-                            "learned":  "Strengthened skills in AWS networking, route design, and flow-log analysis for secure, scalable cloud architecture.",
-                            "links":  {
-                                          "repository":  "",
-                                          "live":  ""
-                                      }
-                        }
-    },
-    {
-        "id":  "LambdaEC2Stop",
-        "title":  "AWS Lambda EC2 Auto-Stop - EventBridge Schedule",
-        "description":  {
-                            "purpose":  "Designed a serverless automation workflow in AWS to automatically stop a running Amazon EC2 instance on a recurring schedule, demonstrating how event-driven architecture can replace manual infrastructure management using AWS Lambda, Amazon EventBridge, and IAM roles.",
-                            "role":  "Built an AWS Lambda function in Python 3.11, configured it to assume an existing IAM role with EC2 stop permissions, and implemented boto3 logic to target a specific instance ID in the defined AWS Region. Set up an Amazon EventBridge rule with a rate-based schedule expression to trigger the function every minute, then validated instance state transitions and monitored Lambda metrics to confirm service integration.",
-                            "outcome":  "Delivered a workflow that enforced automated instance shutdown without manual intervention. The Lambda function executed on schedule via EventBridge and reliably transitioned the EC2 instance from running to stopped, validating IAM role configuration, service integration, and automation logic.",
-                            "learned":  "Deepened understanding of event-driven cloud architecture and how AWS Lambda, EventBridge, and IAM work together to create secure automation pipelines. Gained hands-on experience with least-privilege execution roles, boto3 service calls, and monitoring metrics to validate scheduled serverless workflows.",
-                            "links":  {
-                                          "repository":  "",
-                                          "live":  ""
-                                      }
-                        }
-    },
-    {
-        "id":  "AWSEBSWorkflow",
-        "title":  "AWS EBS Volume Provisioning, Snapshot, and Recovery Workflow",
-        "description":  {
-                            "purpose":  "This project focuses on implementing persistent and reliable block storage within a cloud environment using Amazon Elastic Block Store, addressing the need for durable data storage that exists independently of compute instances. The work centers on understanding how storage integrates with virtual machines, ensuring data can be retained, backed up, and restored even as infrastructure changes, which is critical for maintaining system continuity and resilience in cloud-based applications.",
-                            "role":  "I provisioned and configured storage infrastructure by creating an EBS volume, attaching it to a running EC2 instance, and setting up a usable file system within a Linux environment. I established mounting configurations to ensure persistence across instance restarts, and implemented data lifecycle operations by writing data to the volume, creating point-in-time snapshots, and restoring those snapshots into new volumes. I then reattached and mounted the restored volume to validate data recovery and ensure continuity of storage operations within the system.",
-                            "outcome":  "The system demonstrated reliable persistent storage that could be dynamically attached to compute resources, configured for immediate use, and preserved independently of the instance lifecycle. Snapshot functionality enabled consistent backup and recovery, allowing data to be restored accurately even after deletion. This established a clear workflow for managing storage durability, improving system resilience, and enabling repeatable backup and recovery processes within a cloud environment.",
-                            "learned":  "I developed a deeper understanding of cloud storage architecture, particularly how block storage integrates with compute services and operating systems. I learned how to design storage workflows that support persistence, recovery, and reliability, including tradeoffs around availability zones and data durability. I also gained practical experience in configuring file systems, managing mount persistence, and leveraging snapshot mechanisms to support backup and restoration strategies in a scalable cloud environment.",
-                            "links":  {
-                                          "repository":  "",
-                                          "live":  ""
-                                      }
-                        }
-    },
-    {
-        "id":  "AWSRDSWebApp",
-        "title":  "AWS RDS Multi-AZ Database + Web App Integration",
-        "description":  {
-                            "purpose":  "This project focused on designing and deploying a cloud-based relational database environment that supports application interaction, with an emphasis on reliability, controlled access, and high availability. The goal was to demonstrate how managed database services can be integrated into a web application workflow, enabling persistent data storage while abstracting infrastructure management and improving system resilience.",
-                            "role":  "I configured and deployed a Multi-AZ relational database instance using a managed cloud service, ensuring high availability through synchronous replication across availability zones. I designed the network access layer by creating and configuring security groups to enforce controlled communication between the web server and the database over specific ports. I defined a database subnet group spanning multiple availability zones to support fault tolerance. I then connected the database to an existing web application by configuring endpoint access, credentials, and database parameters, enabling full CRUD interactions through the application interface.",
-                            "outcome":  "The system successfully enabled a web application to persist and manage structured data through a cloud-hosted relational database, with automatic replication ensuring availability and durability. The setup reduced operational overhead by relying on managed services while maintaining secure and controlled access between components. The integration resulted in a functional end-to-end workflow where application-level actions directly interacted with a resilient backend database, improving reliability and data consistency.",
-                            "learned":  "I developed a deeper understanding of cloud-based database architecture, particularly how availability, networking, and security configurations work together to support production-ready systems. I learned how to design secure connectivity between application and database layers, implement high availability through multi-zone deployments, and manage tradeoffs between speed of deployment and features like backups and encryption. This experience strengthened my ability to think in terms of infrastructure design, system integration, and reliability within cloud environments.",
-                            "links":  {
-                                          "repository":  "",
-                                          "live":  ""
-                                      }
-                        }
-    },
-    {
-        "id":  "AzureVMDeployment",
-        "title":  "Azure Virtual Machine Deployment and Resource Management",
-        "description":  {
-                            "purpose":  "This project focused on provisioning and managing cloud infrastructure using Microsoft Azure. The objective was to simulate a real-world infrastructure setup where an IT administrator deploys a virtual machine to support future web hosting needs. The lab emphasized how resource organization, compute provisioning, and network configuration come together to enable scalable and centralized cloud-based systems.",
-                            "role":  "I created and configured a resource group to logically organize cloud resources, then provisioned a Windows-based virtual machine within that environment. I defined key parameters such as region, machine size, storage type, and authentication credentials, while configuring networking components including a virtual network and public IP. I also established secure access to the virtual machine using remote desktop connectivity and validated deployment by connecting to the instance. Throughout the process, I followed infrastructure-as-a-service principles to replicate a production-like setup.",
-                            "outcome":  "The project resulted in a successfully deployed and accessible virtual machine within a structured cloud environment. The system demonstrated how cloud resources can be provisioned quickly and organized effectively for operational use. Secure remote access confirmed that the infrastructure was correctly configured, and the ability to start and stop the machine highlighted cost and resource management considerations in cloud environments.",
-                            "learned":  "I gained practical experience in provisioning and managing cloud infrastructure, including how resource groups improve organization and how virtual machines are configured and accessed. I developed an understanding of how networking, storage, and compute components integrate within a cloud platform, and how administrative decisions impact security, scalability, and cost efficiency in infrastructure design.",
-                            "links":  {
-                                          "repository":  "",
-                                          "live":  ""
-                                      }
-                        }
-    },
-    {
-        "id":  "AWSIAM",
-        "title":  "AWS Identity and Access Management (IAM) User and Permission Control",
-        "description":  {
-                            "purpose":  "This project focused on understanding how access control is structured and enforced within cloud environments using Amazon Web Services Identity and Access Management. The goal was to simulate a real-world organizational scenario where users are assigned permissions based on job roles, ensuring secure and controlled access to resources such as compute and storage services. The lab emphasized how centralized identity management supports scalability, security, and operational clarity as organizations grow their cloud usage.",
-                            "role":  "I explored and analyzed pre-configured IAM users, groups, and policies, examining how permissions are inherited through group membership and how managed and inline policies define access boundaries. I implemented role-based access control by assigning users to appropriate groups aligned with business functions, ensuring each user received only the permissions required for their role. I also validated the system by testing user access through the IAM sign-in workflow, observing how policy definitions directly impacted the ability to interact with services such as Amazon EC2 and Amazon S3.",
-                            "outcome":  "The system demonstrated how structured permission management enforces security while maintaining operational efficiency. Users were able to access only the resources relevant to their roles, preventing unauthorized actions while enabling necessary workflows such as viewing storage contents or managing compute instances. The testing process confirmed that policy-driven access control reduces risk, improves governance, and creates a predictable and scalable framework for managing users in a cloud environment.",
-                            "learned":  "I developed a strong understanding of how identity and access management systems enforce security through role-based design and policy inheritance. I learned how to structure permissions using groups instead of assigning them individually, improving scalability and maintainability. I also gained insight into how policy definitions translate into real system behavior, reinforcing the importance of designing clear access boundaries and validating them through practical testing in cloud-based systems.",
-                            "links":  {
-                                          "repository":  "",
-                                          "live":  ""
-                                      }
-                        }
-    },
-    {
-        "id":  "AWSVPCNetworking",
-        "title":  "Designing a Multi-AZ VPC Architecture and EC2 Web Server Deployment",
-        "description":  {
-                            "purpose":  "This project involved designing and configuring a custom virtual network on Amazon Web Services using Amazon VPC to simulate a production-like cloud environment. The goal was to create a secure and scalable network architecture that supports both public-facing and private resources. It benefits developers and system architects by demonstrating how cloud networking enables controlled access, isolation, and high availability.",
-                            "role":  "I designed and implemented a multi-tier VPC architecture by creating public and private subnets across multiple Availability Zones, configuring route tables, and integrating an Internet Gateway and NAT Gateway for controlled traffic flow. I defined network security boundaries by creating and applying a security group that allows HTTP access while maintaining isolation for private resources. I also launched and configured an EC2 instance as a web server using a user data script to automate installation and deployment of a web application.",
-                            "outcome":  "The result was a fully functional cloud network where a web server is publicly accessible while backend resources remain securely isolated in private subnets. The architecture supports high availability through multi-AZ subnet distribution and ensures proper routing of internet and internal traffic. This setup demonstrates a reliable and scalable foundation for hosting web applications in a controlled cloud environment.",
-                            "learned":  "I learned how to design VPC architectures that balance accessibility and security through subnet segmentation and routing strategies. I gained practical experience configuring network components such as gateways, route tables, and security groups to manage traffic flow effectively. I also developed an understanding of how automated instance configuration and multi-AZ design contribute to scalable and resilient cloud systems.",
-                            "links":  {
-                                          "repository":  "",
-                                          "live":  ""
-                                      }
-                        }
+  {
+    "id": "Kanba-DO",
+    "title": "Kanba-DO – Kanban Task Management App with Behavioral Learning",
+    "description": {
+      "purpose": "Designed as a productivity operating system that helps individuals visualize, structure, and optimize their workflow using Kanban principles combined with behavioral analytics.",
+      "role": "Architected and built the full frontend system using modular JavaScript. Implemented dynamic drag-and-drop workflows, stage-history tracking, recurrence logic, multilingual infrastructure, and a dedicated analytics layer (\"Rhythm\") that analyzes task flow across DO, DOING, and DONE stages. Designed a sidebar system for insights, notifications, and productivity intelligence.",
+      "outcome": "Evolved from a static task board into a workflow-aware system that surfaces behavioral patterns (e.g., stagnation, overdue clusters, stage imbalance) and prompts users with actionable insights. Built as a scalable, architecture-conscious product with future cloud-hosting and analytics expansion in mind.",
+      "learned": "Deepened expertise in state management, modular architecture, data modeling for task lifecycles, and product-level thinking around behavioral analytics. Strengthened my ability to translate productivity theory into measurable system logic.",
+      "links": {
+        "repository": "https://github.com/KwameSA/kanba-do",
+        "live": "https://kwamesa.github.io/kanba-do/"
+      }
     }
+  },
+  {
+    "id": "PriceBite",
+    "title": "PriceBite – Consumer Price Comparison Tool",
+    "description": {
+      "purpose": "Designed to help students make informed purchasing decisions by aligning seasonal price trends with individual budget constraints and academic timelines.",
+      "role": "Architected the system logic and built the frontend using HTML, CSS, and JavaScript. Designed student profiling inputs (budget, course context, preferences) and implemented dynamic filtering logic based on pricing, product category, and purchase timing. Structured the system to support future AI-driven personalization.",
+      "outcome": "Created a structured decision-support tool that connects user constraints with pricing behavior. Demonstrated how consumer data, seasonal trends, and profile modeling can guide smarter financial decisions in a student context.",
+      "learned": "Strengthened skills in systems modeling, user profiling logic, constraint-based filtering, and designing products that translate data signals into decision-support mechanisms.",
+      "links": {
+        "repository": "https://github.com/KwameSA/pricebite",
+        "live": "https://kwamesa.github.io/pricebite/"
+      }
+    }
+  },
+  {
+    "id": "Perspectiv",
+    "title": "Perspectiv",
+    "description": {
+      "purpose": "Designed as a structured decision-analysis framework that helps users compare opposing perspectives on complex issues by breaking arguments into claims, assumptions, evidence, and contextual factors.",
+      "role": "Developed the full system concept and underlying logic model. Defined how viewpoints are decomposed into structured components (core claim, supporting evidence, assumptions, counterarguments, contextual bias). Produced a detailed case study outlining product architecture, interaction flow, and potential scoring logic for clarity and balance.",
+      "outcome": "Transformed abstract discussions into analyzable structures. Demonstrated how complex narratives can be converted into systemized comparison models, reducing emotional distortion and improving decision clarity. Positioned as a foundation for a future interactive platform.",
+      "learned": "Strengthened skills in systems modeling, structured reasoning design, logic decomposition, and translating cognitive processes into product architecture. Deepened understanding of how platform design influences interpretation and decision-making."
+    }
+  },
+  {
+    "id": "Falcon9",
+    "title": "Falcon 9 Landing Prediction (ML)",
+    "description": {
+      "purpose": "A data science project to predict Falcon 9 rocket landing success using machine learning models trained on historical launch data.",
+      "role": "Cleaned and processed SpaceX launch datasets, performed EDA, and implemented models including logistic regression and KNN using Python and Scikit-learn.",
+      "outcome": "Provided actionable insights into launch conditions affecting landing success, helping identify performance thresholds for aerospace cost optimization.",
+      "learned": "Gained experience in end-to-end machine learning workflows, data visualization, and iterative model tuning. Strengthened understanding of how data science can be used in engineering contexts.",
+      "links": {
+        "repository": "https://github.com/KwameSA/DataScienceCapstoneProject",
+        "live": "https://github.com/KwameSA/DataScienceCapstoneProject/blob/main/1-Jupyter-Labs-SpaceX-Data-Collection-Api.ipynb"
+      }
+    }
+  },
+  {
+    "id": "TechStocks",
+    "title": "Tech Stock Performance and Volatility Analysis System",
+    "description": {
+      "purpose": "This project analyzes historical stock data to evaluate performance, volatility, and investment behavior across major technology companies. The system is designed to support investment decision-making by identifying risk and return patterns over time.",
+      "role": "I built a data analysis pipeline using Python to collect stock data via the yFinance API and compute financial indicators such as moving averages, volatility, and correlations. I visualized trends using Matplotlib and structured the data for interactive exploration in Tableau.",
+      "outcome": "The system identified differences in growth consistency and volatility across companies, enabling comparison of stable performers versus high-risk, high-return stocks. The analysis provided a structured view of investment tradeoffs based on historical performance data.",
+      "learned": "I developed a deeper understanding of time series analysis and financial metrics, including volatility and trend indicators. I strengthened my ability to design analytical workflows that translate raw financial data into interpretable insights for decision-making.",
+      "links": {
+        "repository": "https://github.com/KwameSA/stocks_yFinance",
+        "live": "https://github.com/KwameSA/stocks_yFinance/blob/main/tech_companies.ipynb"
+      }
+    }
+  },
+  {
+    "id": "Sugarland",
+    "title": "Interactive Theater Seat Booking System",
+    "description": {
+      "purpose": "This project simulates a digital seat booking system, allowing users to select and reserve seats in a theater environment. The system is designed to model user interaction flows and manage seat availability in real time.",
+      "role": "I designed and built the front-end system using HTML, CSS, and JavaScript, implementing dynamic seat generation and interactive selection logic. I managed application state using local storage and developed modal-based interactions to handle booking confirmation and user feedback.",
+      "outcome": "The system delivered an interactive booking experience with responsive design across devices. It demonstrated how user actions can be captured, processed, and reflected in real time to simulate reservation workflows.",
+      "learned": "I strengthened my understanding of front-end state management, event-driven programming, and user interaction design. I gained experience in structuring UI logic to support real-time updates and building responsive interfaces for interactive systems.",
+      "links": {
+        "repository": "https://github.com/KwameSA/sugarland-theaters-booking-platform",
+        "live": "https://kwamesa.github.io/sugarland-theaters-booking-platform/"
+      }
+    }
+  },
+  {
+    "id": "SocialMedia",
+    "title": "Social Media Engagement Analysis and Content Optimization Model",
+    "description": {
+      "purpose": "This project analyzes social media engagement patterns to identify which content categories drive higher user interaction. The system is designed to support data-driven content strategy decisions by translating engagement data into actionable insights.",
+      "role": "I designed and implemented a data analysis workflow using Python to simulate and process social media data. I performed exploratory data analysis using Pandas, Seaborn, and Matplotlib to identify engagement trends across different content categories and extract meaningful performance patterns.",
+      "outcome": "The system identified high-performing content categories such as Travel and Fitness, providing clear signals for optimizing content strategy. The analysis demonstrated how engagement data can be structured to guide marketing decisions and improve audience targeting.",
+      "learned": "I strengthened my ability to design data analysis workflows and extract actionable insights from structured datasets. I gained experience in translating engagement metrics into decision-support outputs and communicating findings through visualizations and data storytelling.",
+      "links": {
+        "repository": "https://github.com/KwameSA/social-media-data-analysis",
+        "live": "https://github.com/KwameSA/social-media-data-analysis/blob/main/social-media-data-analysis.ipynb"
+      }
+    }
+  },
+  {
+    "id": "BikeShare",
+    "title": "Bike Share – Time Series Demand Forecasting",
+    "description": {
+      "purpose": "Developed time series forecasting models to predict daily bike rental demand, using historical data and statistical techniques like ARIMA to support resource planning and optimize bike availability.",
+      "role": "Conducted data preprocessing and exploratory analysis, implemented and compared automated and manual ARIMA models in R, performed residual diagnostics, and generated 30-day demand forecasts to guide operational decisions.",
+      "outcome": "Provided actionable demand forecasts that improve bike allocation and fleet management, reducing shortages during peak times and improving customer satisfaction. The models can be updated dynamically with new data for ongoing accuracy.",
+      "learned": "Enhanced skills in time series analysis, ARIMA modeling, diagnostic testing, and data visualization in R. Gained experience applying statistical forecasting methods to real-world transportation data for business impact.",
+      "links": {
+        "repository": "https://github.com/KwameSA/bikeshare_timeseries_modelling",
+        "live": "https://kwamesa.github.io/bikeshare_timeseries_modelling/"
+      }
+    }
+  },
+  {
+    "id": "Lushlyrics",
+    "title": "Lushlyrics – Secure Django Login \u0026 User Authentication System",
+    "description": {
+      "purpose": "Implemented a secure and user-friendly authentication system for Lushlyrics, a Django-based music streaming platform.",
+      "role": "Developed custom Django views and forms for user registration and authentication. Configured Django’s built-in authentication system, enforced access control, and integrated password reset workflows.",
+      "outcome": "Delivered a fully functional authentication module that ensures only registered users can access the platform’s music library. Enhanced both security and usability.",
+      "learned": "Gained hands-on experience customizing Django’s authentication backend, managing session-based access control, and integrating password reset functionality via email.",
+      "links": {
+        "repository": "https://github.com/KwameSA/login_system",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "MintClassics",
+    "title": "Mint Classics – Sales \u0026 Inventory Data Analysis",
+    "description": {
+      "purpose": "Conducted data analysis for Mint Classics, a retail company specializing in classic car models, focusing on warehouse utilization, product distribution, and sales performance.",
+      "role": "Cleaned and transformed relational data in MySQL Workbench, designed SQL queries to extract business insights, and visualized findings in Python using matplotlib and pandas.",
+      "outcome": "Delivered insights into top-selling products, underutilized warehouses, and order trends, enabling data-driven decisions on warehouse allocation and restocking.",
+      "learned": "Strengthened ability to combine SQL and Python for data storytelling and actionable insight generation. Gained experience in designing KPIs and communicating analysis results effectively.",
+      "links": {
+        "repository": "https://github.com/KwameSA/mintclassics",
+        "live": "https://github.com/KwameSA/mintclassics/blob/main/report.ipynb"
+      }
+    }
+  },
+  {
+    "id": "Greenspot",
+    "title": "Greenspot Grocer – Data Modeling \u0026 Engineering",
+    "description": {
+      "purpose": "Designed and implemented a normalized relational database schema for Greenspot Grocer to support analytics, inventory tracking, and cost analysis.",
+      "role": "Analyzed raw data, designed ERDs, wrote SQL DDL/DML scripts, normalized tables, and created views for revenue and cost reporting.",
+      "outcome": "Built a scalable MySQL database enabling sales performance tracking, profit analysis, and inventory management.",
+      "learned": "Deepened understanding of relational modeling, SQL joins, and normalization for business analytics. Strengthened debugging and schema optimization skills.",
+      "links": {
+        "repository": "https://github.com/KwameSA/greenspot_grocer_data_modelling_and_engineering",
+        "live": "https://github.com/KwameSA/greenspot_grocer_data_modelling_and_engineering/blob/main/greenspot_data.ipynb"
+      }
+    }
+  },
+  {
+    "id": "Apollonia",
+    "title": "Apollonia – Dental Employee Management App",
+    "description": {
+      "purpose": "Built a full-stack CRUD web application to manage employees and departments digitally for Apollonia Dental Practice.",
+      "role": "Developed backend APIs with Node.js, Express, and MongoDB. Created a responsive frontend with dynamic modals and DataTables. Deployed using Docker on Render.",
+      "outcome": "Delivered a functional employee management system that supports CRUD operations and sorting, with seamless cloud deployment for accessibility.",
+      "learned": "Enhanced skills in full-stack JavaScript, REST API design, MongoDB data modeling, and cloud deployment workflows.",
+      "links": {
+        "repository": "https://github.com/KwameSA/apollonia-crud-app",
+        "live": "https://apollonia-crud-app.onrender.com"
+      }
+    }
+  },
+  {
+    "id": "RumiAnalytics",
+    "title": "Rumi – Expense \u0026 Book Tracker App",
+    "description": {
+      "purpose": "Extended the Rumi project to include analytics and reporting for expense and book data, offering trend and summary insights.",
+      "role": "Developed Django-based CRUD and analytics reporting with PostgreSQL backend and Docker deployment, enhancing the previous system with data summaries and insights.",
+      "outcome": "Delivered a fully functional Django app with integrated analytics, enabling users to visualize financial and inventory trends for better decision-making.",
+      "learned": "Deepened experience in analytics integration, Docker deployment, and database structuring for insights generation within a web app.",
+      "links": {
+        "repository": "https://github.com/KwameSA/rumi_expense_tracker",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "AWSHighAvailability",
+    "title": "Highly Available Multi-AZ Web Architecture on AWS",
+    "description": {
+      "purpose": "This project focused on transforming a single instance web application into a highly available AWS architecture that remains accessible despite component failures. The system distributes traffic and compute resources across multiple Availability Zones within a VPC. It is designed for applications that require reliability, fault tolerance, and controlled network exposure.",
+      "role": "I analyzed the existing VPC and redesigned the deployment by configuring an Application Load Balancer with target groups and health checks, creating an AMI from the web server, and using it within a launch template. I implemented an Auto Scaling group across private subnets in multiple Availability Zones with CPU-based scaling policies and CloudWatch monitoring. I also enforced a three tier security model where the load balancer is internet facing, application instances accept traffic only from the load balancer, and downstream resources are restricted to application level access.",
+      "outcome": "The system evolved from a single point of failure into a resilient architecture where traffic is automatically distributed and unhealthy instances are removed and replaced without manual intervention. Auto Scaling maintained desired capacity by reacting to real time load conditions, ensuring consistent performance during demand changes. The architecture also improved security by enforcing strict access boundaries between tiers while maintaining application availability.",
+      "learned": "I developed a deeper understanding of how to design highly available systems by combining Multi-AZ deployments, load balancing, and automated scaling. I learned how monitoring signals can drive infrastructure behavior through CloudWatch and scaling policies. I also strengthened my ability to translate architectural intent into enforceable network and security boundaries within a cloud environment.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "VPCPeering",
+    "title": "Private VPC Peering Architecture for Secure Cross-Network Communication",
+    "description": {
+      "purpose": "This project focused on enabling secure, private communication between two isolated virtual networks without exposing traffic to the public internet. The architecture connects an application hosted in one VPC to a database in another, ensuring controlled data flow across network boundaries. It is designed for systems that require internal service communication while maintaining strict network isolation.",
+      "role": "I established a VPC peering connection between two VPCs and configured bidirectional route tables to enable traffic flow using CIDR-based routing. I enabled VPC Flow Logs with CloudWatch integration to monitor and analyze network traffic between the application and database layers. I also validated connectivity by configuring the application to access the database endpoint across the peered network, ensuring end-to-end communication.",
+      "outcome": "The system enabled private, direct communication between application and database components without relying on an internet gateway. Traffic flowed securely across VPC boundaries with routing logic correctly directing requests between networks. Flow logs provided visibility into network activity, allowing verification of database traffic and supporting troubleshooting and observability.",
+      "learned": "I developed a deeper understanding of private network connectivity and how VPC peering enables secure communication across isolated environments. I learned how routing configurations enforce connectivity paths and how flow logs provide insight into network behavior and traffic patterns. I also strengthened my ability to design network architectures that balance isolation, security, and functional connectivity in cloud systems.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "LambdaEC2Stop",
+    "title": "Event-Driven EC2 Lifecycle Automation with AWS Lambda and EventBridge",
+    "description": {
+      "purpose": "This project focused on automating EC2 instance lifecycle management using a serverless, event-driven AWS workflow. The system was designed to reduce manual infrastructure administration by stopping compute resources on a recurring schedule. It demonstrates how automation can support cost control, operational consistency, and cloud resource governance.",
+      "role": "I built a Python-based AWS Lambda function using boto3 to target and stop a specific EC2 instance in the defined AWS Region. I configured the function with an IAM execution role that provided the required EC2 permissions, then connected it to an Amazon EventBridge schedule to trigger the workflow automatically. I validated the automation by monitoring Lambda execution metrics and confirming the EC2 instance transitioned from running to stopped.",
+      "outcome": "The workflow successfully automated instance shutdown without manual intervention. EventBridge triggered the Lambda function on schedule, and the function executed the EC2 stop action reliably through the assigned IAM role. This created a repeatable automation pattern that improves operational efficiency and supports better control over cloud resource usage.",
+      "learned": "I developed a stronger understanding of event-driven cloud automation and how Lambda, EventBridge, IAM, and EC2 interact in a secure workflow. I learned how permissions, triggers, and service APIs must align for automation to execute correctly. I also gained practical experience validating serverless workflows through logs, metrics, and infrastructure state changes.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "AWSEBSWorkflow",
+    "title": "AWS EBS Volume Provisioning, Snapshot, and Recovery Workflow",
+    "description": {
+      "purpose": "This project focuses on implementing persistent and reliable block storage within a cloud environment using Amazon Elastic Block Store, addressing the need for durable data storage that exists independently of compute instances. The work centers on understanding how storage integrates with virtual machines, ensuring data can be retained, backed up, and restored even as infrastructure changes, which is critical for maintaining system continuity and resilience in cloud-based applications.",
+      "role": "I provisioned and configured storage infrastructure by creating an EBS volume, attaching it to a running EC2 instance, and setting up a usable file system within a Linux environment. I established mounting configurations to ensure persistence across instance restarts, and implemented data lifecycle operations by writing data to the volume, creating point-in-time snapshots, and restoring those snapshots into new volumes. I then reattached and mounted the restored volume to validate data recovery and ensure continuity of storage operations within the system.",
+      "outcome": "The system demonstrated reliable persistent storage that could be dynamically attached to compute resources, configured for immediate use, and preserved independently of the instance lifecycle. Snapshot functionality enabled consistent backup and recovery, allowing data to be restored accurately even after deletion. This established a clear workflow for managing storage durability, improving system resilience, and enabling repeatable backup and recovery processes within a cloud environment.",
+      "learned": "I developed a deeper understanding of cloud storage architecture, particularly how block storage integrates with compute services and operating systems. I learned how to design storage workflows that support persistence, recovery, and reliability, including tradeoffs around availability zones and data durability. I also gained practical experience in configuring file systems, managing mount persistence, and leveraging snapshot mechanisms to support backup and restoration strategies in a scalable cloud environment.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "AWSRDSWebApp",
+    "title": "AWS RDS Multi-AZ Database + Web App Integration",
+    "description": {
+      "purpose": "This project focused on designing and deploying a cloud-based relational database environment that supports application interaction, with an emphasis on reliability, controlled access, and high availability. The goal was to demonstrate how managed database services can be integrated into a web application workflow, enabling persistent data storage while abstracting infrastructure management and improving system resilience.",
+      "role": "I configured and deployed a Multi-AZ relational database instance using a managed cloud service, ensuring high availability through synchronous replication across availability zones. I designed the network access layer by creating and configuring security groups to enforce controlled communication between the web server and the database over specific ports. I defined a database subnet group spanning multiple availability zones to support fault tolerance. I then connected the database to an existing web application by configuring endpoint access, credentials, and database parameters, enabling full CRUD interactions through the application interface.",
+      "outcome": "The system successfully enabled a web application to persist and manage structured data through a cloud-hosted relational database, with automatic replication ensuring availability and durability. The setup reduced operational overhead by relying on managed services while maintaining secure and controlled access between components. The integration resulted in a functional end-to-end workflow where application-level actions directly interacted with a resilient backend database, improving reliability and data consistency.",
+      "learned": "I developed a deeper understanding of cloud-based database architecture, particularly how availability, networking, and security configurations work together to support production-ready systems. I learned how to design secure connectivity between application and database layers, implement high availability through multi-zone deployments, and manage tradeoffs between speed of deployment and features like backups and encryption. This experience strengthened my ability to think in terms of infrastructure design, system integration, and reliability within cloud environments.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "AzureVMDeployment",
+    "title": "Azure Virtual Machine Deployment and Infrastructure Configuration",
+    "description": {
+      "purpose": "This project demonstrates how to provision and manage foundational cloud infrastructure to support application hosting and future system workloads. It focuses on how compute, networking, and resource organization come together to form a scalable and controlled environment. The system is designed to support reliable deployment and centralized infrastructure management.",
+      "role": "I created and configured a resource group to organize infrastructure components, then provisioned a Windows-based virtual machine with defined compute, storage, and networking parameters. I configured a virtual network, public IP, and access controls, and established secure remote connectivity using remote desktop. I validated the deployment by connecting to the instance and confirming system accessibility and configuration.",
+      "outcome": "The system resulted in a fully deployed and accessible virtual machine within a structured cloud environment. Resources were organized and managed in a way that supports scalability and operational control. The setup demonstrated how infrastructure can be provisioned on demand while maintaining secure access and efficient resource usage.",
+      "learned": "I developed a stronger understanding of how cloud infrastructure components integrate to support application environments. I learned how resource organization, networking, and compute provisioning impact scalability, security, and cost. I also gained experience translating infrastructure requirements into a functional cloud deployment.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "AWSIAM",
+    "title": "AWS IAM Role-Based Access Control System",
+    "description": {
+      "purpose": "This project demonstrates how access control is enforced in cloud environments using role-based identity management. The system is designed to ensure users can only interact with resources relevant to their roles while preventing unauthorized access. It supports scalable and secure management of cloud resources across services such as compute and storage.",
+      "role": "I designed and implemented a role-based access control system using AWS IAM by configuring users, groups, and policies aligned with organizational roles. I enforced least-privilege access through group-based policy inheritance and defined permission boundaries across services such as EC2 and S3. I validated access control by testing user permissions through IAM sign-in workflows and observing service-level access behavior.",
+      "outcome": "The system enforced secure and controlled access to cloud resources, ensuring users could only perform actions aligned with their assigned roles. Policy-driven permissions reduced the risk of unauthorized actions while maintaining operational efficiency. The implementation demonstrated how structured identity management supports governance and scalability in cloud environments.",
+      "learned": "I developed a deeper understanding of how identity and access management systems enforce security through role-based design and policy inheritance. I learned how to implement least-privilege access at scale using group-based permissions. I also strengthened my ability to translate security requirements into enforceable access controls within cloud systems.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "AWSVPCNetworking",
+    "title": "Designing a Multi-AZ VPC Architecture and EC2 Web Server Deployment",
+    "description": {
+      "purpose": "This project involved designing and configuring a custom virtual network on Amazon Web Services using Amazon VPC to simulate a production-like cloud environment. The goal was to create a secure and scalable network architecture that supports both public-facing and private resources. It benefits developers and system architects by demonstrating how cloud networking enables controlled access, isolation, and high availability.",
+      "role": "I designed and implemented a multi-tier VPC architecture by creating public and private subnets across multiple Availability Zones, configuring route tables, and integrating an Internet Gateway and NAT Gateway for controlled traffic flow. I defined network security boundaries by creating and applying a security group that allows HTTP access while maintaining isolation for private resources. I also launched and configured an EC2 instance as a web server using a user data script to automate installation and deployment of a web application.",
+      "outcome": "The result was a fully functional cloud network where a web server is publicly accessible while backend resources remain securely isolated in private subnets. The architecture supports high availability through multi-AZ subnet distribution and ensures proper routing of internet and internal traffic. This setup demonstrates a reliable and scalable foundation for hosting web applications in a controlled cloud environment.",
+      "learned": "I learned how to design VPC architectures that balance accessibility and security through subnet segmentation and routing strategies. I gained practical experience configuring network components such as gateways, route tables, and security groups to manage traffic flow effectively. I also developed an understanding of how automated instance configuration and multi-AZ design contribute to scalable and resilient cloud systems.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "AWSElasticBeanstalk",
+    "title": "Deploying a Scalable Web Application with AWS Elastic Beanstalk",
+    "description": {
+      "purpose": "This project demonstrates how a managed cloud platform can be used to deploy and operate a scalable web application without directly managing underlying infrastructure. It focuses on how platform-as-a-service abstracts provisioning while still enabling visibility into system architecture. The system is designed to simplify deployment while maintaining scalability and reliability.",
+      "role": "I deployed a web application to an Elastic Beanstalk environment and validated its availability through the assigned endpoint. I analyzed the underlying infrastructure provisioned by the platform, including EC2 instances, load balancing, auto scaling, and security configurations. I also examined configuration and monitoring settings to understand how the system manages performance and scaling.",
+      "outcome": "The application was successfully deployed and made accessible through a public endpoint, demonstrating how multiple infrastructure components are orchestrated automatically. The system maintained scalability and availability without manual resource configuration. This showed how managed services reduce operational overhead while still supporting production-ready architectures.",
+      "learned": "I developed a deeper understanding of how platform-as-a-service abstracts infrastructure while still relying on core cloud components. I learned the tradeoffs between control and speed when using managed services compared to manual infrastructure design. I also gained insight into how deployment, scaling, and monitoring are handled within a managed cloud environment.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  }
 ]

@@ -1107,5 +1107,38 @@
                            "alt":  "AWS VPC Networking Screenshot 3"
                        }
                    ]
+    },
+    {
+        "id":  "AWSElasticBeanstalk",
+        "images":  [
+                       {
+                           "src":  "images/aws_ebeanstalk/1.png",
+                           "alt":  "AWS Elastic Beanstalk Screenshot 1"
+                       },
+                       {
+                           "src":  "images/aws_ebeanstalk/2.png",
+                           "alt":  "AWS Elastic Beanstalk Screenshot 2"
+                       },
+                       {
+                           "src":  "images/aws_ebeanstalk/3.png",
+                           "alt":  "AWS Elastic Beanstalk Screenshot 3"
+                       },
+                       {
+                           "src":  "images/aws_ebeanstalk/4.png",
+                           "alt":  "AWS Elastic Beanstalk Screenshot 4"
+                       },
+                       {
+                           "src":  "images/aws_ebeanstalk/5.png",
+                           "alt":  "AWS Elastic Beanstalk Screenshot 5"
+                       },
+                       {
+                           "src":  "images/aws_ebeanstalk/6.png",
+                           "alt":  "AWS Elastic Beanstalk Screenshot 6"
+                       },
+                       {
+                           "src":  "images/aws_ebeanstalk/7.png",
+                           "alt":  "AWS Elastic Beanstalk Screenshot 7"
+                       }
+                   ]
     }
 ]
