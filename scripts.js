@@ -162,9 +162,7 @@ function populateProjectDropdown() {
 function applyProjectFilter(category) {
   activeProjectCategory = category;
   setProjectCategoryTheme(category);
-  filteredProjects = projectsData.switcher.filter(
-    (proj) => category === "all" || proj.category === category
-  );
+  filteredProjects = projectsData.switcher.filter((proj) => category === "all" || proj.category === category);
 
   populateProjectDropdown();
 
@@ -183,13 +181,7 @@ function applyProjectFilter(category) {
 
 function setProjectCategoryTheme(category) {
   if (!projectSection) return;
-  projectSection.classList.remove(
-    "projects-theme-all",
-    "projects-theme-systems",
-    "projects-theme-development",
-    "projects-theme-data",
-    "projects-theme-cloud"
-  );
+  projectSection.classList.remove("projects-theme-all", "projects-theme-systems", "projects-theme-development", "projects-theme-data", "projects-theme-cloud");
   projectSection.classList.add(`projects-theme-${category}`);
 }
 
@@ -238,6 +230,14 @@ function setCurrentProject(projectId) {
         linksDiv.appendChild(aLive);
       }
 
+      if (desc.links.demo) {
+        const aDemo = document.createElement("a");
+        aDemo.href = desc.links.demo;
+        aDemo.textContent = "Demo Video";
+        aDemo.target = "_blank";
+        linksDiv.appendChild(aDemo);
+      }
+
       descContainer.appendChild(linksDiv);
     }
   }
@@ -284,7 +284,7 @@ function addSwipeNavigation(element, onSwipeLeft, onSwipeRight) {
       startX = touch.clientX;
       startY = touch.clientY;
     },
-    { passive: true }
+    { passive: true },
   );
 
   element.addEventListener(
@@ -303,7 +303,7 @@ function addSwipeNavigation(element, onSwipeLeft, onSwipeRight) {
         onSwipeRight();
       }
     },
-    { passive: true }
+    { passive: true },
   );
 }
 
@@ -355,7 +355,7 @@ addSwipeNavigation(
     if (!heroSlides.length) return;
     const newIndex = (currentHeroSlide - 1 + heroSlides.length) % heroSlides.length;
     fadeHeroSlide(newIndex);
-  }
+  },
 );
 
 addSwipeNavigation(
@@ -371,7 +371,7 @@ addSwipeNavigation(
     if (!slides.length) return;
     const newIndex = (currentProjectSlideIndex - 1 + slides.length) % slides.length;
     showProjectSlide(newIndex);
-  }
+  },
 );
 
 if (heroSlider) {
