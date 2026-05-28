@@ -5,6 +5,11 @@
     "category": "systems"
   },
   {
+    "id": "SmartDMV",
+    "title": "Smart DMV Digital Verification System",
+    "category": "systems"
+  },
+  {
     "id": "Apollonia",
     "title": "Apollonia - Dental Employee Management App",
     "category": "development"
@@ -113,11 +118,6 @@
     "id": "FaceRecognitionCNN",
     "title": "Face Recognition CNN Classifier",
     "category": "data"
-  },
-  {
-    "id": "SmartDMV",
-    "title": "Smart DMV Digital Verification System",
-    "category": "systems"
   },
   {
     "id": "AWSStaticCafeWebsiteS3",
