@@ -108,5 +108,20 @@
     "id": "AWSElasticBeanstalk",
     "title": "Deploying a Scalable Web Application with AWS Elastic Beanstalk",
     "category": "cloud"
+  },
+  {
+    "id": "FaceRecognitionCNN",
+    "title": "Face Recognition CNN Classifier",
+    "category": "data"
+  },
+  {
+    "id": "SmartDMV",
+    "title": "Smart DMV Digital Verification System",
+    "category": "systems"
+  },
+  {
+    "id": "AWSStaticCafeWebsiteS3",
+    "title": "AWS Static Café Website Architecture",
+    "category": "cloud"
   }
 ]

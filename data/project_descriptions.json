@@ -302,5 +302,48 @@
         "live": ""
       }
     }
+  },
+  {
+    "id": "FaceRecognitionCNN",
+    "title": "Face Recognition CNN Classifier",
+    "description": {
+      "purpose": "This project was built to develop an image classification system capable of distinguishing my face from other faces using deep learning. The goal was to apply convolutional neural network techniques to automate facial recognition through computer vision and image-based pattern detection.",
+      "role": "I designed and implemented the end-to-end image classification pipeline using TensorFlow and Keras, including dataset preparation, image preprocessing, model architecture development, training, and evaluation. I configured image augmentation workflows, trained the convolutional neural network on labeled facial image data, and validated predictions through visual performance testing.",
+      "outcome": "The project produced a functional CNN-based facial recognition model capable of classifying whether an image matched my face or another subject. It demonstrated the full machine learning workflow from raw image ingestion through prediction generation, providing a working proof of concept for image-based identity classification.",
+      "learned": "I gained practical experience designing convolutional neural network architectures and managing the full computer vision model lifecycle. The project strengthened my understanding of preprocessing strategies, model evaluation, overfitting considerations, and how image feature extraction supports classification performance.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "SmartDMV",
+    "title": "Smart DMV Digital Verification System",
+    "description": {
+      "purpose": "Smart DMV is an agentic digital verification platform designed to modernize DMV document validation by shifting manual in-person verification into a secure, automated pre-appointment workflow. Built for public sector service delivery, the system enables residents to upload identification and residency documents for AI-driven validation before scheduling appointments, reducing operational bottlenecks and improving service reliability. The platform addresses inefficiencies in traditional DMV workflows by combining automated reasoning with human-in-the-loop oversight for regulatory compliance and transparent decision making.",
+      "role": "I contributed to the system design and implementation of the full-stack verification workflow, helping architect the agentic document validation pipeline, verification decision logic, and appointment gating process. I worked on designing the structured reasoning workflow that integrated OCR extraction, confidence-based routing, and exception escalation through a staff co-pilot interface, while contributing to system modeling, process design, and operational workflow analysis. The project leveraged Next.js, Supabase, Prisma, Google Vision API, and Gemini API to create a modular verification system built for scalability and secure government service workflows.",
+      "outcome": "The system demonstrated how AI-assisted verification could reduce unprepared DMV visits, streamline appointment scheduling, and improve throughput without requiring physical infrastructure expansion. By introducing confidence-based automated approvals and manual exception routing, the platform improved workflow transparency, reduced service friction, and established a scalable framework for digital-first public sector verification. The architecture also provided a practical blueprint for secure, explainable AI adoption in high-compliance environments.",
+      "learned": "This project strengthened my ability to design complex systems that balance automation with human oversight in compliance-sensitive environments. I gained practical experience architecting agentic workflows, designing confidence-based decision pipelines, and structuring secure data flows across frontend, backend, and cloud services. It also deepened my understanding of building explainable AI systems that prioritize transparency, reliability, and operational scalability.",
+      "links": {
+        "repository": "https://github.com/KwameSA/smart-dmv",
+        "live": "https://v0-smart-dmv.vercel.app/",
+        "demo": "https://drive.google.com/file/d/1BhLORmGoSsdUuJM2pX2C3_uz37yVHZcc/view?pli=1"
+      }
+    }
+  },
+  {
+    "id": "AWSStaticCafeWebsiteS3",
+    "title": "AWS Static Café Website Architecture",
+    "description": {
+      "purpose": "This project focused on designing and deploying a static website architecture for a café using Amazon S3 to establish its first cloud-based web presence. The objective was to create a reliable and publicly accessible website while implementing cloud architecture best practices for data protection, lifecycle management, and disaster recovery. It demonstrates how cloud infrastructure can support small business digital transformation through scalable and resilient hosting.",
+      "role": "I designed and configured the cloud architecture by creating and configuring Amazon S3 buckets for static website hosting, public access control, versioning, lifecycle policies, and cross-region replication. I implemented bucket policies for automated object accessibility, configured lifecycle rules to optimize storage management, and enabled replication workflows to strengthen disaster recovery readiness. I also tested version control, object recovery behavior, and replication workflows to validate reliability across regions.",
+      "outcome": "The project resulted in a fully functional static website architecture with secure public hosting, automated storage optimization, and regional redundancy for business continuity. The implementation improved data resilience by protecting against accidental overwrites and deletions while reducing long-term storage overhead through lifecycle automation. It established a scalable cloud foundation that supports reliable website availability and operational continuity.",
+      "learned": "This project strengthened my understanding of cloud storage architecture, particularly how Amazon S3 supports static hosting, version control, and resilience engineering. I gained practical experience configuring lifecycle automation and replication workflows while balancing accessibility, durability, and cost efficiency. It deepened my understanding of designing cloud systems that integrate reliability, recovery planning, and operational governance.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
   }
 ]
