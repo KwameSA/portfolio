@@ -1,14 +1,14 @@
 ﻿[
   {
     "id": "Kanba-DO",
-    "title": "Kanba-DO – Kanban Task Management App with Behavioral Learning",
+    "title": "Kanba-DO Workflow Management Platform",
     "description": {
-      "purpose": "Designed as a productivity operating system that helps individuals visualize, structure, and optimize their workflow using Kanban principles combined with behavioral analytics.",
-      "role": "Architected and built the full frontend system using modular JavaScript. Implemented dynamic drag-and-drop workflows, stage-history tracking, recurrence logic, multilingual infrastructure, and a dedicated analytics layer (\"Rhythm\") that analyzes task flow across DO, DOING, and DONE stages. Designed a sidebar system for insights, notifications, and productivity intelligence.",
-      "outcome": "Evolved from a static task board into a workflow-aware system that surfaces behavioral patterns (e.g., stagnation, overdue clusters, stage imbalance) and prompts users with actionable insights. Built as a scalable, architecture-conscious product with future cloud-hosting and analytics expansion in mind.",
-      "learned": "Deepened expertise in state management, modular architecture, data modeling for task lifecycles, and product-level thinking around behavioral analytics. Strengthened my ability to translate productivity theory into measurable system logic.",
+      "purpose": "Kanba-DO is a full-stack task management platform that helps users move work through a focused DO, DOING, and DONE workflow while identifying overdue, due-soon, and stuck tasks. It was built for individuals who want a simpler alternative to highly configurable task boards, with workflow support through Tempo and longer-term pattern visibility through Rhythm.",
+      "role": "Designed and developed the Kanba-DO application across the frontend, backend, database, authentication, and deployment layers. Built the Next.js and React interface, FastAPI task API, Supabase authentication and user-scoped data model, Tempo action workflows, Rhythm insight logic, History archiving, profile settings, and AWS deployment configuration using Amplify, ECS Express Mode, and ECR.",
+      "outcome": "Delivered a live, authenticated task-management system where users can create, edit, tag, prioritize, move, complete, archive, and review tasks without seeing other users’ data. The platform provides clearer task visibility through Tempo, supports reflection through Rhythm and History, and runs as a deployed cloud application with a Dockerized backend and production CORS configuration.",
+      "learned": "Strengthened full-stack systems design skills by connecting React state management, authenticated API requests, FastAPI service logic, Supabase user ownership, and cloud deployment workflows. Gained practical experience designing task-event tracking, handling production CORS issues, separating critical user flows from background cleanup processes, and deploying a containerized API through AWS ECS.",
       "links": {
-        "repository": "https://github.com/KwameSA/kanba-do",
+        "repository": "",
         "live": "https://kwamesa.github.io/kanba-do/"
       }
     }
