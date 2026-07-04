@@ -153,5 +153,10 @@
     "id": "MonolithToMicroservicesAWS",
     "title": "Monolith to Microservices Migration on AWS",
     "category": "cloud"
+  },
+  {
+    "id": "HighlyAvailableWebAppAutoScaling",
+    "title": "Highly Available Web Application with Auto Scaling on AWS",
+    "category": "cloud"
   }
 ]

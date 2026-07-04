@@ -1781,5 +1781,70 @@
         "alt": "Monolith to Microservices Migration on AWS Screenshot 23"
       }
     ]
+  },
+  {
+    "id": "HighlyAvailableWebAppAutoScaling",
+    "images": [
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/01.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 1"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/02.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 2"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/03.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 3"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/04.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 4"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/05.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 5"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/06.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 6"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/07.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 7"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/08.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 8"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/09.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 9"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/10.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 10"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/11.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 11"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/12.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 12"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/13.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 13"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/14.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 14"
+      },
+      {
+        "src": "images/highly-available-web-app-with-auto-scaling/15.png",
+        "alt": "Highly Available Web Application with Auto Scaling on AWS Screenshot 15"
+      }
+    ]
   }
 ]

@@ -429,5 +429,19 @@
         "live": ""
       }
     }
+  },
+  {
+    "id": "HighlyAvailableWebAppAutoScaling",
+    "title": "Highly Available Web Application with Auto Scaling on AWS",
+    "description": {
+      "purpose": "This project focused on designing and deploying a highly available web application architecture on AWS capable of maintaining availability during instance failures and automatically adjusting compute capacity based on demand. The solution leveraged load balancing, multi-Availability Zone deployment, and automated scaling to improve application resilience and operational reliability. It demonstrates the implementation of cloud infrastructure that supports fault tolerance and elastic scaling.",
+      "role": "I provisioned and configured an AWS infrastructure using Amazon EC2, Amazon Machine Images (AMIs), Launch Templates, Auto Scaling Groups, Application Load Balancers, Target Groups, and CloudWatch. I created reusable AMIs, deployed instances across multiple Availability Zones, configured health checks and load balancing, registered instances with target groups, and implemented CloudWatch alarms with target tracking policies to automatically scale resources based on CPU utilization. I also validated the deployment by monitoring instance health, observing scaling events, and verifying traffic distribution across healthy instances.",
+      "outcome": "The completed architecture successfully distributed application traffic across multiple EC2 instances while automatically replacing unhealthy instances and scaling capacity in response to workload changes. The infrastructure provided improved availability, automated recovery, and reduced operational overhead through integrated health monitoring and scaling policies. The project demonstrated how AWS services can be combined to build resilient, production-ready cloud infrastructure.",
+      "learned": "I gained practical experience designing highly available cloud architectures using core AWS compute, networking, monitoring, and scaling services. The project strengthened my understanding of how AMIs, Launch Templates, Auto Scaling Groups, Application Load Balancers, Target Groups, and CloudWatch work together to deliver resilient and scalable applications. It also reinforced cloud architecture principles related to fault tolerance, elasticity, health monitoring, and infrastructure automation.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
   }
 ]
