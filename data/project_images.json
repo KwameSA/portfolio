@@ -1297,10 +1297,488 @@
       {
         "src": "images/aws-static-cafe-website-s3/08.png",
         "alt": "AWS Static Cafe Website Screenshot 8"
+      }
+    ]
+  },
+  {
+    "id": "DBMigrationAmazonRDS",
+    "images": [
+      {
+        "src": "images/db-migration-amazon-rds/01.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 1"
       },
       {
-        "src": "images/aws-static-cafe-website-s3/09.png",
-        "alt": "AWS Static Cafe Website Screenshot 9"
+        "src": "images/db-migration-amazon-rds/02.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 2"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/03.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 3"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/04.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 4"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/05.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 5"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/06.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 6"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/07.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 7"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/08.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 8"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/09.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 9"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/10.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 10"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/11.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 11"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/12.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 12"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/13.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 13"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/14.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 14"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/15.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 15"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/16.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 16"
+      },
+      {
+        "src": "images/db-migration-amazon-rds/17.png",
+        "alt": "Database Migration to Amazon RDS Screenshot 17"
+      }
+    ]
+  },
+  {
+    "id": "CafeSecureVPCNetworking",
+    "images": [
+      {
+        "src": "images/café-secure-vpc-networking-environment/1.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 1"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/2.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 2"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/3.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 3"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/4.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 4"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/5.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 5"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/6.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 6"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/7.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 7"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/8.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 8"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/9.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 9"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/10.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 10"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/11.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 11"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/12.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 12"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/13.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 13"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/14.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 14"
+      },
+      {
+        "src": "images/café-secure-vpc-networking-environment/15.png",
+        "alt": "Café Secure VPC Networking Environment Screenshot 15"
+      }
+    ]
+  },
+  {
+    "id": "CloudFormationInfrastructureAutomation",
+    "images": [
+      {
+        "src": "images/cloudformation-infrastructure-automation/1.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 1"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/2.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 2"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/3.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 3"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/4.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 4"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/5.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 5"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/6.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 6"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/7.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 7"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/8.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 8"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/9.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 9"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/10.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 10"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/11.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 11"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/12.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 12"
+      },
+      {
+        "src": "images/cloudformation-infrastructure-automation/13.png",
+        "alt": "CloudFormation Infrastructure Automation Screenshot 13"
+      }
+    ]
+  },
+  {
+    "id": "DecoupledImageProcessingSQS",
+    "images": [
+      {
+        "src": "images/decoupled-image-processing-app-sqs/01.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 1"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/02.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 2"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/03.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 3"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/04.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 4"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/05.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 5"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/06.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 6"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/07.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 7"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/08.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 8"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/09.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 9"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/10.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 10"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/11.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 11"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/12.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 12"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/13.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 13"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/14.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 14"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/15.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 15"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/16.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 16"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/17.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 17"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/18.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 18"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/19.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 19"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/20.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 20"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/21.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 21"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/22.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 22"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/23.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 23"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/24.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 24"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/25.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 25"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/26.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 26"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/27.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 27"
+      },
+      {
+        "src": "images/decoupled-image-processing-app-sqs/28.png",
+        "alt": "Decoupled Image Processing Application with Amazon SQS Screenshot 28"
+      }
+    ]
+  },
+  {
+    "id": "ServerlessInventoryTrackingArchitecture",
+    "images": [
+      {
+        "src": "images/serverless-inventory-tracking-architecture/01.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 1"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/02.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 2"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/03.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 3"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/04.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 4"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/05.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 5"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/06.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 6"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/07.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 7"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/08.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 8"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/09.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 9"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/10.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 10"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/11.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 11"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/12.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 12"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/13.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 13"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/14.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 14"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/15.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 15"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/16.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 16"
+      },
+      {
+        "src": "images/serverless-inventory-tracking-architecture/17.png",
+        "alt": "Serverless Inventory Tracking Architecture Screenshot 17"
+      }
+    ]
+  },
+  {
+    "id": "MonolithToMicroservicesAWS",
+    "images": [
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/01.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 1"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/02.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 2"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/03.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 3"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/04.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 4"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/05.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 5"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/06.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 6"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/07.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 7"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/08.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 8"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/09.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 9"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/10.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 10"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/11.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 11"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/12.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 12"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/13.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 13"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/14.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 14"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/15.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 15"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/16.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 16"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/17.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 17"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/18.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 18"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/19.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 19"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/20.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 20"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/21.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 21"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/22.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 22"
+      },
+      {
+        "src": "images/monolith-to-microservices-migration-on-aws/23.png",
+        "alt": "Monolith to Microservices Migration on AWS Screenshot 23"
       }
     ]
   }

@@ -5,11 +5,6 @@
     "category": "systems"
   },
   {
-    "id": "SmartDMV",
-    "title": "Smart DMV Digital Verification System",
-    "category": "systems"
-  },
-  {
     "id": "Apollonia",
     "title": "Apollonia - Dental Employee Management App",
     "category": "development"
@@ -120,8 +115,43 @@
     "category": "data"
   },
   {
+    "id": "SmartDMV",
+    "title": "Smart DMV Digital Verification System",
+    "category": "systems"
+  },
+  {
     "id": "AWSStaticCafeWebsiteS3",
     "title": "AWS Static Café Website Architecture",
+    "category": "cloud"
+  },
+  {
+    "id": "DBMigrationAmazonRDS",
+    "title": "Database Migration to Amazon RDS",
+    "category": "cloud"
+  },
+  {
+    "id": "CafeSecureVPCNetworking",
+    "title": "Café Secure VPC Networking Environment",
+    "category": "cloud"
+  },
+  {
+    "id": "CloudFormationInfrastructureAutomation",
+    "title": "CloudFormation Infrastructure Automation",
+    "category": "cloud"
+  },
+  {
+    "id": "DecoupledImageProcessingSQS",
+    "title": "Decoupled Image Processing Application with Amazon SQS",
+    "category": "cloud"
+  },
+  {
+    "id": "ServerlessInventoryTrackingArchitecture",
+    "title": "Serverless Inventory Tracking Architecture",
+    "category": "cloud"
+  },
+  {
+    "id": "MonolithToMicroservicesAWS",
+    "title": "Monolith to Microservices Migration on AWS",
     "category": "cloud"
   }
 ]

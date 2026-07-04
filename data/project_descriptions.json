@@ -8,8 +8,8 @@
       "outcome": "Evolved from a static task board into a workflow-aware system that surfaces behavioral patterns (e.g., stagnation, overdue clusters, stage imbalance) and prompts users with actionable insights. Built as a scalable, architecture-conscious product with future cloud-hosting and analytics expansion in mind.",
       "learned": "Deepened expertise in state management, modular architecture, data modeling for task lifecycles, and product-level thinking around behavioral analytics. Strengthened my ability to translate productivity theory into measurable system logic.",
       "links": {
-        "repository": "",
-        "live": "https://main.d3d5yym13udjfl.amplifyapp.com/login"
+        "repository": "https://github.com/KwameSA/kanba-do",
+        "live": "https://kwamesa.github.io/kanba-do/"
       }
     }
   },
@@ -340,6 +340,90 @@
       "role": "I designed and configured the cloud architecture by creating and configuring Amazon S3 buckets for static website hosting, public access control, versioning, lifecycle policies, and cross-region replication. I implemented bucket policies for automated object accessibility, configured lifecycle rules to optimize storage management, and enabled replication workflows to strengthen disaster recovery readiness. I also tested version control, object recovery behavior, and replication workflows to validate reliability across regions.",
       "outcome": "The project resulted in a fully functional static website architecture with secure public hosting, automated storage optimization, and regional redundancy for business continuity. The implementation improved data resilience by protecting against accidental overwrites and deletions while reducing long-term storage overhead through lifecycle automation. It established a scalable cloud foundation that supports reliable website availability and operational continuity.",
       "learned": "This project strengthened my understanding of cloud storage architecture, particularly how Amazon S3 supports static hosting, version control, and resilience engineering. I gained practical experience configuring lifecycle automation and replication workflows while balancing accessibility, durability, and cost efficiency. It deepened my understanding of designing cloud systems that integrate reliability, recovery planning, and operational governance.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "DBMigrationAmazonRDS",
+    "title": "Database Migration to Amazon RDS",
+    "description": {
+      "purpose": "This project migrated the café’s database from a single EC2-hosted environment to Amazon RDS to improve maintainability, durability, backup readiness, and operational scalability. The system supported café order history used for accounting and dessert planning, making data preservation and reliable access central to the migration.",
+      "role": "I created a MariaDB Amazon RDS instance, exported the existing EC2-hosted MariaDB database using mysqldump, and imported the café database into RDS. I updated the application’s database connection settings through AWS Secrets Manager and configured secure connectivity between the EC2 application server and the RDS database.",
+      "outcome": "The café application continued processing new orders while preserving historical order data in the new managed database. The migration reduced database administration burden, improved separation between application and data layers, and positioned the café for better backup, maintenance, and infrastructure optimization.",
+      "learned": "I learned how to migrate a production-style database workload from EC2 to Amazon RDS while preserving application continuity. I also strengthened my understanding of managed database architecture, security group access control, database exports and imports, and application configuration through secrets.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "CafeSecureVPCNetworking",
+    "title": "Café Secure VPC Networking Environment",
+    "description": {
+      "purpose": "This project created a nonproduction AWS VPC networking environment for the café to test a more secure two-tier architecture before affecting production. The system separated public access, application access, and private resources so administrators could securely reach private instances through a bastion host while keeping backend resources isolated.",
+      "role": "I configured the VPC network by creating public and private subnets, attaching an internet gateway, setting route tables, and deploying EC2 instances for the bastion host, private server, and test instance. I also implemented a NAT gateway for outbound internet access from the private subnet and configured security groups, SSH passthrough, and a custom network ACL to control traffic between resources.",
+      "outcome": "The final architecture enabled secure administrative access to a private EC2 instance through a bastion host while preventing direct internet access to private resources. It also allowed private resources to download updates through the NAT gateway and added subnet-level traffic control through network ACL rules.",
+      "learned": "I learned how VPC subnet design, route tables, NAT gateways, internet gateways, security groups, and network ACLs work together to protect cloud resources. I also gained practical experience designing layered network security, balancing administrative access with private resource isolation.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "CloudFormationInfrastructureAutomation",
+    "title": "CloudFormation Infrastructure Automation",
+    "description": {
+      "purpose": "This project automated infrastructure deployment using AWS CloudFormation to reduce manual setup errors and make AWS resource provisioning more consistent. It focused on deploying layered infrastructure, including a VPC networking layer and an application layer that referenced shared network outputs. The project benefits teams that need repeatable, documented, and reusable infrastructure deployment processes.",
+      "role": "I deployed a networking stack with Amazon VPC resources, then deployed an application stack with an EC2 instance and security group that imported values from the network stack. I updated the application stack by replacing the CloudFormation template to add HTTPS inbound access on port 443 and reviewed the change set before applying the update. I also explored the templates using AWS Infrastructure Composer and deleted the application stack while retaining an EBS snapshot through a deletion policy.",
+      "outcome": "The lab demonstrated how infrastructure can be deployed, updated, visualized, and removed through reusable templates instead of manual console steps. It showed how separate infrastructure layers can remain independent while still sharing required outputs, improving modularity and team ownership. The deletion policy also preserved important storage data after stack removal, improving reliability and recovery awareness.",
+      "learned": "I learned how CloudFormation supports infrastructure as code through layered stacks, exported outputs, imported values, and controlled updates. I gained practical experience reviewing stack events, outputs, resources, change sets, and deletion behavior. I also learned how template design decisions, such as stack separation and deletion policies, affect reliability, maintainability, and operational control.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "DecoupledImageProcessingSQS",
+    "title": "Decoupled Image Processing Application with Amazon SQS",
+    "description": {
+      "purpose": "This project focused on converting a tightly coupled image processing application into a decoupled cloud architecture using AWS messaging services. The system allowed users to upload images, store them in Amazon S3, track metadata in DynamoDB, and process tinted image outputs through independent application components. It was designed to improve reliability, availability, and scalability by reducing direct dependency between the web server and application server.",
+      "role": "I configured and tested both the tightly coupled and decoupled versions of the Node.js image processing application. I set up Amazon S3 event notifications, created an Amazon SNS topic, subscribed an Amazon SQS queue to the topic, configured email notifications, and connected the application server to poll SQS messages for processing. I also updated browser, web server, and application server configuration files to connect the EC2-hosted application with S3, DynamoDB, SNS, and SQS.",
+      "outcome": "The final architecture allowed the web server and application server to operate independently instead of communicating synchronously. Uploaded image events were routed through SNS and stored in SQS until the application server was ready to process them, improving fault tolerance and reducing coupling between components. The system supported more reliable background processing, better availability, and clearer separation of responsibilities across cloud services.",
+      "learned": "I learned how message queues and notification services support decoupled application design in AWS. I gained practical experience configuring S3 event triggers, SNS topics, SQS subscriptions, queue polling, and application configuration across separate service layers. The project strengthened my understanding of how cloud architecture choices affect reliability, scalability, and component independence.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "ServerlessInventoryTrackingArchitecture",
+    "title": "Serverless Inventory Tracking Architecture",
+    "description": {
+      "purpose": "This project implemented a serverless inventory-tracking system on AWS for stores uploading inventory files from different locations. It exists to automate inventory ingestion, display stock levels, and notify staff when items are out of stock. The architecture uses event-driven cloud services to reduce server management while supporting scalable inventory updates.",
+      "role": "I configured the serverless workflow using Amazon S3, AWS Lambda, Amazon DynamoDB, DynamoDB Streams, Amazon SNS, and Amazon Cognito. I created Lambda functions to load CSV inventory files into DynamoDB and trigger stock-check notifications when item counts reached zero. I also connected the S3 upload event, DynamoDB stream trigger, SNS email subscription, and dashboard access flow.",
+      "outcome": "The system successfully automated inventory loading from uploaded files and displayed updated stock levels through a web-based dashboard. It also sent out-of-stock alerts through SNS, reducing the need for manual inventory monitoring. The final solution improved scalability, reliability, and cost efficiency by avoiding EC2-based server management.",
+      "learned": "I learned how to design an event-driven serverless architecture where each service performs a focused role in the workflow. I also gained practical experience connecting S3 events, Lambda functions, DynamoDB updates, streams, and SNS notifications. The project strengthened my understanding of cloud-native design tradeoffs, especially separating ingestion logic from business alert logic.",
+      "links": {
+        "repository": "",
+        "live": ""
+      }
+    }
+  },
+  {
+    "id": "MonolithToMicroservicesAWS",
+    "title": "Monolith to Microservices Migration on AWS",
+    "description": {
+      "purpose": "This project focused on modernizing a monolithic Node.js message board application by migrating it into a containerized microservices architecture on AWS. The goal was to improve scalability, deployment flexibility, and service independence by decomposing tightly coupled application functionality into independently deployable services. It demonstrates cloud-native application transformation using container orchestration and load-balanced service routing.",
+      "role": "I containerized the original Node.js monolith using Docker, provisioned image repositories in Amazon ECR, and deployed workloads to Amazon ECS on EC2-backed infrastructure. I refactored the application into separate users, threads, and posts microservices, created task definitions for each service, configured Application Load Balancer path-based routing, and managed ECS service deployment across a clustered environment. I also validated service communication and deployment behavior through REST API testing and infrastructure troubleshooting.",
+      "outcome": "The application was successfully transformed from a single-process monolithic deployment into independently managed microservices running within an Amazon ECS cluster. The architecture enabled path-based request routing, service isolation, and independent scaling of business capabilities while preserving application functionality. This migration improved deployment modularity and demonstrated how cloud orchestration supports resilient distributed systems.",
+      "learned": "I gained hands-on experience designing and deploying containerized microservices using Docker, Amazon ECR, Amazon ECS, and Application Load Balancers. The project strengthened my understanding of service decomposition, container orchestration, ECS task and service configuration, and traffic routing strategies in distributed cloud systems. It also deepened my practical understanding of architectural tradeoffs between monolithic and microservices-based application design.",
       "links": {
         "repository": "",
         "live": ""
